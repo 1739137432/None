@@ -6,6 +6,7 @@ import torch
 import torch.nn.functional as F
 import numpy as np
 from sklearn.metrics import roc_auc_score, average_precision_score
+from torch import nn
 
 from utils.pytorchtools import EarlyStopping
 from utils.data import load_MDPBMP_data
@@ -18,9 +19,9 @@ num_ntype = 5
 # 表示在模型训练过程中的随机失活（dropout）比例。dropout 是一种正则化技术，有助于防止过拟合。这里设置为0.5，表示在训练时，每个神经元以0.5的概率被随机丢弃。
 dropout_rate = 0.5
 # 学习率，表示在梯度下降中每次更新模型参数时的步长
-lr = 0.0005
+lr = 0.0001
 # 权重衰减，是正则化项的一种形式，用于防止模型的参数过大
-weight_decay = 0.001
+weight_decay = 0.0001
 #29
 
 etypes_lists = [
@@ -28,33 +29,33 @@ etypes_lists = [
         [None], [0, 1], [2, 3], [4, 5], [6, 7], [0, None, 1], [2, None, 3], [4, None, 5], [6, None, 7],
         [0, 8, 9, 1],  [2, 10, 11, 3],  [4, 12, 13, 5],
         [6, 9, 8, 7], [6, 11, 10, 7], [6, 13, 12, 7],
-        [0, 8, None, 9, 1], [2, 10, None, 11, 3],
-        [4, 12, None, 13, 5], [6, 9, None, 8, 7], [6, 11, None, 10, 7], [6, 13, None, 12, 7]
+        # [0, 8, None, 9, 1], [2, 10, None, 11, 3],
+        # [4, 12, None, 13, 5], [6, 9, None, 8, 7], [6, 11, None, 10, 7], [6, 13, None, 12, 7]
     ],
     [
         [None], [1, 0], [8, 9], [1, None, 0], [8, None, 9],
         [1, 2, 3, 0], [1, 4, 5, 0], [1, 6, 7, 0], [8, 7, 6, 9], [8, 11, 10, 9], [8, 13, 12, 9],
-        [1, 2, None, 3, 0], [1, 4, None, 5, 0], [1, 6, None, 7, 0], [8, 7, None, 6, 9],
-        [8, 11, None, 10, 9], [8, 13, None, 12, 9]
+        # [1, 2, None, 3, 0], [1, 4, None, 5, 0], [1, 6, None, 7, 0], [8, 7, None, 6, 9],
+        # [8, 11, None, 10, 9], [8, 13, None, 12, 9]
     ],
     [
         [None], [3, 2], [10, 11], [3, None, 2], [10, None, 11],
         [3, 0, 1, 2], [3, 4, 5, 2], [3, 6, 7, 2], [10, 6, 7, 11], [10, 9, 8, 11], [10, 13, 12, 11],
-        [3, 0, None, 1, 2], [3, 4, None, 5, 2], [3, 6, None, 7, 2], [10, 6, None, 7, 11],
-        [10, 9, None, 8, 11], [10, 13, None, 12, 11]
+        # [3, 0, None, 1, 2], [3, 4, None, 5, 2], [3, 6, None, 7, 2], [10, 6, None, 7, 11],
+        # [10, 9, None, 8, 11], [10, 13, None, 12, 11]
     ],
     [
         [None], [5, 4], [12, 13], [5, None, 4], [12, None, 13],
         [5, 0, 1, 4], [5, 3, 2, 4], [5, 7, 6, 4], [12, 7, 6, 13], [12, 9, 8, 13], [12, 11, 10, 13],
-        [5, 0, None, 1, 4], [5, 3, None, 2, 4], [5, 7, None, 6, 4], [12, 7, None, 6, 13],
-        [12, 9, None, 8, 13], [12, 11, None, 10, 13]
+        # [5, 0, None, 1, 4], [5, 3, None, 2, 4], [5, 7, None, 6, 4], [12, 7, None, 6, 13],
+        # [12, 9, None, 8, 13], [12, 11, None, 10, 13]
     ],
     [
         [None], [7, 6], [9, 8], [11, 10], [13, 12], [7, None, 6], [9, None, 8], [11, None, 10], [13, None, 12],
         [7, 0, 1, 6], [7, 2, 3, 6], [7, 4, 5, 6], [9, 1, 0, 8], [11, 2, 3, 10],
         [13, 5, 4, 12],
-        [7, 0, None, 1, 6], [7, 2, None, 3, 6], [7, 4, None, 5, 6], [9, 1, None, 0, 8],
-        [11, 2, None, 3, 10], [13, 5, None, 4, 12]
+        # [7, 0, None, 1, 6], [7, 2, None, 3, 6], [7, 4, None, 5, 6], [9, 1, None, 0, 8],
+        # [11, 2, None, 3, 10], [13, 5, None, 4, 12]
     ]
 ]  # 关系种类
 
@@ -62,170 +63,121 @@ masks = []
 mi2disease_masks = [
     [False, False, False, False, True,
      False, False, False, True, False,
-     False, False, True, True,True,
-     False, False, False, True,
-     True, True],
+     False, False, True, True,True],
     [False, False, False, False, False,
      False, False, False, True, True,
-     False, False, False, True,
-     True, False, False],
+     False],
     [False, False, False, False, False,
      False, False, False, True, True,
-     False, False, False, True,
-     True, False, False],
+     False],
     [False, False, False, False, False,
      False, False, False, True, True,
-     False, False, False, True,
-     True, False, False],
+     False],
     [False, True, False, False, False,
      True, False, False, False, True,
-     True, True, False, False, False,
-     True, True, True, False,
-     False, False]
+     True, True, False, False, False]
 ]  # 验证集：是否包含miRNA_disease链接
 circ2disease_masks = [
     [False, False, False, False, False,
      False, False, False, False, True,
-     False, False, True, False, False,
-     True, False, False, True,
-     False, False],
+     False, False, True, False, False],
     [False, False, True, False, True,
      False, False, False, True, True,
-     True, False, False, False,
-     True, True, True],
+     True],
     [False, False, False, False, False,
      False, False, False, False, True,
-     False, False, False, False,
-     False, True, False],
+     False],
     [False, False, False, False, False,
      False, False, False, False, True,
-     False, False, False, False,
-     False, True, False],
+     False],
     [False, False, True, False, False,
      False, True, False, False, False,
-     False, False, True, False, True,
-     False, False, False, False,
-     False, False]
+     False, False, True, False, True]
 ]  # 验证集：是否包含miRNA_disease链接
 lnc2disease_masks = [
     [False, False, False, False, False,
      False, False, False, False, False,
-     True, False, False, True, False,
-     False, True, False, False,
-     True, False],
+     True, False, False, True, False],
     [False, False, False, False, False,
      False, False, False, False, True,
-     False, False, False, False,
-     False, True, False],
+     False],
     [False, False, True, False, True,
      False, False, False, True, True,
-     True, False, False, False,
-     True, True, True],
+     True],
     [False, False, False, False, False,
      False, False, False, False, False,
-     True, False, False, False,
-     False, False, True],
+     True],
     [False, False, False, True, False,
      False, False, True, False, False,
-     False, False, False, True, False,
-     False, False, False, False,
-     True, False]
+     False, False, False, True, False]
 ]
 gene2disease_masks = [
     [False, False, False, False, False,
      False, False, False, False, False,
-     False, True, False, False, True,
-     False, False, True, False,
-     False, True],
+     False, True, False, False, True],
     [False, False, False, False, False,
      False, False, False, False, False,
-     True, False, False, False,
-     False, False, True],
+     True],
     [False, False, False, False, False,
      False, False, False, False, False,
-     True, False, False, False,
-     False, False, True],
+     True],
     [False, False, True, False, True,
      False, False, False, True, True,
-     True, False, False, False,
-     True, True, True],
+     True],
     [False, False, False, False, True,
      False, False, False, True, False,
-     False, False, False, False, True,
-     False, False, False, False,
-     False, True]
+     False, False, False, False, True]
 ]
 mi2circ_masks = [
     [False, True, False, False, False,
      True, False, False, False, True,
-     False, False, False, False, False,
-     True, False, False, False,
-     False, False],
+     False, False, False, False, False],
     [False, True, False, True, False,
      True, True, True, False, False,
-     False, True, True, True,
-     False, False, False],
+     False],
     [False, False, False, False, False,
      True, False, False, False, False,
-     False, True, False, False,
-     False, False, False],
+     False],
     [False, False, False, False, False,
      True, False, False, False, False,
-     False, True, False, False,
-     False, False, False],
+     False],
     [False, False, False, False, False,
      False, False, False, False, True,
-     False, False, True, False, False,
-     True, False, False, True,
-     False, False]
+     False, False, True, False, False]
 ]
 mi2lnc_masks = [
     [False, False, True, False, False,
      False, True, False, False, False,
-     True, False, False, False, False,
-     False, True, False, False,
-     False, False],
+     True, False, False, False, False],
     [False, False, False, False, False,
      True, False, False, False, False,
-     False, True, False, False,
-     False, False, False],
+     False],
     [False, True, False, True, False,
      True, True, True, False, False,
-     False, True, True, True,
-     False, False, False],
+     False],
     [False, False, False, False, False,
      False, True, False, False, False,
-     False, False, True, False,
-     False, False, False],
+     False],
     [False, False, False, False, False,
      False, False, False, False, False,
-     True, False, False, True, False,
-     False, True, False, False,
-     True, False]
+     True, False, False, True, False]
 ]
 mi2gene_masks = [
     [False, False, False, True, False,
      False, False, True, False, False,
-     False, True, False, False, False,
-     False, False, True, False,
-     False, False],
+     False, True, False, False, False],
     [False, False, False, False, False,
      False, True, False, False, False,
-     False, False, True, False,
-     False, False, False],
+     False],
     [False, False, False, False, False,
      False, True, False, False, False,
-     False, False, True, False,
-     False, False, False],
+     False],
     [False, True, False, True, False,
      True, True, True, False, False,
-     False, True, True, True,
-     False, False, False],
+     False],
     [False, False, False, False, False,
      False, False, False, False, False,
-     False, True, False, False, True,
-     False, False, True, False,
-     False, True]
+     False, True, False, False, True]
 ]
 masks.append(mi2disease_masks)
 masks.append(circ2disease_masks)
@@ -235,7 +187,7 @@ masks.append(mi2circ_masks)
 masks.append(mi2lnc_masks)
 masks.append(mi2gene_masks)
 
-no_masks = [[False] * 21, [False] * 17,[False]*17,[False]*17,[False]*21]   #测试集
+no_masks = [[False] * 15, [False] * 11,[False]*11,[False]*11,[False]*15]   #测试集
 
 num_miRNA = pd.read_csv('../output/relationship/IV_step_similarity/miRNA_id.csv').shape[0] + 1
 num_circRNA = pd.read_csv('../output/relationship/IV_step_similarity/circRNA_id.csv').shape[0] + 1
@@ -256,40 +208,40 @@ expected_metapaths = [
          (0,1,1,0),(0,2,2,0),(0,3,3,0),(0,4,4,0),
          (0,1,4,1,0),(0,2,4,2,0),(0,3,4,3,0),(0,4,1,4,0),(0,4,2,4,0),
          (0,4,3,4,0),
-         (0,1,4,4,1,0),(0,2,4,4,2,0),(0,3,4,4,3,0),(0,4,1,1,4,0),(0,4,2,2,4,0),(0,4,3,3,4,0),
+         # (0,1,4,4,1,0),(0,2,4,4,2,0),(0,3,4,4,3,0),(0,4,1,1,4,0),(0,4,2,2,4,0),(0,4,3,3,4,0),
          ],
         [(1, 1), (1, 0, 1), (1, 4, 1),
          (1, 0, 0, 1),(1,4,4,1),
          (1,0,2,0,1),(1,0,3,0,1),(1,0,4,0,1),(1,4,0,4,1),(1,4,2,4,1),(1,4,3,4,1),
-         (1,0,2,2,0,1),(1,0,3,3,0,1),(1,0,4,4,0,1),(1,4,0,0,4,1),(1,4,2,2,4,1),(1,4,3,3,4,1)
+         # (1,0,2,2,0,1),(1,0,3,3,0,1),(1,0,4,4,0,1),(1,4,0,0,4,1),(1,4,2,2,4,1),(1,4,3,3,4,1)
          ],
         [(2, 2), (2,0,2),(2,4,2),
          (2,0,0,2),(2,4,4,2),
          (2,0,1,0,2),(2,0,3,0,2),(2,0,4,0,2),(2,4,0,4,2),(2,4,1,4,2),(2,4,3,4,2),
-         (2,0,1,1,0,2),(2,0,3,3,0,2),(2,0,4,4,0,2),(2,4,0,0,4,2),(2,4,1,1,4,2),(2,4,3,3,4,2)
+         # (2,0,1,1,0,2),(2,0,3,3,0,2),(2,0,4,4,0,2),(2,4,0,0,4,2),(2,4,1,1,4,2),(2,4,3,3,4,2)
          ],
         [(3, 3), (3,0,3),(3,4,3),
          (3,0,0,3),(3,4,4,3),
          (3,0,1,0,3),(3,0,2,0,3),(3,0,4,0,3),(3,4,0,4,3),(3,4,1,4,3),(3,4,2,4,3),
-         (3,0,1,1,0,3),(3,0,2,2,0,3),(3,0,4,4,0,3),(3,4,0,0,4,3),(3,4,1,1,4,3),(3,4,2,2,4,3)
+         # (3,0,1,1,0,3),(3,0,2,2,0,3),(3,0,4,4,0,3),(3,4,0,0,4,3),(3,4,1,1,4,3),(3,4,2,2,4,3)
          ],
         [(4, 4), (4,0,4),(4,1,4),(4,2,4),(4,3,4),
          (4,0,0,4),(4,1,1,4),(4,2,2,4),(4,3,3,4),
          (4,0,1,0,4),(4,0,2,0,4),(4,0,3,0,4),(4,1,0,1,4),(4,2,0,2,4),(4,3,0,3,4),
-         (4,0,1,1,0,4),(4,0,2,2,0,4),(4,0,3,3,0,4),(4,1,0,0,1,4),(4,2,0,0,2,4),(4,3,0,0,3,4),
+         # (4,0,1,1,0,4),(4,0,2,2,0,4),(4,0,3,3,0,4),(4,1,0,0,1,4),(4,2,0,0,2,4),(4,3,0,0,3,4),
          ]
     ]
 
 
 def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
-                     num_epochs, patience, batch_size, neighbor_samples, repeat, save_postfix,num_embeding):
+                     num_epochs, patience, batch_size, neighbor_samples, repeat, save_postfix,num_embeding,checkpoint):
     adjlists_ua, edge_metapath_indices_list_ua, _, type_mask,dis2mi_train_val_test_pos, dis2mi_train_val_test_neg, dis2circ_train_val_test_neg, dis2circ_train_val_test_pos, dis2lnc_train_val_test_neg, dis2lnc_train_val_test_pos, dis2gene_train_val_test_neg, dis2gene_train_val_test_pos, mi2circ_train_val_test_neg, mi2circ_train_val_test_pos, mi2lnc_train_val_test_neg, mi2lnc_train_val_test_pos, mi2gene_train_val_test_neg, mi2gene_train_val_test_pos = load_MDPBMP_data()
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     print(device)
     features_list = []
     in_dims = []
     if feats_type == 0:   #all id vectors / Default
-        for i in range(num_ntype):    
+        for i in range(num_ntype):
             dim = (type_mask == i).sum()
             in_dims.append(dim)
             indices = np.vstack((np.arange(dim), np.arange(dim)))
@@ -376,15 +328,23 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
         # attn_vec_dim：注意力向量的维度，默认为 128
         # rnn_type：聚合器（aggregator）的类型，默认为 'max-pooling'
         # dropout_rate：随机失活（dropout）比例
-        a = [21,17,17,17,21]
+        a = [15,11,11,11,15]
         net = MDPBMP_lp(a, 5, etypes_lists, in_dims, hidden_dim, hidden_dim, num_heads, attn_vec_dim, rnn_type, dropout_rate)
+        # model = Model(input_size, output_size)  # 实例化模型对象
+        # if torch.cuda.device_count() > 1:  # 检查电脑是否有多块GPU
+        #     print(torch.cuda.device_count())
+        #     net = nn.DataParallel(net)  # 将模型对象转变为多GPU并行运算的模型
+
+        # model.to(device)  # 把并行的模型移动到GPU上
+
         net.to(device)
         # svm = SVC(kernel='rbf', C=50, gamma='auto', probability=True, cache_size=1000).to(device)
         optimizer = torch.optim.Adam(net.parameters(), lr=lr, weight_decay=weight_decay)
 
         # training loop
         net.train()
-        early_stopping = EarlyStopping(patience=patience, verbose=True, save_path='checkpoint/checkpoint_{}.pt'.format(save_postfix))
+
+        early_stopping = EarlyStopping(patience=patience, verbose=True, save_path=checkpoint+'/checkpoint_{}.pt'.format(save_postfix))
         dur1 = []
         dur2 = []
         dur3 = []
@@ -497,25 +457,33 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
                 #                       [[],[],[],[],[]],
                 #                       [[],[],[],[],[]]]   2:7*5
                 # nums   X    [X,X,X,X,X]
-                train_g_lists, train_indices_lists, train_idx_batch_mapped_lists, data = parse_minibatch_MDPBMP(
-                    adjlists_ua, edge_metapath_indices_list_ua, pos_train_batch,neg_train_batch, device, neighbor_samples,num)
+                # train_g_lists, train_indices_lists, train_idx_batch_mapped_lists, data = parse_minibatch_MDPBMP(
+                #     adjlists_ua, edge_metapath_indices_list_ua, pos_train_batch,neg_train_batch, device, neighbor_samples,num)
                 #只能从这里得到miRNA五种类型的节点下表信息，它通过这里得到每个点的图，路径，银蛇点
                 # data = []
                 # for list in pos_train_batch:
 
                 t1 = time.time()
                 dur1.append(t1 - t0)
-
-
-                [embedding_miRNA, embedding_circRNA, embedding_lncRNA, embedding_gene, embedding_disease], [h_miRNA, h_circRNA,h_lncRNA,h_gene,h_disease] = net(
-                    (train_g_lists, features_list, type_mask, train_indices_lists, train_idx_batch_mapped_lists, data,num,num_embeding))
-
+                [embedding_miRNA, embedding_circRNA, embedding_lncRNA, embedding_gene, embedding_disease], [h_miRNA,
+                                                                                                            h_circRNA,
+                                                                                                            h_lncRNA,
+                                                                                                            h_gene,
+                                                                                                            h_disease] = net(
+                    (
+                        features_list, type_mask, num_embeding, adjlists_ua, edge_metapath_indices_list_ua,
+                        pos_train_batch,
+                        neg_train_batch, device, neighbor_samples, num))
+                # print("jin")
+                # [embedding_miRNA, embedding_circRNA, embedding_lncRNA, embedding_gene, embedding_disease], [h_miRNA, h_circRNA,h_lncRNA,h_gene,h_disease] = net(
+                #     (train_g_lists, features_list, type_mask, train_indices_lists, train_idx_batch_mapped_lists, data,num,num_embeding))
+                # print("chu")
                 pos_embedding_miRNA, neg_embedding_miRNA = embedding_miRNA.chunk(2, dim=0)           #每10个一组
                 pos_embedding_circRNA, neg_embedding_circRNA = embedding_circRNA.chunk(2, dim=0)
                 pos_embedding_lncRNA, neg_embedding_lncRNA = embedding_lncRNA.chunk(2, dim=0)
                 pos_embedding_gene, neg_embedding_gene = embedding_gene.chunk(2, dim=0)
                 pos_embedding_disease, neg_embedding_disease = embedding_disease.chunk(2, dim=0)
-
+                # print(pos_embedding_miRNA.shape)
                 pos_embedding_miRNA_1 = pos_embedding_miRNA.view(-1, 1, pos_embedding_miRNA.shape[1])
                 neg_embedding_miRNA_1 = neg_embedding_miRNA.view(-1, 1, neg_embedding_miRNA.shape[1])
                 pos_embedding_circRNA_1 = pos_embedding_circRNA.view(-1, 1, pos_embedding_circRNA.shape[1])
@@ -532,6 +500,7 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
                 neg_embedding_gene_2 = neg_embedding_gene.view(-1, neg_embedding_gene.shape[1], 1)
                 pos_embedding_disease_2 = pos_embedding_disease.view(-1, pos_embedding_disease.shape[1], 1)
                 neg_embedding_disease_2 = neg_embedding_disease.view(-1, neg_embedding_disease.shape[1], 1)
+                # print(pos_embedding_miRNA_1.shape)
                 # print(pos_embedding_miRNA_1.shape)
                 # print(pos_embedding_miRNA_1[:,:, :batch_size].shape)
                 # print(pos_embedding_disease_2.shape)
@@ -564,7 +533,7 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
                                             pos_embedding_gene_2[batch_size:2 * batch_size, :, :])
                 mi2gene_neg_out = -torch.bmm(neg_embedding_miRNA_1[3 * batch_size:4 * batch_size, :, :],
                                              neg_embedding_gene_2[batch_size:2 * batch_size, :, :])
-
+                # print(mi2dis_pos_out.shape)
                 train_loss = -torch.mean(F.logsigmoid(mi2circ_pos_out) + F.logsigmoid(mi2circ_neg_out) +
                                          F.logsigmoid(mi2lnc_pos_out) + F.logsigmoid(mi2lnc_neg_out) +
                                          F.logsigmoid(mi2gene_pos_out) + F.logsigmoid(mi2gene_neg_out) +
@@ -582,8 +551,8 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
                 t3 = time.time()
                 dur3.append(t3 - t2)
                     # train_loss1.append(train_loss.item())
-                if item % 10 == 0:
-                    print('Epoch {:05d} | Iteration {:05d} |Train_Lossm {:.4f}| Time1(s) {:.4f} | Time2(s) {:.4f} | Time3(s) {:.4f}'.format(epoch, item,train_loss.item(), np.sum(dur1), np.sum(dur2), np.sum(dur3)))
+                # if item % 10 == 0:
+                print('Epoch {:05d} | Iteration {:05d} |Train_Lossm {:.4f}| Time1(s) {:.4f} | Time2(s) {:.4f} | Time3(s) {:.4f}'.format(epoch, item,train_loss.item(), np.sum(dur1), np.sum(dur2), np.sum(dur3)))
             # validation
             net.eval()
             val_loss = []
@@ -640,14 +609,27 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
                     mi2gene_val_neg_batch = mi2gene_val_neg[batch[6]].tolist()
                     pos_val_batch.append(mi2gene_val_pos_batch)
                     neg_val_batch.append(mi2gene_val_neg_batch)
-                    val_g_lists, val_indices_lists, val_idx_batch_mapped_lists,data = parse_minibatch_MDPBMP(
-                        adjlists_ua, edge_metapath_indices_list_ua, pos_val_batch, neg_val_batch, device,neighbor_samples, num)
+                    # val_g_lists, val_indices_lists, val_idx_batch_mapped_lists,data = parse_minibatch_MDPBMP(
+                    #     adjlists_ua, edge_metapath_indices_list_ua, pos_val_batch, neg_val_batch, device,
+                    #     neighbor_samples, num)
 
                     t1 = time.time()
                     dur1.append(t1 - t0)
-
-                    [embedding_miRNA, embedding_circRNA, embedding_lncRNA, embedding_gene, embedding_disease], _ = net(
-                        (val_g_lists, features_list, type_mask, val_indices_lists, val_idx_batch_mapped_lists,data,num,num_embeding))
+                    [embedding_miRNA, embedding_circRNA, embedding_lncRNA, embedding_gene, embedding_disease], [h_miRNA,
+                                                                                                                h_circRNA,
+                                                                                                                h_lncRNA,
+                                                                                                                h_gene,
+                                                                                                                h_disease] = net(
+                        (
+                            features_list, type_mask, num_embeding, adjlists_ua, edge_metapath_indices_list_ua,
+                            pos_val_batch,
+                            neg_val_batch, device, neighbor_samples, num))
+                    # [embedding_miRNA, embedding_circRNA, embedding_lncRNA, embedding_gene, embedding_disease], [h_miRNA,
+                    #                                                                                             h_circRNA,
+                    #                                                                                             h_lncRNA,
+                    #                                                                                             h_gene,
+                    #                                                                                             h_disease] = net(
+                    #     (val_g_lists, features_list, type_mask, val_indices_lists, val_idx_batch_mapped_lists,data,num,num_embeding))
 
                     # print(embedding_miRNA.shape)
                     # print(embedding_circRNA.shape)
@@ -738,7 +720,7 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
                                           list(range(len(mi2circ_test_pos))), list(range(len(mi2lnc_test_pos))),
                                           list(range(len(mi2gene_test_pos)))], batch_size)
 
-        net.load_state_dict(torch.load('checkpoint/checkpoint_{}.pt'.format(save_postfix)))
+        net.load_state_dict(torch.load(checkpoint+'/checkpoint_{}.pt'.format(save_postfix)))
         net.eval()
         pos_proba_list = []
         neg_proba_list = []
@@ -809,14 +791,27 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
                 pos_test_batch.append(mi2gene_test_pos_batch)
                 neg_test_batch.append(mi2gene_test_neg_batch)
 
-                test_g_lists, test_indices_lists, test_idx_batch_mapped_lists,data = parse_minibatch_MDPBMP(
-                    adjlists_ua, edge_metapath_indices_list_ua, pos_test_batch, neg_test_batch, device,neighbor_samples, num)
+                # test_g_lists, test_indices_lists, test_idx_batch_mapped_lists,data = parse_minibatch_MDPBMP(
+                #     adjlists_ua, edge_metapath_indices_list_ua, pos_test_batch, neg_test_batch, device,
+                #     neighbor_samples, num)
 
                 t1 = time.time()
                 # dur1.append(t1 - t0)
-
-                [embedding_miRNA, embedding_circRNA, embedding_lncRNA, embedding_gene, embedding_disease], _ = net(
-                    (test_g_lists, features_list, type_mask, test_indices_lists, test_idx_batch_mapped_lists,data,num,num_embeding))
+                [embedding_miRNA, embedding_circRNA, embedding_lncRNA, embedding_gene, embedding_disease], [h_miRNA,
+                                                                                                            h_circRNA,
+                                                                                                            h_lncRNA,
+                                                                                                            h_gene,
+                                                                                                            h_disease] = net(
+                    (
+                        features_list, type_mask, num_embeding, adjlists_ua, edge_metapath_indices_list_ua,
+                        pos_test_batch,
+                        neg_test_batch, device, neighbor_samples, num))
+                # [embedding_miRNA, embedding_circRNA, embedding_lncRNA, embedding_gene, embedding_disease], [h_miRNA,
+                #                                                                                             h_circRNA,
+                #                                                                                             h_lncRNA,
+                #                                                                                             h_gene,
+                #                                                                                             h_disease] = net(
+                #     (test_g_lists, features_list, type_mask, test_indices_lists, test_idx_batch_mapped_lists,data,num,num_embeding))
 
                 # print(embedding_miRNA.shape)
                 # print(embedding_circRNA.shape)
@@ -904,7 +899,7 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
                 neg_proba_list.append(torch.sigmoid(mi2circ_neg_out))
 
                 pos_proba_list.append(torch.sigmoid(mi2lnc_pos_out))
-
+                # print(torch.sigmoid(mi2lnc_neg_out).shape)
                 neg_proba_list.append(torch.sigmoid(mi2lnc_neg_out))
 
                 pos_proba_list.append(torch.sigmoid(mi2gene_pos_out))
@@ -913,12 +908,13 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
 
         print(pos_proba_list)
         y_proba_test = torch.cat([torch.cat(pos_proba_list), torch.cat(neg_proba_list)]).cpu().numpy()
+
         y_proba_test = [item[0][0] for item in y_proba_test]
         print(y_proba_test)
-        print(len(y_proba_test))
+        # print(len(y_proba_test))
         y_true_test = y_true_test_pos + y_true_test_neg
-        print(len(y_true_test))
-        print()
+        # print(len(y_true_test))
+        # print()
         auc = roc_auc_score(y_true_test, y_proba_test)
         ap = average_precision_score(y_true_test, y_proba_test)
         np.savetxt('1y_true_test.txt', y_true_test)
@@ -936,8 +932,7 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
 
 
 # def main():
-# if __name__ == '__main__':
-def main():
+if __name__ == '__main__':
     ap = argparse.ArgumentParser(description='MDPBMP testing for the recommendation dataset')
     ap.add_argument('--feats-type', type=int, default=0,
                     help='Type of the node features used. ' +
@@ -954,19 +949,20 @@ def main():
     ap.add_argument('--samples', type=int, default=100, help='Number of neighbors sampled. Default is 100.')
     ap.add_argument('--repeat', type=int, default=1, help='Repeat the training and testing for N times. Default is 1.')
     ap.add_argument('--save-postfix', default='MDPBMP', help='Postfix for the saved model and result. Default is MDPBMP.')
-    ap.add_argument('--num_embeding', type=int, default=2, help='Batch size. Default is 8.')
+    ap.add_argument('--num_embeding', type=int, default=1, help='Batch size. Default is 8.')
+    # ap.add_argument('--save-postfix', default='MDPBMP')
+    ap.add_argument('--checkpoint', default='checkpoint')
     args = ap.parse_args()
-    # from VI_step_data_划分 import 提取最终关系
-    #
-    # 提取最终关系.ti()
-    #
-    # from VII_step_train_val_test import train_val_test,data_划分
-    # # data_划分.data_划分()
-    # train_val_test.train_val_test()
     import sys
-    #
+
     savedStdout = sys.stdout  # 保存标准输出流
-    print_log = open("run_.txt", "w")
+    print_log = open("run.txt", "w")
     sys.stdout = print_log
+    # for i in range(5):
+    #     # for j in range(5):
+    #     # ap.add_argument('--checkpoint',default = 'checkpoint1_1' + '_' + str(i) )
+    #
+    #     print_log = open("run1"+"_"+str(i)+".txt", "w")
+    #     sys.stdout = print_log
     run_model_MDPBMP(args.feats_type, args.hidden_dim, args.num_heads, args.attn_vec_dim, args.rnn_type, args.epoch,
-                     args.patience, args.batch_size, args.samples, args.repeat, args.save_postfix,args.num_embeding)
+                     args.patience, args.batch_size, args.samples, args.repeat, args.save_postfix,args.num_embeding,args.checkpoint)
