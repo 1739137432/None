@@ -74,6 +74,6 @@ step 1 : mian.py
 step 2 : train.py
 
 ## Prediction
-step 1 : train_val_test_1.py
+step 1 : VII_step_train_val_test/train_val_test_1.py
 
 step 2 : run.py
