@@ -13,7 +13,7 @@ from sklearn.svm import LinearSVC
 #     one_hot[np.arange(idx_arr.shape[0]), idx_arr] = 1
 #     return one_hot
 
-def parse_adjlist_MDPBMP(adjlist, edge_metapath_indices, samples=None, exclude=None, offset=None, mode=None):
+def parse_adjlist_PABDMH(adjlist, edge_metapath_indices, samples=None, exclude=None, offset=None, mode=None):
     edges = []
     nodes = set()
     result_indices = []
@@ -101,7 +101,7 @@ def parse_adjlist_MDPBMP(adjlist, edge_metapath_indices, samples=None, exclude=N
                 #                       [[],[],[],[],[]],
                 #                       [[],[],[],[],[]]]   2:7*5
                 # nums   X    [X,X,X,X,X]
-def parse_minibatch_MDPBMP(adjlists_ua, edge_metapath_indices_list_ua, user_artist_batch_pos,user_artist_batch_neg, device, samples=None, offset=None):
+def parse_minibatch_PABDMH(adjlists_ua, edge_metapath_indices_list_ua, user_artist_batch_pos,user_artist_batch_neg, device, samples=None, offset=None):
     # g_lists： 存储生成的图数据的列表
     # result_indices_lists: 存储结果索引的列表。
     # idx_batch_mapped_lists: 存储映射的索引的列表。
@@ -148,7 +148,7 @@ def parse_minibatch_MDPBMP(adjlists_ua, edge_metapath_indices_list_ua, user_arti
 
 
 
-            edges, result_indices, num_nodes, mapping = parse_adjlist_MDPBMP(
+            edges, result_indices, num_nodes, mapping = parse_adjlist_PABDMH(
                 [adjlist[int(row[0])] for row in user_artist_batch1],
                 [indices[int(row[0])] for row in user_artist_batch1], samples, user_artist_batch1, offset, mode)
 

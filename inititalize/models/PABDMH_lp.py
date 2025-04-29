@@ -1,17 +1,16 @@
 import torch
 import torch.nn as nn
 import numpy as np
-# import base_MDPBMP
-# from base_MDPBMP import MDPBMP_ctr_ntype_specific
+
 
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import dgl.function as fn
 from dgl.nn.pytorch import edge_softmax
-# from MDPBMP_metapath_specific import MDPBMP_metapath_specific
 
-class MDPBMP_metapath_specific(nn.Module):
+
+class PABDMH_metapath_specific(nn.Module):
     def __init__(self,
                  etypes,
                  out_dim,
@@ -22,7 +21,7 @@ class MDPBMP_metapath_specific(nn.Module):
                  alpha=0.01,
                  miRNA_minibatch=False,
                  attn_switch=False):
-        super(MDPBMP_metapath_specific, self).__init__()
+        super(PABDMH_metapath_specific, self).__init__()
         self.out_dim = out_dim
         self.num_heads = num_heads
         self.rnn_type = rnn_type
@@ -107,7 +106,7 @@ class MDPBMP_metapath_specific(nn.Module):
             return ret
 
 
-class MDPBMP_ctr_ntype_specific(nn.Module):
+class PABDMH_ctr_ntype_specific(nn.Module):
     def __init__(self,
                  num_metapaths,
                  etypes_list,
@@ -118,7 +117,7 @@ class MDPBMP_ctr_ntype_specific(nn.Module):
                  r_vec=None,
                  attn_drop=0.5,
                  miRNA_minibatch=False):
-        super(MDPBMP_ctr_ntype_specific, self).__init__()
+        super(PABDMH_ctr_ntype_specific, self).__init__()
         self.out_dim = out_dim
         self.num_heads = num_heads
         self.miRNA_minibatch = miRNA_minibatch
@@ -126,7 +125,7 @@ class MDPBMP_ctr_ntype_specific(nn.Module):
         # metapath-specific layers
         self.metapath_layers = nn.ModuleList()
         for i in range(num_metapaths):
-            self.metapath_layers.append(MDPBMP_metapath_specific(etypes_list[i],
+            self.metapath_layers.append(PABDMH_metapath_specific(etypes_list[i],
                                                                 out_dim,
                                                                 num_heads,
                                                                 rnn_type,
@@ -175,7 +174,7 @@ class MDPBMP_ctr_ntype_specific(nn.Module):
 
 
 # for link prediction task
-class MDPBMP_lp_layer(nn.Module):
+class PABDMH_lp_layer(nn.Module):
     def __init__(self,
                  num_metapaths_list,
                  num_edge_type,
@@ -186,7 +185,7 @@ class MDPBMP_lp_layer(nn.Module):
                  attn_vec_dim,
                  rnn_type='gru',
                  attn_drop=0.5):
-        super(MDPBMP_lp_layer, self).__init__()
+        super(PABDMH_lp_layer, self).__init__()
         self.in_dim = in_dim
         self.out_dim = out_dim
         self.num_heads = num_heads
@@ -197,7 +196,7 @@ class MDPBMP_lp_layer(nn.Module):
             nn.init.xavier_normal_(r_vec.data, gain=1.414)
 
         # ctr_ntype-specific layers
-        self.miRNA_layer = MDPBMP_ctr_ntype_specific(num_metapaths_list[0],
+        self.miRNA_layer = PABDMH_ctr_ntype_specific(num_metapaths_list[0],
                                                    etypes_lists[0],
                                                    in_dim,
                                                    num_heads,
@@ -206,7 +205,7 @@ class MDPBMP_lp_layer(nn.Module):
                                                    r_vec,
                                                    attn_drop,
                                                    miRNA_minibatch=True)
-        self.disease_layer = MDPBMP_ctr_ntype_specific(num_metapaths_list[1],
+        self.disease_layer = PABDMH_ctr_ntype_specific(num_metapaths_list[1],
                                                    etypes_lists[1],
                                                    in_dim,
                                                    num_heads,
@@ -239,7 +238,7 @@ class MDPBMP_lp_layer(nn.Module):
         return [logits_miRNA, logits_disease], [h_miRNA, h_disease]
 
 
-class MDPBMP_lp(nn.Module):
+class PABDMH_lp(nn.Module):
     def __init__(self,
                  num_metapaths_list,
                  num_edge_type,
@@ -251,7 +250,7 @@ class MDPBMP_lp(nn.Module):
                  attn_vec_dim,
                  rnn_type='gru',
                  dropout_rate=0.5):
-        super(MDPBMP_lp, self).__init__()
+        super(PABDMH_lp, self).__init__()
         self.hidden_dim = hidden_dim
 
         # ntype-specific transformation
@@ -265,8 +264,8 @@ class MDPBMP_lp(nn.Module):
         for fc in self.fc_list:
             nn.init.xavier_normal_(fc.weight, gain=1.414)
 
-        # MDPBMP_lp layers
-        self.layer1 = MDPBMP_lp_layer(num_metapaths_list,
+        # PABDMH_lp layers
+        self.layer1 = PABDMH_lp_layer(num_metapaths_list,
                                      num_edge_type,
                                      etypes_lists,
                                      hidden_dim,

@@ -9,9 +9,9 @@ from sklearn.metrics import roc_auc_score, average_precision_score
 from torch import nn
 
 from utils.pytorchtools import EarlyStopping
-from utils.data import load_MDPBMP_data
-from utils.toolss import IndexGenerator, parse_minibatch_MDPBMP
-from models.MDPBMP_lp import MDPBMP_lp
+from utils.data import load_PABDMH_data
+from utils.toolss import IndexGenerator
+from models.PABDMH_lp import PABDMH_lp
 
 # Params
 # 表示图中不同节点类型的数量
@@ -233,9 +233,9 @@ expected_metapaths = [
     ]
 
 
-def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
+def run_model_PABDMH(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
                      num_epochs, patience, batch_size, neighbor_samples, repeat, save_postfix,num_embeding,checkpoint):
-    adjlists_ua, edge_metapath_indices_list_ua, _, type_mask,dis2mi_train_val_test_pos, dis2mi_train_val_test_neg, dis2circ_train_val_test_neg, dis2circ_train_val_test_pos, dis2lnc_train_val_test_neg, dis2lnc_train_val_test_pos, dis2gene_train_val_test_neg, dis2gene_train_val_test_pos, mi2circ_train_val_test_neg, mi2circ_train_val_test_pos, mi2lnc_train_val_test_neg, mi2lnc_train_val_test_pos, mi2gene_train_val_test_neg, mi2gene_train_val_test_pos = load_MDPBMP_data()
+    adjlists_ua, edge_metapath_indices_list_ua, _, type_mask,dis2mi_train_val_test_pos, dis2mi_train_val_test_neg, dis2circ_train_val_test_neg, dis2circ_train_val_test_pos, dis2lnc_train_val_test_neg, dis2lnc_train_val_test_pos, dis2gene_train_val_test_neg, dis2gene_train_val_test_pos, mi2circ_train_val_test_neg, mi2circ_train_val_test_pos, mi2lnc_train_val_test_neg, mi2lnc_train_val_test_pos, mi2gene_train_val_test_neg, mi2gene_train_val_test_pos = load_PABDMH_data()
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     print(device)
     features_list = []
@@ -329,7 +329,7 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
         # rnn_type：聚合器（aggregator）的类型，默认为 'max-pooling'
         # dropout_rate：随机失活（dropout）比例
         a = [15,11,11,11,15]
-        net = MDPBMP_lp(a, 5, etypes_lists, in_dims, hidden_dim, hidden_dim, num_heads, attn_vec_dim, rnn_type, dropout_rate)
+        net = PABDMH_lp(a, 5, etypes_lists, in_dims, hidden_dim, hidden_dim, num_heads, attn_vec_dim, rnn_type, dropout_rate)
         # model = Model(input_size, output_size)  # 实例化模型对象
         # if torch.cuda.device_count() > 1:  # 检查电脑是否有多块GPU
         #     print(torch.cuda.device_count())
@@ -445,23 +445,6 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
                 mi2gene_train_neg_batch = mi2gene_train_neg[mi2gene_train_neg_idx_batch].tolist()
                 pos_train_batch.append(mi2gene_train_pos_batch)
                 neg_train_batch.append(mi2gene_train_neg_batch)
-
-                # adjlists_ua:原[[],[]]    现[[],[],[],[],[]]    2:5
-                # edge_metapath_indices_list_ua:原[[],[]]    现[[],[],[],[],[]]    2:5
-                # train_batch原：X     现：[X,X,X,X,X,X,X]     1:7
-                # masks   [[],[]]      [[[],[],[],[],[]],
-                #                       [[],[],[],[],[]],
-                #                       [[],[],[],[],[]],
-                #                       [[],[],[],[],[]],
-                #                       [[],[],[],[],[]],
-                #                       [[],[],[],[],[]],
-                #                       [[],[],[],[],[]]]   2:7*5
-                # nums   X    [X,X,X,X,X]
-                # train_g_lists, train_indices_lists, train_idx_batch_mapped_lists, data = parse_minibatch_MDPBMP(
-                #     adjlists_ua, edge_metapath_indices_list_ua, pos_train_batch,neg_train_batch, device, neighbor_samples,num)
-                #只能从这里得到miRNA五种类型的节点下表信息，它通过这里得到每个点的图，路径，银蛇点
-                # data = []
-                # for list in pos_train_batch:
 
                 t1 = time.time()
                 dur1.append(t1 - t0)
@@ -609,7 +592,7 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
                     mi2gene_val_neg_batch = mi2gene_val_neg[batch[6]].tolist()
                     pos_val_batch.append(mi2gene_val_pos_batch)
                     neg_val_batch.append(mi2gene_val_neg_batch)
-                    # val_g_lists, val_indices_lists, val_idx_batch_mapped_lists,data = parse_minibatch_MDPBMP(
+                    # val_g_lists, val_indices_lists, val_idx_batch_mapped_lists,data = parse_minibatch_PABDMH(
                     #     adjlists_ua, edge_metapath_indices_list_ua, pos_val_batch, neg_val_batch, device,
                     #     neighbor_samples, num)
 
@@ -791,7 +774,7 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
                 pos_test_batch.append(mi2gene_test_pos_batch)
                 neg_test_batch.append(mi2gene_test_neg_batch)
 
-                # test_g_lists, test_indices_lists, test_idx_batch_mapped_lists,data = parse_minibatch_MDPBMP(
+                # test_g_lists, test_indices_lists, test_idx_batch_mapped_lists,data = parse_minibatch_PABDMH(
                 #     adjlists_ua, edge_metapath_indices_list_ua, pos_test_batch, neg_test_batch, device,
                 #     neighbor_samples, num)
 
@@ -933,7 +916,7 @@ def run_model_MDPBMP(feats_type, hidden_dim, num_heads, attn_vec_dim, rnn_type,
 
 # def main():
 if __name__ == '__main__':
-    ap = argparse.ArgumentParser(description='MDPBMP testing for the recommendation dataset')
+    ap = argparse.ArgumentParser(description='PABDMH testing for the recommendation dataset')
     ap.add_argument('--feats-type', type=int, default=0,
                     help='Type of the node features used. ' +
                          '0 - all id vectors; ' +
@@ -948,9 +931,9 @@ if __name__ == '__main__':
     ap.add_argument('--batch-size', type=int, default=10, help='Batch size. Default is 8.')
     ap.add_argument('--samples', type=int, default=100, help='Number of neighbors sampled. Default is 100.')
     ap.add_argument('--repeat', type=int, default=1, help='Repeat the training and testing for N times. Default is 1.')
-    ap.add_argument('--save-postfix', default='MDPBMP', help='Postfix for the saved model and result. Default is MDPBMP.')
+    ap.add_argument('--save-postfix', default='PABDMH', help='Postfix for the saved model and result. Default is PABDMH.')
     ap.add_argument('--num_embeding', type=int, default=1, help='Batch size. Default is 8.')
-    # ap.add_argument('--save-postfix', default='MDPBMP')
+    # ap.add_argument('--save-postfix', default='PABDMH')
     ap.add_argument('--checkpoint', default='checkpoint')
     args = ap.parse_args()
     import sys
@@ -964,5 +947,5 @@ if __name__ == '__main__':
     #
     #     print_log = open("run1"+"_"+str(i)+".txt", "w")
     #     sys.stdout = print_log
-    run_model_MDPBMP(args.feats_type, args.hidden_dim, args.num_heads, args.attn_vec_dim, args.rnn_type, args.epoch,
+    run_model_PABDMH(args.feats_type, args.hidden_dim, args.num_heads, args.attn_vec_dim, args.rnn_type, args.epoch,
                      args.patience, args.batch_size, args.samples, args.repeat, args.save_postfix,args.num_embeding,args.checkpoint)

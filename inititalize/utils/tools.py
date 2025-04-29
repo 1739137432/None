@@ -13,7 +13,7 @@ def idx_to_one_hot(idx_arr):
     one_hot[np.arange(idx_arr.shape[0]), idx_arr] = 1
     return one_hot
 
-def parse_adjlist_MDPBMP(adjlist, edge_metapath_indices, samples=None, exclude=None, offset=None, mode=None):
+def parse_adjlist_PABDMH(adjlist, edge_metapath_indices, samples=None, exclude=None, offset=None, mode=None):
     edges = []
     nodes = set()
     result_indices = []
@@ -96,7 +96,7 @@ def parse_adjlist_MDPBMP(adjlist, edge_metapath_indices, samples=None, exclude=N
                 #                       [[],[],[],[],[]],
                 #                       [[],[],[],[],[]]]   2:7*5
                 # nums   X    [X,X,X,X,X]
-def parse_minibatch_MDPBMP(adjlists_ua, edge_metapath_indices_list_ua, user_artist_batch, device, samples=None, use_masks=None, offset=None):
+def parse_minibatch_PABDMH(adjlists_ua, edge_metapath_indices_list_ua, user_artist_batch, device, samples=None, use_masks=None, offset=None):
     # g_lists： 存储生成的图数据的列表
     # result_indices_lists: 存储结果索引的列表。
     # idx_batch_mapped_lists: 存储映射的索引的列表。
@@ -122,25 +122,20 @@ def parse_minibatch_MDPBMP(adjlists_ua, edge_metapath_indices_list_ua, user_arti
         # indices 是对应类型的边元路径索引列表 idx00 [[0,495,0],[0,496,0]....]
         # use_masks 是一个布尔值列表，指示是否应该使用对应类型的边
         # for adjlist, indices in zip(adjlists, edge_metapath_indices_list):
-            # 根据 use_mask 的值，函数调用 parse_adjlist_MDPBMP 来解析邻接列表，生成边、结果索引、节点数量和映射
-            # edges, result_indices, num_nodes, mapping = parse_adjlist_MDPBMP(
+            # 根据 use_mask 的值，函数调用 parse_adjlist_PABDMH 来解析邻接列表，生成边、结果索引、节点数量和映射
+            # edges, result_indices, num_nodes, mapping = parse_adjlist_PABDMH(
             #             [adjlist[int(row[mode])] for row in user_artist_batch], [indices[int(row[mode])] for row in user_artist_batch], samples, user_artist_batch, offset, mode)
         for adjlist, indices, use_mask in zip(adjlists, edge_metapath_indices_list, use_masks[mode]):
-            # print("adjlist: ")
-            # print(adjlist)
-            # print("indices: ")
-            # print(indices)
-            # print("use_mask: ")
-            # print(use_mask)
+
             if use_mask:
-                edges, result_indices, num_nodes, mapping = parse_adjlist_MDPBMP(
+                edges, result_indices, num_nodes, mapping = parse_adjlist_PABDMH(
                     [adjlist[int(row[mode])] for row in user_artist_batch], [indices[int(row[mode])] for row in user_artist_batch], samples, user_artist_batch, offset, mode)
             else:
                 # for row in user_artist_batch:
                 #
                 #     print(row)
                 #     print(adjlist[int(row[mode])])
-                edges, result_indices, num_nodes, mapping = parse_adjlist_MDPBMP(
+                edges, result_indices, num_nodes, mapping = parse_adjlist_PABDMH(
                     [adjlist[int(row[mode])] for row in user_artist_batch], [indices[int(row[mode])] for row in user_artist_batch], samples, offset=offset, mode=mode)
 
             # 使用 dgl.DGLGraph 创建一个多图对象 g，添加相应数量的节点

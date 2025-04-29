@@ -46,7 +46,7 @@
 #### checkpoint
 Save the training model file
 #### model
-- MDPBMP_lp.py:Model file
+- PABDMH_lp.py:Model file
 #### utils
 - data.py:Training data loading file
 - pytorchtools.py:Early stop file

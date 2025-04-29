@@ -3,7 +3,7 @@ import scipy
 import pickle
 
 
-def load_MDPBMP_data(prefix='../output/relationship/VI_step_data_划分'):
+def load_PABDMH_data(prefix='../output/relationship/VI_step_data_划分'):
     in_file = open(prefix + '/0/0-0.adjlist', 'r')
     adjlist00 = [line.strip() for line in in_file]
     adjlist00 = adjlist00
