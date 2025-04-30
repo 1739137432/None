@@ -1,0 +1,6261 @@
+0:wound healing
+1:stomach neoplasms
+2:pancreatic neoplasms
+3:carcinoma, non-small-cell lung
+4:liver neoplasms
+5:neuroblastoma
+6:uterine cervical neoplasms
+7:hypertension, pulmonary
+8:retinoblastoma
+9:hepatitis b, chronic
+10:breast neoplasms
+11:liver cirrhosis
+12:osteoarthritis
+13:malaria
+14:alzheimer disease
+15:atherosclerosis
+16:triple negative breast neoplasms
+17:urinary bladder neoplasms
+18:colorectal neoplasms
+19:ovarian neoplasms
+20:depression
+21:renal fibrosis
+22:pulmonary disease, chronic obstructive
+23:alopecia areata
+24:lung neoplasms
+25:diabetic nephropathies
+26:thyroid neoplasms
+27:glioblastoma
+28:glioma
+29:carcinoma, hepatocellular
+30:polycystic ovary syndrome
+31:tuberculosis
+32:nasopharyngeal carcinoma
+33:diabetes, gestational
+34:prostatic neoplasms
+35:squamous cell carcinoma of head and neck
+36:myocardial infarction
+37:ischemic stroke
+38:bronchiolitis obliterans syndrome
+39:rhinitis, allergic
+40:sepsis
+41:non-alcoholic fatty liver disease
+42:cerebral hemorrhage
+43:cicatrix, hypertrophic
+44:keloid
+45:endometriosis
+46:hepatoblastoma
+47:carcinoma, renal cell
+48:colonic neoplasms
+49:covid-19
+50:pneumonia
+51:irritable bowel syndrome
+52:acute myocardial infarction
+53:pre-eclampsia
+54:adenocarcinoma of lung
+55:endometrial neoplasms
+56:leukemia, lymphocytic, chronic, b-cell
+57:carcinoma, ovarian epithelial
+58:respiratory distress syndrome
+59:uterine corpus endometrial carcinoma
+60:colorectal adenocarcinoma
+61:precursor cell lymphoblastic leukemia-lymphoma
+62:pterygium
+63:dyslipidemias
+64:esophageal neoplasms
+65:osteosarcoma
+66:medulloblastoma
+67:intervertebral disc degeneration
+68:esophageal squamous cell carcinoma
+69:neuroinflammatory diseases
+70:ototoxicity
+71:fabry disease
+72:pancreatic ductal adenocarcinoma
+73:obsolete helicobacter pylori infectious disease
+74:esophageal carcinoma
+75:melanoma
+76:atrial fibrillation
+77:pulmonary fibrosis
+78:eosinophilic esophagitis
+79:infertility, male
+80:brain injuries, traumatic
+81:inflammation
+82:bulimia nervosa
+83:cartilage diseases
+84:diabetic retinopathy
+85:arthritis
+86:thyroid cancer, papillary
+87:subarachnoid hemorrhage
+88:plaque, atherosclerotic
+89:obesity
+90:arthritis, rheumatoid
+91:high grade ovarian neoplasms
+92:fetal hypoxia
+93:uterine diseases
+94:mitochondrial diseases
+95:cholangiocarcinoma
+96:diabetes mellitus
+97:wounds and injuries
+98:pancreatitis, chronic
+99:pancreatic carcinoma
+100:coronary disease
+101:coronary artery disease
+102:diabetic cardiomyopathies
+103:lymphoma
+104:parkinson disease
+105:osteoporosis
+106:bone diseases, metabolic
+107:sciatic neuropathy
+108:aortic aneurysm, abdominal
+109:angelman syndrome
+110:amyotrophic lateral sclerosis
+111:hypertension, renal
+112:schizophrenia
+113:myocardial reperfusion injury
+114:liver failure, acute
+115:dengue
+116:liver injury
+117:acquired immunodeficiency syndrome
+118:hyperglycemia
+119:metabolic-associated fatty liver disease
+120:carcinoma, pancreatic ductal
+121:infertility, female
+122:head and neck neoplasms
+123:psoriasis 1
+124:crohn disease
+125:malformations of cortical development, group ii
+126:thoracic aortic   dissection
+127:dry eye syndromes
+128:familial chylomicronemia syndrome
+129:pancreatitis
+130:adenocarcinoma of esophagus
+131:mucocutaneous lymph node syndrome
+132:vasculitis
+133:asthma
+134:muscular diseases
+135:carcinoma, cutaneous, squamous cell
+136:graves ophthalmopathy
+137:adenomyosis
+138:lupus erythematosus, systemic
+139:laryngeal neoplasms
+140:meningioma
+141:fibrosis
+142:gastric adenocarcinoma
+143:hepatitis c
+144:embryo loss
+145:anovulation
+146:pneumonia, mycoplasma
+147:myelodysplastic syndromes
+148:leukemia
+149:cardiomegaly
+150:epilepsy
+151:bone-associated metastatic breast cancer
+152:lupus nephritis
+153:migraine disorders
+154:nephritis, interstitial
+155:brain injuries
+156:chronic disease
+157:liver diseases
+158:mesangial proliferative glomerulonephritis
+159:hypoxia
+160:cardiomyopathies
+161:ventricular premature complexes
+162:chemical and drug induced liver injury
+163:gout
+164:acute lung injury
+165:fibrosis, renal
+166:osteochondritis dissecans
+167:atrial premature complexes
+168:brain ischemia
+169:inflammatory bowel diseases
+170:hepatitis b  virus-associated glomerulonephritis
+171:rett syndrome
+172:alcoholism
+173:leukemia, myeloid, acute
+174:idiopathic pulmonary fibrosis
+175:hypogonadism
+176:heart failure
+177:lung injury
+178:diabetes mellitus, type 2
+179:dmd-associated dilated cardiomyopathy
+180:premature ovarian aging
+181:rhegmatogenous retinal detachment, autosomal dominant
+182:cerebrovascular disorders
+183:opitz gbbb syndrome, x-linked
+184:testicular germ cell tumor
+185:hidradenitis suppurativa
+186:lymphoma, large b-cell, diffuse
+187:leukemia, myelogenous, chronic, bcr-abl positive
+188:acute liver injury
+189:osteoporosis, postmenopausal
+190:autism spectrum disorder
+191:bronchopulmonary dysplasia
+192:abortion, spontaneous
+193:placenta accreta
+194:mental disorders
+195:anxiety disorders
+196:neurotic disorders
+197:osteitis deformans
+198:her2-positive breast cancer
+199:severe acute respiratory syndrome
+200:celiac disease
+201:carcinoma, endometrioid
+202:hypertension
+203:kidney diseases
+204:acute kidney injury
+205:spinal cord injuries
+206:polycythemia
+207:vasoplegia
+208:depressive disorder, major
+209:attention deficit disorder with hyperactivity
+210:vitiligo
+211:rhabdomyosarcoma
+212:heart failure, chronic
+213:sporatic amyotrophic lateral sclerosis
+214:pyruvate kinase deficiency of red cells
+215:arthritis, psoriatic
+216:reperfusion injury, cerebral ischemia
+217:deltaretrovirus infections
+218:wounds, nonpenetrating
+219:thyroid diseases
+220:microscopic polyangiitis
+221:endothelial inflammatory injury
+222:sarcopenia
+223:frailty
+224:mesothelioma
+225:multiple sclerosis, chronic progressive
+226:acute coronary syndrome
+227:death, sudden, cardiac
+228:death
+229:chronic gastritis
+230:hypoxia-ischemia, brain
+231:pediatric cystic fibrosis
+232:leishmaniasis
+233:intracranial aneurysm
+234:heart diseases
+235:hypertrophic scar fibrosis
+236:uveal melanoma
+237:chronic periodontitis
+238:venous thrombosis
+239:carotid artery diseases
+240:dementia, vascular
+241:leiomyosarcoma
+242:elliptocytosis 2
+243:incontinentia pigmenti
+244:cataract, congenital zonular, with sutural opacities
+245:early-stage malignant melanoma
+246:aortic valve insufficiency
+247:iris diseases
+248:kidney failure, chronic
+249:hepatitis e
+250:azoospermia
+251:osteomyelitis
+252:autistic disorder
+253:neurodevelopmental disorders
+254:neuropathic low back pain
+255:gallbladder neoplasms
+256:metabolic diseases
+257:severe asthma
+258:endothelial dysfunction
+259:mouth neoplasms
+260:hyalinosis, systemic
+261:motion sickness
+262:respiratory tract infections
+263:endomyocardial fibrosis
+264:peripheral arterial disease
+265:primary biliary cholangitis 1
+266:cholestasis
+267:nervous system diseases
+268:peripheral nerve injuries
+269:neuralgia
+270:ischemia
+271:shock, hemorrhagic
+272:syphilis
+273:colitis, ulcerative
+274:reperfusion injury
+275:retinal diseases
+276:familial febrile seizures 1
+277:cognition disorders
+278:lipodystrophy, partial, acquired
+279:tongue neoplasms
+280:hereditary diffuse gastric cancer
+281:glomerulonephritis, iga
+282:myopia, degenerative
+283:myocardial infarction, acute
+284:nasopharyngeal neoplasms
+285:biliary atresia
+286:dermatitis, atopic
+287:carcinoma, squamous cell, cutaneous
+288:craniosynostosis radial aplasia syndrome
+289:metabolic associated fatty liver  disease 
+290:takayasu arteritis
+291:familial hypophosphatemic rickets
+292:norrie disease
+293:duane retraction syndrome
+294:periapical periodontitis
+295:postoperative cognitive complications
+296:intestinal diseases
+297:mesenteric ischemia
+298:lymphoma, b-cell
+299:lymphoma, t-cell
+300:memory disorders
+301:esophageal achalasia
+302:mycosis fungoides
+303:ischemic attack, transient
+304:proliferative diabetic retinopathy
+305:bone diseases
+306:sjogren's syndrome
+307:leukemia, promyelocytic, acute
+308:stroke
+309:periodontitis, diabetic
+310:immune system diseases
+311:placenta diseases
+312:ankylosing spondylitis 1
+313:vascular diseases
+314:urticaria
+315:bulbospinal neuronopathy, x-linked recessive
+316:adenoma
+317:chilblain lupus
+318:diabetes mellitus, type 1
+319:muscular dystrophy, facioscapulohumeral
+320:lacrimal gland adenoid cystic carcinoma
+321:rectal neoplasms
+322:teratoma
+323:dyspepsia
+324:leukemia, monocytic, acute
+325:gynatresia
+326:adhesions of uterus
+327:hashimoto disease
+328:glaucoma
+329:glima
+330:essential hypertension
+331:influenza, human
+332:cardiovascular diseases
+333:oropharyngeal neoplasms
+334:quadruple negative breast cancer
+335:respiratory distress syndrome, newborn
+336:fetal growth retardation
+337:pituitary neoplasms
+338:pneumothorax
+339:fatty liver
+340:periprosthetic fractures
+341:periodontitis
+342:precancerous conditions
+343:polycystic kidney diseases
+344:precursor t-cell lymphoblastic leukemia-lymphoma
+345:intestinal atresia
+346:multiple sclerosis
+347:osteoarthritis, knee
+348:image syndrome
+349:pulpitis
+350:cardiotoxicity
+351:late onset parkinson's disease
+352:aicardi-goutieres syndrome 5
+353:hypertension, pregnancy-induced
+354:varicose veins
+355:alstrom syndrome
+356:bardet-biedl syndrome 11
+357:necrosis
+358:pregnancy complications
+359:premature birth
+360:fg syndrome
+361:hematologic diseases
+362:glomerulonephritis, membranous
+363:nephrosis, lipoid
+364:frontotemporal dementia
+365:hypoglycemia
+366:antisynthetase syndrome
+367:moyamoya disease
+368:chronic kidney   disease
+369:vascular calcification
+370:renal insufficiency, chronic
+371:aortic aneurysm, thoracic
+372:periodontal diseases
+373:virus diseases
+374:squamous intraepithelial lesions of the cervix
+375:hyperlipidemias
+376:neonatal sepsis
+377:psoriasis
+378:femur head necrosis
+379:laryngeal papilloma
+380:brachial plexus avulsion 
+381:anemia, hemolytic
+382:tendinopathy
+383:brachydactyly type d
+384:cirrhotic cardiomyopathy
+385:multiple myeloma
+386:high grade glioma
+387:behcet syndrome
+388:wilms tumor
+389:pulmonary fibrosis, idiopathic 
+390:schimke immunoosseous dysplasia
+391:neuroectodermal tumors, primitive
+392:reperfusion injury, ischemia
+393:graft occlusion, vascular
+394:ciliary motility disorders
+395:reperfusion injury, renal ischemia
+396:cognitive dysfunction
+397:myocardial ischemia
+398:cerebral infarction
+399:complex regional pain syndromes
+400:skin melanoma
+401:otitis media
+402:primary ovarian insufficiency
+403:insulin resistance
+404:tuberous sclerosis
+405:myotonic dystrophy
+406:limb ischemia
+407:abnormalities, drug-induced
+408:pleural effusion, malignant
+409:teratozoospermia
+410:ataxia neuropathy spectrum
+411:melanoma, experimental
+412:zika virus congenital syndrome
+413:neurogenic inflammation
+414:ovarian failure, premature 
+415:prostatic hyperplasia
+416:tendon injuries
+417:necrobiotic disorders
+418:urologic neoplasms
+419:neoplasm, residual
+420:leukemia, myeloid
+421:oculodigitoesophagoduodenal syndrome
+422:salivary gland adenoid cystic carcinoma
+423:sleep apnea, obstructive
+424:tuberculosis, pulmonary
+425:thymic aplasia
+426:nerve degeneration
+427:sucrase-isomaltase deficiency, congenital
+428:neoplasms, vascular tissue
+429:liver cirrhosis, hepatitis virus b-related
+430:carotid stenosis
+431:large-artery   atherosclerosis stroke
+432:osteoporosis-pseudoglioma syndrome
+433:disorders of sex development
+434:sexual dysfunctions, psychological
+435:genital diseases, female
+436:food hypersensitivity
+437:chondrosarcoma
+438:epidermodysplasia verruciformis
+439:enterovirus infections
+440:kidney calculi
+441:diabetic foot
+442:trophoblast dysfunction
+443:small cell lung carcinoma
+444:bacterial infections
+445:simian acquired immunodeficiency syndrome
+446:myopia
+447:vasospasm, intracranial
+448:heart injuries
+449:hyperalgesia
+450:scleroderma, systemic
+451:drug hypersensitivity
+452:fatigue
+453:mood disorders
+454:substance withdrawal syndrome
+455:pituitary diseases
+456:hemangioma, infantile
+457:stress disorders, post-traumatic
+458:polycythemia, high altitude
+459:infarct-related artery total occlusion
+460:anorectal malformations
+461:neovascularization, pathologic
+462:preterm premature rupture of the membranes
+463:graves disease
+464:prostatitis, chronic
+465:chronic   pelvic pain syndrome
+466:aids-related complex
+467:hypertension, portal
+468:heat stroke
+469:oligospermia
+470:infertility
+471:asthenozoospermia
+472:inflammatory osteolysis
+473:ulcerative   colitis
+474:neurodegenerative diseases
+475:brain diseases
+476:protein-losing enteropathies
+477:rhinitis, allergic, seasonal
+478:short stature, idiopathic, autosomal
+479:lymphoproliferative disorders
+480:epstein-barr virus infections
+481:nasopharyngitis
+482:pneumococcal infections
+483:abortion, habitual
+484:lupus vasculitis, central nervous system
+485:peripartum cardiomyopathy 
+486:nervous necrosis virus infectious
+487:hemoglobin sc disease
+488:choriocarcinoma
+489:pancreatic diseases
+490:prostatic diseases
+491:progeria
+492:keratoconus
+493:sepsis-associated encephalopathy
+494:hepatitis
+495:colitis
+496:mast cell tumors
+497:herpesviridae infections
+498:hemangioma
+499:biliary tract neoplasms
+500:lung diseases
+501:granulomatous disease, chronic
+502:siderosis
+503:mite infestations
+504:vasculitis, central nervous system
+505:platelet storage lesion
+506:chronic pain
+507:neoplasms, germ cell and embryonal
+508:seminoma
+509:optic nerve injuries
+510:asthma, allergic
+511:systemic inflammatory response syndrome
+512:duodenal ulcer
+513:pituitary adenoma, non-functioning
+514:intrahepatic cholestasis of pregnancy
+515:pulmonary arterial hypertension
+516:ossification of posterior longitudinal ligament
+517:achard-thiers syndrome
+518:polycythemia vera
+519:renal tubular oxidative injury
+520:coronary stenosis
+521:seizures
+522:campomelia cumming type
+523:optic nerve glioma
+524:arm lymphedema
+525:stiff-person syndrome
+526:obesity, morbid
+527:influenza in birds
+528:newcastle disease
+529:bursitis
+530:pediatric obesity
+531:cerebral infarction, acute
+532:depression, post stroke
+533:burns
+534:myocarditis
+535:hypertrophy of ligamentum flavum
+536:prostatic neoplasms, castration-resistant
+537:frontotemporal lobar degeneration
+538:neoplasms, multiple primary
+539:diabetic angiopathies
+540:aortic dissection
+541:porcine reproductive and respiratory syndrome
+542:heart valve diseases
+543:dehydration
+544:hypersensitivity, immediate
+545: lymph  node metastasis
+546:bipolar disorder
+547:chordoma
+548:gastrointestinal stromal tumors
+549:neurotoxicity syndromes
+550:adrenal cortex neoplasms
+551:von willebrand diseases
+552:diabetic ischemia complication
+553:adrenocortical carcinoma, pediatric
+554:myopathies, structural, congenital
+555:papillomavirus infections
+556:osteoarthritis 
+557:pain
+558:fluoride poisoning
+559:rh-negative hemolytic disease, fetus
+560:epilepsies, partial
+561:gram-negative bacterial infections
+562:inflammatory bowel disease 11
+563:glucocorticoid receptor deficiency
+564:peripheral arterial occlusive disease 1
+565:abnormalities, multiple
+566:retinal vein occlusion
+567:cystic fibrosis
+568:mesothelioma, malignant
+569:pain, postoperative
+570:encephalomyelitis, eastern equine
+571:cataract, age-related nuclear
+572:cataract
+573:autoimmune diseases
+574:rubella syndrome, congenital
+575:adrenocortical carcinoma
+576:osteoporosis, diabetic
+577:hemangioma, cavernous
+578:childhood acute myeloid leukemia
+579:muscular dystrophy, duchenne
+580:rem sleep behavior disorder
+581:neuroendocrine tumors
+582:abortion, septic
+583:hodgkin disease
+584:nonpapillary renal cell carcinoma
+585:huntington disease
+586:muscular atrophy
+587:cachexia
+588:hyperuricemia
+589:colorectal neoplasms, hereditary nonpolyposis
+590:intestinal neoplasms
+591:overactive bladder syndrome
+592:bone pain
+593:testicular diseases
+594:enzootic bovine leukosis
+595:leprosy
+596:abortion
+597:plaque, amyloid
+598:zika virus infection
+599:hemorrhagic fever, ebola
+600:infections
+601:cholangitis, biliary, primary
+602:skeletal muscle dysplasia
+603:hemolysis
+604:salivary gland neoplasms
+605:polyps
+606:gastrointestinal neoplasms
+607:constipation
+608:developmental disabilities
+609:heart arrest
+610:obesity, abdominal
+611:osteoarthritis, spine
+612:craniofacial abnormalities
+613:alveolar bone loss
+614:endometrial hyperplasia
+615:autoimmune lymphoproliferative syndrome
+616:hemophilia a
+617:status epilepticus
+618:fetal alcohol spectrum disorders
+619:acrodermatitis enteropathica
+620:liver failure
+621:ovarian diseases
+622:coronavirus infections
+623:benign paroxysmal positional vertigo
+624:emphysema
+625:bloom syndrome
+626:cleft palate, non-syndromic
+627:abcd syndrome
+628:ehlers-danlos syndrome, musculocontractural type 1
+629:aneuploidy
+630:respiration disorders, infant
+631:cleidocranial dysplasia
+632:delayed tooth eruption
+633:cardiomyopathy, dilated
+634:heart failure, ischemic
+635:fibrosis, atrial
+636:bladder urothelial carcinoma
+637:fractures, bone
+638:thyroid carcinoma, anaplastic
+639:trigeminal neuralgia
+640:chronic  kidney disease
+641:osteopenic nonfracture syndrome
+642:hepatitis b
+643:lupus erythematosus, cutaneous
+644:neoplasm metastasis
+645:infant, small for gestational age
+646:corneal neovascularization
+647:urethral stricture
+648:familial multiple nevi flammei
+649:hepatolenticular degeneration
+650:uterine neoplasms
+651:lumbosacral spinal root avulsion
+652:rectal prolapse
+653:depression, postpartum
+654:diffuse alveolar hemorrhage, autoimmune-mediated
+655:lung squamous cell carcinoma
+656:sarcoma
+657:lipid metabolism disorders
+658:atrophy
+659:st elevation myocardial infarction
+660:schistosomiasis
+661:jaundice, acute
+662:chagas cardiomyopathy
+663:pathologic processes
+664:cataract, age-related
+665:diabetic neuropathies
+666:cell transformation, neoplastic
+667:hemorrhage
+668:thyroiditis, autoimmune
+669:adenocarcinoma, sinonasal intestinal
+670:uremia
+671:gastric and colon cancer
+672:hearing loss, unilateral
+673:bisphosphonate-associated osteonecrosis of the jaw
+674:optic neuritis
+675:heart neoplasms
+676:uveomeningoencephalitic syndrome
+677:cardiomyopathy, hypertrophic
+678:glucose metabolism disorders
+679:rotator cuff injuries
+680:leukoencephalopathies
+681:substance abuse, intravenous
+682:niemann-pick diseases
+683:salivary gland mucoepidermoid carcinoma
+684:high pressure neurological syndrome
+685:acute  kidney injury
+686:thrombocytopenia
+687:pulmonary embolism
+688:werner syndrome
+689:insulinoma
+690:instent restenosis
+691:primary aldosteronism 
+692:parasitic diseases
+693:hepatitis, autoimmune
+694:lewy body disease
+695:retinopathy of prematurity
+696:rotator cuff
+697:primary graft dysfunction
+698:hypoxia-ischemia, brain, newborn
+699:aphasia, primary progressive
+700:muscular dystrophies
+701:encephalitis, japanese
+702:dementia
+703:vesico-ureteral reflux
+704:gastritis, atrophic
+705:hamartoma syndrome, multiple
+706:fibrous dysplasia, polyostotic
+707:gastrointestinal hemorrhage
+708:male germ cell tumor
+709:neointimal   hyperplasia
+710:leukemia virus, bovine infection
+711:brain injury, ischemic
+712:microvascular obstruction
+713:oral submucous fibrosis
+714:lentivirus infections
+715:drug-induced kidney injury
+716:orchitis
+717:prostate cancer 
+718:thrombosis
+719:constriction, pathologic
+720:fanconi anemia
+721:vitreoretinopathy, proliferative
+722:vascular system injuries
+723:pancreatic adenocarcinoma
+724:arteriosclerotic cardiovascular disease
+725:turner syndrome
+726:rift valley fever
+727:aggressive periodontitis
+728:vitreoretinochoroidopathy
+729:heart failure, acute
+730:cushing syndrome
+731:htlv-ii infections
+732:tic disorders
+733:cataract, posterior polar, 3
+734:reperfusion injury, hepatic ischemia
+735:temporomandibular joint osteoarthritis
+736:familial temporal lobe epilepsy 3
+737:dacryocystitis
+738:corneal injuries
+739:corneal ulcer
+740:acute-on-chronic liver failure
+741:acute coronary syndrome 
+742:brain ischemia 
+743:liver diseases, alcoholic
+744:juvenile gout
+745:lymphoma, mantle-cell
+746:growth hormone-secreting pituitary adenoma
+747:bovine virus diarrhea-mucosal disease
+748:inhalant abuse
+749:pyelonephritis
+750:postural orthostatic tachycardia syndrome
+751:pancreatic beta-cell dysfunction
+752:anterior cruciate ligament injuries
+753:cervical cancer, hpv infected
+754:arthritis, juvenile
+755:hepatitis, alcoholic
+756:granulomatous mastitis
+757:vasospasm, intracranial, postoperative
+758:osteoporotic fracture, tibial
+759:pain, inflammatory
+760:hirschsprung disease
+761:nasal polyps
+762:chronic rhinosinusitis with nasal polyps
+763:coronary microcirculation dysfunction
+764:trichohepatoenteric syndrome
+765:enterocolitis, pseudomembranous
+766:de lange syndrome
+767:pseudarthrosis
+768:deficiency diseases
+769:coronary artery  disease
+770:dwarfism, pituitary
+771:papillomavirus infections
+772:cholestasis, intrahepatic
+773:hyperoxia-induced lung injury
+774:lumbar disc   herniation
+775:hyperphosphatemia
+776:tachycardia
+777:macular edema
+778:venous thromboembolism
+779:mucositis
+780:shock, septic
+781:down syndrome
+782:encephalitis virus, japanese
+783:t-cell acute lymphoblastic leukemia
+784:erectile dysfunction
+785:heart defects, congenital
+786:aortic valve disease
+787:mycoplasma pneumoniae pneumonia
+788:myotonic disorders
+789:osteonecrosis
+790:myeloproliferative disorders
+791:urinary retention
+792:cryopyrin-associated periodic syndromes
+793:mandibular diseases
+794:disorders of excessive somnolence
+795:adenocarcinoma in situ
+796:arteriosclerosis obliterans
+797:ovarian clear cell carcinoma
+798:tuberous sclerosis 1
+799:gastritis
+800:gastritis, pediatric
+801:systemic primary carnitine deficiency disease
+802:alopecia
+803:sarcoidosis
+804:crest syndrome
+805:lymphoma, non-hodgkin
+806:endothelial dysfunction 
+807:autism spectrum disorde
+808:heart diseases, congenital
+809:lipodystrophy
+810:osteochondromatosis
+811:cardiomyopathy, hypertrophic, familial
+812:external auditory canal squamous cell carcinoma
+813:hearing loss, sensorineural
+814:west nile fever
+815:chronic  rhinosinusitis with nasal polyps
+816:lip neoplasms
+817:carcinoma, small cell
+818:cicatrix
+819:reperfusion injury, steatotic liver ischemia
+820:intracranial hemorrhages
+821:alcohol withdrawal syndrome
+822:langer-giedion syndrome
+823:polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy
+824:post-concussion syndrome
+825:azoospermia, nonobstructive
+826:myasthenia gravis
+827:chronic rhinosinusitis with nasal polyps 
+828:diarrhea, bacterial
+829:osteogenesis imperfecta type 1
+830:hypertrophy, right ventricular
+831:retinal neovascularization
+832:shock, cardiogenic
+833:kidney neoplasms
+834:iron metabolism disorders
+835:primary gastrointestinal diffuse large b-cell lymphoma 
+836:scoliosis, adolescent
+837:idiopathic scoliosis
+838:macular degeneration
+839:segmental vitiligo
+840:adrenocorticotropic hormone deficiency
+841:nephritis
+842:uterine cervical dysplasia
+843:cervical intraepithelial neoplasia
+844:platelet storage pool deficiency
+845:papillon-lefevre disease
+846:corneal dystrophy, epithelial basement membrane
+847:hepatorenal syndrome
+848:amyloidosis
+849:colonic diseases
+850:brain injury, chronic
+851:fatty liver, alcoholic
+852:upper tract urothelial carcinoma
+853:prediabetic state
+854:skin diseases
+855:fibrosis, airway
+856:respiratory syncytial virus infections
+857:demyelinating diseases
+858:sveinsson chorioretinal atrophy
+859:polyposis syndrome, hereditary mixed, 1
+860:canavan disease
+861:reperfusion injury, intestinal ischemia
+862:intestinal fistula
+863:hepatitis c, chronic
+864:larva migrans, visceral
+865:brugada syndrome
+866:nephrotic syndrome
+867:hearing disorders
+868:scleral diseases
+869:hippocampal neuronal   injury
+870:brain neoplasms
+871:fibromyalgia
+872:arthritis, temporomandibular
+873:allograft rejection, antibody-mediated
+874:carcinoma
+875:schistosomiasis mansoni
+876:acute pulmonary embolism
+877:sarcoma, kaposi
+878:non-alcoholic steatohepatitis
+879:hypercholesterolemia
+880:cholangitis, sclerosing, primary
+881:adenocarcinoma, sebaceous, ocular
+882:endometriosis in scar of skin
+883:hand, foot and mouth disease
+884:tobacco use disorder
+885:uterine hemorrhage
+886:pleomorphic sarcoma, undifferentiated
+887:granulomatosis with polyangiitis
+888:rectal injury
+889:coronary occlusion
+890:cancer pain
+891:environmental illness
+892:endotoxemia
+893:nephrosclerosis
+894:teratoid rhabdoid tumor, atypical
+895:skeletal muscular injury, non-ischemic
+896:muscular atrophy, spinal
+897:diabetes of the exocrine pancreas 
+898:hypertrophy, left ventricular
+899:primary central nervous system lymphoma
+900:chronic pelvic pain syndrome
+901:endometritis
+902:ventricular dysfunction, right
+903:tetralogy of fallot
+904:hypopharyngeal neoplasms
+905:fibrolamellar carcinoma
+906:ischemic cerebral infarction
+907:keratitis, herpetic
+908:corneal endothelium   failure
+909:hypertrophy
+910:ovarian neoplasms, high-grade serous
+911:osteoarthropathy, primary hypertrophic
+912:developmental and epileptic encephalopathy
+913:ataxia telangiectasia
+914:fetal macrosomia
+915:telangiectasia, hereditary hemorrhagic
+916:exfoliation syndrome
+917:optic atrophy, hereditary, leber
+918:arteriovenous fistula
+919:carcinoma, ductal, breast
+920:skin pigmentation
+921:multiple organ failure
+922:neurofibromatosis 2
+923:cylindromatosis
+924:conjunctivitis, allergic
+925:aortic aneurysm
+926:mastitis
+927:myasthenia gravis with thymus hyperplasia
+928:sezary syndrome
+929:multiple mitochondrial dysfunctions syndrome
+930:neuroaxonal dystrophies
+931:gastric cancer, early
+932:cryptorchidism
+933:hemorrhagic fever with renal syndrome
+934:myopia, high
+935:bronchiolitis obliterans
+936:sarcoma, ewing
+937:hypoglycemic encephalopathy
+938:anemia, aplastic
+939:ventricular remodeling
+940:amelogenesis imperfecta
+941:nonsyndromic deafness
+942:carcinoma, adenoid cystic, lacrimal gland
+943:acute lymphoblastic leukemia, t-cell
+944:acute lymphoblastic leukemia, b-cell
+945:mandibulofacial dysostosis
+946:carcinoma, squamous cell
+947:granuloma
+948:pfeiffer type acrocephalosyndactyly
+949:hydrocephalus
+950:hearing loss, age-related
+951:genital diseases, male
+952:osteolysis
+953:craniosynostoses
+954:muscular injury
+955:stomatognathic diseases
+956:cranial nerve injuries
+957:pars planitis
+958:food addiction
+959:intervertebral disc disease
+960:thyroid nodule
+961:multiple sclerosis, relapsing-remitting
+962:nonsyndromic congenital nail disorder 7
+963:primary myelofibrosis
+964:amebiasis
+965:ethylmalonic encephalopathy
+966:dwarfism
+967:warburg micro syndrome 1
+968:fused teeth
+969:bird diseases
+970:enterocolitis, necrotizing
+971:histiocytic sarcoma
+972:cystadenocarcinoma, serous, endometrial
+973:fluorosis, dental
+974:neuropathic allodynia
+975:sciatica
+976:porphyria, erythropoietic
+977:blood coagulation disorders
+978:disseminated intravascular coagulation
+979:pericardial effusion
+980:spinal diseases
+981:retinal degeneration
+982:meibomian gland carcinoma  
+983:colon   adenocarcinoma
+984:equine infectious anemia
+985:gluteal muscle contracture
+986:encephalitis, viral
+987:cytomegalovirus infections
+988:pheochromocytoma
+989:malaria, vivax
+990:pregnancy, ectopic
+991:brucellosis
+992:leukemia, myeloid, acute, t-cell
+993:pancreatitis, acute hemorrhagic
+994:epilepsy, temporal lobe
+995:lung  adenocarcinoma
+996:hip fractures
+997:concussion, sports-related
+998:cognitive impairment, vascular
+999:albuminuria
+1000:hyperemia
+1001:freeman-sheldon syndrome
+1002:cardiac dysfunction
+1003:aging, premature
+1004:gestational trophoblastic disease
+1005:aortic valve stenosis
+1006:carcinoma, transitional cell
+1007:aortopathies
+1008:carcinoma, mucoepidermoid
+1009:ichthyosis, lamellar
+1010:leukemia, prolymphocytic, t-cell
+1011:myocardial injury
+1012:choroidal neovascularization
+1013:collagen diseases
+1014:human herpesvirus 6 encephalitis
+1015:otofaciocervical syndrome
+1016:leg ulcer
+1017:growth disorders
+1018:nephritis, hereditary
+1019:anaphylaxis
+1020:chikungunya
+1021:neonatal hemochromatosis
+1022:autosomal recessive congenital bilateral absence of vas deferens
+1023:silicotuberculosis
+1024:critical illness
+1025:lung allograft dysfunction
+1026:aortic diseases
+1027:testicular neoplasms
+1028:cancer-associated cachexia
+1029:poikiloderma with neutropenia
+1030:colorectal   adenocarcinoma
+1031:myocardial fibrosis
+1032:craniocerebral trauma
+1033:dystonia 5
+1034:spondyloepimetaphyseal dysplasia, strudwick type
+1035:lipidoses
+1036:neoplasms, germ cell, intracranial
+1037:peritoneal fibrosis
+1038:cone-rod dystrophy 6
+1039:anemia, sickle cell
+1040:lipoma
+1041:sepsis, intensive care unit-acquired
+1042:varicocele
+1043:gerstmann-straussler-scheinker disease
+1044:enterovirus b, human
+1045:neuroma, acoustic
+1046:alcohol withdrawal delirium
+1047:lymphoma, t-cell, cutaneous
+1048:condylomata acuminata
+1049:mycoses
+1050:maxillary fractures
+1051:x-linked juvenile retinoschisis 1
+1052:allergic airway inflammation
+1053:fibroadenoma
+1054:phyllodes tumor
+1055:central nervous system diseases
+1056:proteinuria
+1057:li-fraumeni syndrome
+1058:opium dependence
+1059:paranasal sinus neoplasms
+1060:hcv associated disorders
+1061:infarction, middle cerebral artery
+1062:precursor b-cell lymphoblastic leukemia-lymphoma
+1063:fusarium   solani-induced keratitis
+1064:leukoplakia, oral
+1065:costello syndrome
+1066:arrhythmias, cardiac
+1067:leiomyoma
+1068:chagas disease
+1069:absent corpus callosum cataract immunodeficiency
+1070:cerebral small vessel diseases
+1071:myositis
+1072:diabetes complications
+1073:radiation injuries
+1074:borna disease
+1075:chlamydia infections
+1076:asthma, chronic
+1077:kartagener syndrome
+1078:sensory ataxic neuropathy, dysarthria, and ophthalmoparesis
+1079:congenital central hypoventilation syndrome
+1080:distal myopathy, nonaka type
+1081:cochlear diseases
+1082:c syndrome
+1083:guillain-barre syndrome
+1084:obstetric labor, premature
+1085:reproductive tract infections
+1086:hemoglobinuria, paroxysmal
+1087:graft vs host disease
+1088:pituitary acth hypersecretion
+1089:infarction
+1090:friedreich ataxia
+1091:hay-wells syndrome
+1092:carcinoma, embryonal
+1093:rabies
+1094:arteritis
+1095:thymus neoplasms
+1096:phobic disorders
+1097:anhedonia
+1098:esophagus adenocarcinoma
+1099:toxoplasmosis
+1100:acth-independent macronodular adrenal hyperplasia
+1101:ceroid lipofuscinosis, neuronal 5
+1102:mycoplasma infections
+1103:osteoarthritis, post-traumatic
+1104:rhiny
+1105:body integrity identity disorder
+1106:encephalomyelitis, autoimmune, experimental
+1107:chorea
+1108:acidosis, respiratory
+1109:late onset disorders
+1110:intrauterine adhesion
+1111:capsule opacification
+1112:starvation
+1113:spermatic cord torsion
+1114:neointimal hyperplasia
+1115:meniscus degeneration
+1116:bicuspid aortic valve disease
+1117:diabetic nephropathies, proliferative
+1118:cleft palate
+1119:hemoglobin bart's hydrops   fetalis syndrome
+1120:retroviridae infections
+1121:hypoplastic left heart syndrome
+1122:cyprinid herpesvirus 3
+1123:premenstrual syndrome
+1124:muscular atrophy, spinal
+1125:chanarin-dorfman syndrome
+1126:arrest of spermatogenesis
+1127:inflammation, chronic
+1128:germ cell tumor, non-teratomatous
+1129:lichen sclerosus et atrophicus
+1130:encephalomyelitis, western equine
+1131:hematologic neoplasms
+1132:gliosis
+1133:oculocutaneous albinism type 3
+1134:histiocytoma, malignant fibrous
+1135:anodontia
+1136:depressive disorder
+1137:facioscapulohumeral muscular dystrophy 1
+1138:implantation failure
+1139:cholesteatoma, middle ear
+1140:cerebrovascular occlusive diseases
+1141:fibrosarcoma
+1142:bronchial diseases
+1143:congenital pulmonary airway malformations
+1144:cysts
+1145:astrocytoma
+1146:talaromycosis
+1147:tuberculosis, gastrointestinal
+1148:pigmented paravenous chorioretinal atrophy
+1149:von hippel-lindau disease
+1150:cystadenocarcinoma, serous, ovarian
+1151:adrenoleukodystrophy
+1152:supranuclear palsy, progressive
+1153:bone marrow myelofibrosis
+1154:vascular remodeling
+1155:simpson-golabi-behmel syndrome type 1
+1156:biotinidase deficiency
+1157:fusariosis
+1158:gastroenteritis, transmissible, of swine
+1159:spinal cord ischemia
+1160:hyperglycinemia, nonketotic
+1161:incisional pain
+1162:hyperaldosteronism
+1163:tuberculosis, multidrug-resistant
+1164:retrognathia
+1165:temporomandibular joint dysfunction syndrome
+1166:glycogen storage disease type vi
+1167:selenium deficiency
+1168:infant, low birth weight
+1169:inflammation-related  depression
+1170:breast diseases
+1171:ureteropelvic junction obstruction
+1172:chromate resistance
+1173:vascular malformations
+1174:tibial fractures
+1175:histiocytosis
+1176:fibrosis, skin
+1177:neural tube defects
+1178:squamous intraepithelial lesions
+1179:uterine cervical diseases
+1180:hemorrhagic stroke
+1181:salivary gland pleomorphic adenoma
+1182:skin neoplasms
+1183:charcot-marie-tooth disease type 1b
+1184:colitis-associated neoplasms
+1185:laron syndrome
+1186:spinal muscular atrophy with respiratory distress 1
+1187:radiation-induced pulmonary fibrosis
+1188:leptomeningeal metastasis
+1189:lymphoma, natural   killer/t-cell
+1190:retinal detachment
+1191:radius fractures
+1192:intra-articular fractures
+1193:cataract, diabetic
+1194:splenic diseases
+1195:airway inflammation
+1196:neurodevelopmental injuries
+1197:legg-calve-perthes disease
+1198:acute uterine injury
+1199:alpha-thalassemia
+1200:mental retardation, x-linked
+1201:tourette syndrome
+1202:ovary adenocarcinoma
+1203:acne vulgaris
+1204:eclampsia
+1205:otitis media with effusion
+1206:pelizaeus-merzbacher disease
+1207:familial primary pulmonary hypertension
+1208:lesch-nyhan syndrome
+1209:bone neoplasms
+1210:arthritis, gouty
+1211:moebius syndrome 1
+1212:multiple trauma
+1213:allergic inflammation
+1214:mycobacterium avium-intracellulare infection
+1215:erectile dysfunction, diabetic
+1216:hernias, diaphragmatic, congenital
+1217:dermatomyositis
+1218:shoulder injuries
+1219:neoplasms, second primary
+1220:genetic diseases, inborn
+1221:familial mediterranean fever
+1222:adenocarcinoma, sebaceous, eyelid
+1223:arrhythmogenic right ventricular dysplasia
+1224:cervical squamous cell carcinoma
+1225:familial primary gastric lymphoma
+1226:encephalocraniocutaneous lipomatosis
+1227:renal interstitial fibrosis
+1228:lichen planus, oral
+1229:cholesteatoma
+1230:urothelial   carcinoma
+1231:myocardial dysfunction
+1232:hypoadrenocorticism, familial
+1233:intestinal-type sinonasal adenocarcinoma
+1234:foot ulcer
+1235:thiamine deficiency
+1236:respiratory insufficiency
+1237:obesity, maternal
+1238:penile neoplasms
+1239:sialorrhea
+1240:ameloblastoma
+1241:urinary incontinence, stress
+1242:osteochondrodysplasias
+1243:arteriosclerosis obliterans
+1244:double outlet right ventricle
+1245:goiter
+1246:hyperlipoproteinemia type iii
+1247:glomus tumor
+1248:vitelliform macular dystrophy
+1249:distal arthrogryposis type 2b
+1250:erythema
+1251:hyperpigmentation
+1252:megalencephalic leukoencephalopathy with subcortical cysts
+1253:keratosis follicularis spinulosa decalvans, x-linked
+1254:popliteal artery aneurysm
+1255:follicular atresia
+1256:short syndrome
+1257:lymphopenia
+1258:congenital hypothyroidism
+1259:chronic rhinosinusitis with nasal  polyps
+1260:endometrial serous adenocarcinoma
+1261:tricuspid valve insufficiency
+1262:cardiomyopathy, right ventricular dilated
+1263:large artery  atherosclerosis
+1264:nance-horan syndrome
+1265:neonatal encephalopathy
+1266:osteoporotic fractures
+1267:hyperostosis
+1268:beta-thalassemia
+1269:vulva squamous cell carcinoma
+1270:hyperparathyroidism, primary
+1271:burkitt lymphoma
+1272:weil disease
+1273:polycystic liver disease
+1274:transposition of great vessels
+1275:heart septal defects, ventricular
+1276:leukemia, myeloid, chronic-phase
+1277:post-dural puncture headache
+1278:succinic semialdehyde dehydrogenase deficiency
+1279:acromegaly
+1280:infantile convulsions and paroxysmal choreoathetosis, familial
+1281:lissencephaly
+1282:paraganglioma
+1283:carcinoma, basal cell, skin
+1284:cardiac complexes, premature
+1285:noonan syndrome-like disorder with loose anagen hair
+1286:hypersensitivity
+1287:diabetic keratopathy
+1288:hind limb ischemia
+1289:parathyroid neoplasms
+1290:esophageal fibrosis
+1291:avitaminosis
+1292:drug resistant epilepsy
+1293:rhabdoid tumor, kidney
+1294:urethritis
+1295:hypertriglyceridemia
+1296:metabolic syndrome
+1297:pregnancy complications, infectious
+1298:bronchopneumonia
+1299:light fixation seizure syndrome
+1300:neurologic manifestations
+1301:out-of-hospital cardiac arrest
+1302:seizures, febrile
+1303:airway obstruction
+1304:cerebral intraventricular hemorrhage
+1305:rhabdomyosarcoma 1
+1306:polydactyly
+1307:lymphoma, t-cell, peripheral
+1308:blood group incompatibility
+1309:carcinoma, brown-pearce
+1310:drug-related side effects and adverse reactions
+1311:meningitis, bacterial
+1312:sexually transmitted diseases
+1313:hyperleptinemia
+1314:kidney transplant rejection
+1315:prostate carcinoma
+1316:gastroparesis, diabetic
+1317:ataxia with vitamin e deficiency
+1318:spherocytosis, type 1
+1319:disease
+1320:hiv-associated lipodystrophy syndrome
+1321:multiple system atrophy
+1322:transmissible gastroenteritis
+1323:cystitis, interstitial
+1324:lung diseases, interstitial
+1325:peho syndrome
+1326:acute lymphocytic leukemia, b-cell
+1327:cartilage degradation
+1328:fabry   nephropathy
+1329:pneumoconiosis
+1330:osteitis
+1331:substance-related disorders
+1332:hereditary autoinflammatory diseases
+1333:thinness
+1334:hernia
+1335:leishmaniasis, visceral
+1336:syphilis, secondary
+1337:rheumatic fever
+1338:congenital nongoitrous hypothyroidism 4
+1339:acute heart failure
+1340:hypertensive  disorder complicating pregnancy
+1341:emergence delirium
+1342:splenic neoplasms
+1343:pneumonia, staphylococcal
+1344:cerebral hemorrhage, traumatic
+1345:hepatic veno-occlusive disease
+1346:liposarcoma
+1347:obesity, osteosarcopenic
+1348:elephantiasis
+1349:xerostomia
+1350:rolandic epilepsy, mental retardation, and speech dyspraxia, x-linked
+1351:lymphoma, b-cell, diffuse
+1352:eosinophilic enteropathy
+1353:holoprosencephaly 7
+1354:gata2 deficiency
+1355:ischemic and   traumatic injuries
+1356:spinal cord glioma
+1357:adenomatous polyposis coli
+1358:lung abscess
+1359:rotavirus infections
+1360:thromboangiitis obliterans
+1361:hypocalciuric hypercalcemia, familial, type 1
+1362:enterovirus a infection
+1363:peripartum cardiomyopathy
+1364:orofacial cleft
+1365:ovarian insufficiency, premature
+1366:takotsubo cardiomyopathy
+1367:immune-mediated inflammatory diseases
+1368:brain ischemia, acute
+1369:reperfusion injury, testicular ischemia
+1370:meniere disease
+1371:hearing loss, noise-induced
+1372:heart   transplant rejection
+1373:asthma, allergic, seasonal
+1374:porphyria, variegate
+1375:hemochromatosis
+1376:anorexia nervosa
+1377:giant cell arteritis
+1378:central nervous system neoplasms
+1379:retinitis
+1380:sick sinus syndrome
+1381:nonsyndromic sensorineural hearing loss
+1382:hearing loss
+1383:lymphohistiocytosis, hemophagocytic
+1384:leukemia-lymphoma, adult t-cell
+1385:respirovirus infections
+1386:intracranial arteriosclerosis
+1387:testicular damage
+1388:endometrial fibrosis
+1389:ischaemic heart disease
+1390:solitary pulmonary nodule
+1391:stomatitis
+1392:vitamin d deficiency
+1393:prostatitis
+1394:glaucoma, open-angle
+1395:asthma-chronic obstructive pulmonary disease overlap syndrome
+1396:hirschsprung-associated enterocolitis
+1397:mouth diseases
+1398:adenocarcinoma, follicular
+1399:thymic epithelial tumor
+1400:pulmonary embolism, acute
+1401:tracheal stenosis
+1402:lymphoma, large-cell, anaplastic
+1403:extra-hepatic portal venous  obstruction 
+1404:leukemia, myelomonocytic, acute
+1405:cervical adenocarcinoma
+1406:thyroid gland hurthle cell carcinoma
+1407:finnish lethal neonatal metabolic syndrome
+1408:peripheral nervous system diseases
+1409:maternal death
+1410:esophageal diseases
+1411:stomach diseases
+1412:end stage liver disease
+1413:pancreatic intraductal neoplasms
+1414:ocular hypertension
+1415:adenocarcinoma
+1416:chromosome aberrations
+1417:low back pain
+1418:homozygous familial hypercholesterolemia
+1419:chorioamnionitis
+1420:cardiac complexes
+1421:tinnitus
+1422:cholecystolithiasis
+1423:charcot-marie-tooth disease
+1424:echinococcosis
+1425:exanthema
+1426:eunuchism
+1427:panniculitis, peritoneal
+1428:dyssegmental dysplasia, rolland-desbuquois type
+1429:staphylococcal infections
+1430:brain damage, chronic
+1431:urinary bladder diseases
+1432:asphyxia
+1433:digeorge syndrome
+1434:ischemic stroke, cerebral
+1435:renal tubule ischemia
+1436:acidosis
+1437:thyroid cancer, medullary
+1438:addison disease
+1439:vector borne diseases
+1440:milk hypersensitivity
+1441:mastitis, bovine
+1442:mitochondrial dna depletion syndrome 4b
+1443:thymoma
+1444:vertebral fusion posterior lumbosacral blepharoptosis
+1445:spinal injuries
+1446:exocrine pancreatic insufficiency
+1447:inflammatory breast neoplasms
+1448:isolated cleft palate
+1449:axenfeld-rieger syndrome
+1450:hyperlipoproteinemia type ii
+1451:murine acquired immunodeficiency syndrome
+1452:bladder carcinoma
+1453:cholecystitis
+1454:choledocholithiasis
+1455:antiphospholipid syndrome
+1456:neoplasms, mesothelial
+1457:leukemia, megakaryoblastic, acute
+1458:grave disease
+1459:cardiomyopathy, alcoholic
+1460:sarcoma, synovial
+1461:neuralgia, postherpetic
+1462:leigh disease
+1463:digestive system neoplasms
+1464:erythema multiforme
+1465:prolactinoma
+1466:neoplasms, germ cell, malignant
+1467:carcinoma, adenoid cystic
+1468:dermatitis herpetiformis
+1469:fetal membranes, premature rupture
+1470:mycobacterium infections
+1471:herpes simplex
+1472:gastrointestinal diseases
+1473:hip dislocation, congenital
+1474:liver cirrhosis, alcoholic
+1475:optic atrophy 1 and deafness
+1476:status asthmaticus
+1477:colitis, ulcerative
+1478:synovitis
+1479:hepatic insufficiency
+1480:schopf-schulz-passarge syndrome
+1481:endocrine system diseases
+1482:tooth diseases
+1483:hereditary lymphedema ia
+1484:mucinous cystadenocarcinoma of pancreas
+1485:temporomandibular joint disorders
+1486:cholelithiasis
+1487:neoplasms, plasma cell
+1488:intellectual disability
+1489:arteriosclerosis
+1490:aspergillosis, allergic bronchopulmonary
+1491:differentiated thyroid gland carcinoma
+1492:tongue squamous cell carcinoma
+1493:coronary restenosis
+1494:femoral neck fractures
+1495:kahrizi syndrome
+1496:trichosporonosis
+1497: equine hepacivirus infections
+1498:anemia
+1499:anemia, iron-deficiency
+1500:hemorrhoids
+1501:parkinson disease, familial, type 1
+1502:diminished  ovarian reserve
+1503:severe dengue
+1504:oophoritis
+1505:spinal fractures
+1506:gastritis, hypertrophic
+1507:hypotension
+1508:hypothyroidism
+1509:alcoholic neuropathy
+1510:non-alcoholic fatty liver
+1511:angina, unstable
+1512:alcohol induced neurogenic inflammation
+1513:acute disease
+1514:fibrosis, pancreas
+1515:hypomelanosis of ito
+1516:gastrinoma
+1517:calcification of joints and arteries
+1518:submandibular gland diseases
+1519:immunologic deficiency syndromes
+1520:osteolysis, essential
+1521:susac syndrome
+1522:carcinoma, merkel cell
+1523:peri-implantitis
+1524:suppuration
+1525:smith-mccort dysplasia
+1526:smooth muscle tumor
+1527:non-st elevated myocardial infarction
+1528:hepacivirus
+1529:spondylarthropathies
+1530:ovarian carcinoma
+1531:neurofibromatosis 1
+1532:congenital contractural arachnodactyly
+1533:autoimmune polyendocrinopathy syndrome, type 1
+1534:pancreatitis, acute necrotizing
+1535:intracranial arterial diseases
+1536:aortic atherosclerosis
+1537:buschke-ollendorff syndrome
+1538:hypotrichosis 8
+1539:tauopathies
+1540:breast neoplasms, basal cell
+1541:sleep apnea syndromes
+1542:stenosis, pulmonary artery
+1543:clear-cell metastatic renal cell carcinoma
+1544:persistent neck-pain disability
+1545:metabolic  syndrome
+1546:wound infection
+1547:nijmegen breakage syndrome
+1548:chromosome duplication
+1549:chronic recurrent multifocal osteomyelitis
+1550:exostoses
+1551:pulmonary eosinophilia
+1552:carcinoma, basal cell
+1553:torsion dystonia 1
+1554:cestode infections
+1555:nervous system neoplasms
+1556:fragile x-associated tremor/ataxia syndrome
+1557:rickettsia infections
+1558:univentricular heart
+1559:dysautonomia, familial
+1560:edwardsiella tarda
+1561:arnold-chiari malformation
+1562:multicystic renal dysplasia, bilateral
+1563:folic acid deficiency
+1564:carcinoma, squamous cell, skin
+1565:hepatitis a
+1566:neuroleptic malignant syndrome
+1567:hallux valgus
+1568:adenoma, pleomorphic
+1569:muscular dystrophies, limb-girdle
+1570:gastric cardia adenocarcinoma
+1571:actinic cheilitis
+1572:lip, hamartomatous
+1573:carcinoma in situ
+1574:mycobacterium infections, nontuberculous
+1575:mixed connective tissue disease
+1576:aneurysm
+1577:retinal dystrophies
+1578:intracranial thrombosis
+1579:mastocytosis, cutaneous
+1580:teratocarcinoma, ovarian
+1581:alveolar echinococcosis
+1582:leukemia, myelomonocytic, chronic
+1583:fragile x syndrome
+1584:lung carcinoid
+1585:trachoma
+1586:reinjuries
+1587:hyperparathyroidism, neonatal severe primary
+1588:nonfunctioning pituitary neuroendocrine tumor
+1589:ovarian neoplasms, serous
+1590:neonatal-onset type ii citrullinemia
+1591:chemical and drug induced liver injury, chronic
+1592:peritoneal neoplasms
+1593:invasive aspergillosis
+1594:reperfusion injury, pulmonary ischemia
+1595:leukemia, acute
+1596:perinatal asphyxia
+1597:colonic polyps
+1598:pigmentation disorders
+1599:neurofibroma, plexiform
+1600:common variable immunodeficiency 2@en
+1601:scholte syndrome
+1602:cumulative trauma disorders
+1603:cryptococcosis
+1604:soft tissue injuries
+1605:tachycardia, ventricular
+1606:lymphoma, extranodal nk-t-cell
+1607:spondylocheirodysplasia, ehlers-danlos syndrome-like
+1608:eye infections, fungal
+1609:spherocytosis, hereditary
+1610:reflex sympathetic dystrophy
+1611:tibial meniscus injuries
+1612:myotonic dystrophy type 1
+1613:peripheral vascular diseases
+1614:aspermia
+1615:noma
+1616:thrombocythemia, essential
+1617:foot-and-mouth disease
+1618:diarrhea 5, with tufting enteropathy, congenital
+1619:hyperekplexia 1
+1620:retinitis pigmentosa
+1621:oral ulcer
+1622:marek disease
+1623:amnesia
+1624:peripheral blood leukocytes
+1625:prehypertension
+1626:sarcoidosis, pulmonary
+1627:ganglion cysts
+1628:blind loop syndrome
+1629:non-segmental vitiligo
+1630:pleuropulmonary blastoma
+1631:erdheim-chester disease
+1632:helicobacter pylori
+1633:mastocytoma, skin
+1634:wolfram syndrome
+1635:nonseminomatous germ cell tumor
+1636:aspergillosis
+1637:neuromyelitis optica
+1638:cervical rib syndrome
+1639:cardiovascular complications
+1640:community-acquired pneumonia
+1641:vesicular stomatitis
+1642:sexually transmitted diseases, viral
+1643:hepatitis, non-alcoholic
+1644:familial multiple coagulation factor deficiency i
+1645:rheumatic heart disease
+1646:fever
+1647:n acetyltransferase deficiency
+1648:edema
+1649:neutropenia
+1650:stillbirth
+1651:cytokine release syndrome
+1652:stevens-johnson syndrome
+1653:stomach carcinoma
+1654:sertoli cell-only syndrome
+1655:vertigo
+1656:malaria, falciparum
+1657:nephrotic syndrome type 2
+1658:x-linked combined immunodeficiency diseases
+1659:respiration disorders
+1660:infectious pancreatic necrosis virus
+1661:glucose intolerance
+1662:obstructive nephropathy
+1663:non-syndromic tooth agenesis
+1664:diabetic retinopathy 
+1665:endophthalmitis
+1666:propofol infusion syndrome
+1667:meningitis, fungal
+1668:brain death
+1669:neoplasms, glandular and epithelial
+1670:hyperoxia
+1671:pneumonia, aspiration
+1672:marfan syndrome
+1673:blood platelet disorders
+1674:obsessive-compulsive disorder
+1675:enterocolitis
+1676:budd-chiari syndrome
+1677:respiratory paralysis
+1678:dermatitis, allergic contact
+1679:ankle fractures
+1680:aagenaes syndrome
+1681:papilloma, choroid plexus
+1682:crouzon syndrome-acanthosis nigricans syndrome
+1683:autoimmune diseases of the nervous system
+1684:netherton syndrome
+1685:parkinsonian disorders
+1686:urologic diseases
+1687:darier disease
+1688:swine diseases
+1689:orofaciodigital syndromes
+1690:dermatitis
+1691:cerebellar diseases
+1692:oculodentodigital dysplasia
+1693:ophthalmoplegia, chronic progressive external
+1694:acute aortic   dissection
+1695:encephalomyelitis, acute disseminated
+1696:uveitis
+1697:subaneurysmal   aortic dilation
+1698:hyphema
+1699:esophageal atresia
+1700:prosthesis failure
+1701:neuronal ceroid-lipofuscinoses
+1702:ossification, heterotopic
+1703:carcinoma, lewis lung
+1704:follicle-stimulating hormone deficiency, isolated
+1705:birth weight
+1706:spinal cord compression
+1707:phenylketonurias
+1708:skin ulcer
+1709:plasmablastic lymphoma
+1710:wiskott-aldrich syndrome
+1711:peritoneal hyalinizing vasculopathy
+1712:cystitis
+1713:calcinosis
+1714:ventricular dysfunction, left
+1715:hereditary angioedema types i and ii
+1716:hemorrhagic fever with renal syndrome
+1717:phyllodes tumor, breast
+1718:stomach ulcer
+1719:malformations of cortical development
+1720:creutzfeldt-jakob disease, sporadic
+1721:cardiomyopathy dilated with woolly hair and keratoderma
+1722:immunoglobulin g4-related disease
+1723:intracranial arteriovenous malformations
+1724:tissue adhesions
+1725:respiratory tract neoplasms
+1726:heroin dependence
+1727:mcdonough syndrome
+1728:adenoma, islet cell
+1729:trypanosomiasis, african
+1730:carcinoma, squamous cell, epidermal
+1731:hereditary pancreatitis
+1732:corneal diseases
+1733:glomerulonephritis, membranoproliferative
+1734:prion diseases
+1735:refractive errors
+1736:aids-associated nephropathy
+1737:bowen-conradi syndrome
+1738:fibromatosis, aggressive
+1739:amyloidosis, hereditary, transthyretin-related
+1740:cocaine-related disorders
+1741:carcinogenesis
+1742:muscular disorders, atrophic
+1743:neointima
+1744:learning disabilities
+1745:polycystic kidney disease 3
+1746:maxillary sinusitis
+1747:neuropathic lysosomal storage diseases
+1748:optic nerve diseases
+1749:cataract 32 multiple types
+1750:atypical squamous cells of the cervix
+1751:facial nerve injuries
+1752:pneumonia, bacterial
+1753:exudative vitreoretinopathy 4
+1754:acth syndrome, ectopic
+1755:renal allograft dysfunction
+1756:tooth, supernumerary
+1757:folliculotropic mycosis fungoides
+1758:cardiac allograft vasculopathy
+1759:acth-secreting pituitary adenoma
+1760:meier-gorlin syndrome
+1761:tembusu virus
+1762:congenital fibrosarcoma
+1763:encephalitis
+1764:trophoblastic neoplasms
+1765:colon carcinoma
+1766:uric acid nephrolithiasis
+1767:hemangioma, cavernous, central nervous system
+1768:tooth, impacted
+1769:cerebral palsy
+1770:ullrich congenital muscular dystrophy
+1771:miliaria
+1772:chronic renal  injury
+1773:periprosthetic osteolysis 
+1774:gingival overgrowth
+1775:gluteal muscle   contracture
+1776:electrocardiography, ambulatory
+1777:renal insufficiency
+1778:carotid artery injuries
+1779:lactate dehydrogenase deficiency
+1780:viral respiratory infections
+1781:weight loss
+1782:rectal diseases
+1783:aniridia
+1784:body weight
+1785:hypospadias
+1786:child development disorders, pervasive
+1787:olfaction disorders
+1788:pemphigoid, bullous
+1789:vessel restenosis
+1790:nevi and melanomas
+1791:conjunctival diseases
+1792:lymphoma, nk-t-cell
+1793:angina pectoris, variant
+1794:gynecological cancer
+1795:lipedema
+1796:salpingitis
+1797:immunosuppression therapy
+1798:atrial myosins
+1799:spinal dysraphism
+1800:vascular endothelial damage
+1801:diabetes mellitus, experimental
+1802:ape diseases
+1803:dihydropyrimidine dehydrogenase deficiency
+1804:polyneuropathies
+1805:prader-willi syndrome
+1806:stanford type a aortic   dissection
+1807:corneal dystrophy, juvenile epithelial of meesmann
+1808:acute coronary syndrome, non-st  elevation
+1809:fibrosis, vascular
+1810:intracranial  aneurysm
+1811:aristolochic acid induced nephropathy
+1812:heart failure, systolic
+1813:vision, low
+1814:nociceptive pain
+1815:neoplasms
+1816:lung hypoplasia
+1817:diabetic wound
+1818:gerodermia osteodysplastica
+1819:crisponi syndrome
+1820:urogenital neoplasms
+1821:ileal neoplasms
+1822:pancreatic neuroendocrine tumor
+1823:shprintzen golberg craniosynostosis
+1824:maturity-onset diabetes of the young type 3
+1825:cardio-renal syndrome
+1826:birt-hogg-dube syndrome
+1827:hypoglycemia, leucine-induced
+1828:cystoid macular edema, diabetic
+1829:staphylococcal scalded skin syndrome
+1830:periapical diseases
+1831:signs and symptoms
+1832:lysosomal storage diseases
+1833:polymyositis
+1834:encephalomyelitis, enzootic porcine
+1835:autoimmune pancreatitis
+1836:scleroderma, diffuse
+1837:spinal cord diseases
+1838:thrombophlebitis
+1839:brain infarction
+1840:gallbladder diseases
+1841:reticuloendotheliosis virus infections
+1842:encephalitis, tick-borne
+1843:heart failure, diastolic
+1844:rippling muscle disease 1
+1845:myeloproliferative disorder, chronic, with eosinophilia
+1846:anemia, neonatal
+1847:hepatitis, chronic
+1848:arteriovenous malformations
+1849:ear diseases
+1850:recurrence
+1851:monoclonal gammopathy of undetermined significance
+1852:neurilemmoma
+1853:hemangiosarcoma
+1854:pulmonary emphysema
+1855:brain   ventricle enlargement
+1856:hyper ige recurrent infection syndrome 2
+1857:heroin use disorder
+1858:microphthalmos
+1859:squamous intraepithelial lesions, cervical
+1860:muscle weakness
+1861:laryngeal papillomas
+1862:leishmaniasis, diffuse cutaneous
+1863:enteropathy-associated t-cell lymphoma
+1864:microvascular rarefaction
+1865:pyoderma gangrenosum
+1866:choroidal melanoma
+1867:dental caries
+1868:vaginosis, bacterial
+1869:peritoneal diseases
+1870:toxoplasmosis, ocular
+1871:toxoplasmosis, cerebral
+1872:eye diseases
+1873:barrett esophagus
+1874:nager acrofacial dysostosis
+1875:transient infantile liver failure
+1876:infant, newborn, diseases
+1877:chondrosarcoma, extraskeletal myxoid
+1878:cap myopathy
+1879:renal artery obstruction
+1880:wasting disease, chronic
+1881:trophoblastic tumor, placental site
+1882:vitreous hemorrhage
+1883:prekallikrein deficiency
+1884:hematoma, subdural, chronic
+1885:thalassemia
+1886:pseudomonas infections
+1887:cervical   spondylomyelopathy
+1888:pica
+1889:anemia, sideroblastic spinocerebellar ataxia
+1890:gaucher disease
+1891:intraoperative awareness
+1892:digitorenocerebral syndrome
+1893:central nervous system, non-infectious
+1894:dysentery, bacillary
+1895:myeloma bone disease
+1896:ependymoma
+1897:apparent mineralocorticoid excess
+1898:psychotic disorders
+1899:congenital myopathy 1a
+1900:potocki-shaffer syndrome
+1901:hpv-induced warts
+1902:sunburn
+1903:gallbladder carcinoma
+1904:pediatric enteritis
+1905:lung non-small cell carcinoma
+1906:epilepsy, generalized
+1907:familial erythrocytosis 2
+1908:leiomyosarcoma, uterine
+1909:rectum adenocarcinoma
+1910:nephrocalcinosis
+1911:social isolation, post stroke
+1912:maxillary sinus neoplasms
+1913:acute lung injury, hyperoxic
+1914:cerebral cortical thinning
+1915:hypoxia, brain
+1916:respiratory sounds
+1917:iridocorneal endothelial syndrome
+1918:conotruncal cardiac defects
+1919:ehlers-danlos syndrome
+1920:holt-oram syndrome
+1921:pulmonary veno-occlusive disease
+1922:coxsackievirus infections
+1923:varicella zoster virus infection
+1924:hepatopulmonary syndrome
+1925:autoimmune uveitis
+1926:multiple pulmonary nodules
+1927:maternal   cholestasis
+1928:hereditary sensory neuropathy type 4
+1929:kidney cortex necrosis
+1930:purpura
+1931:hyperinsulinism
+1932:hyperkalemia
+1933:hemoglobinopathies
+1934:vision disorders
+1935:genital neoplasms, female
+1936:subarachnoid hemorrhage 
+1937:hearing loss, sudden
+1938:gonadotoxicity
+1939:hunner-type interstitial cystitis
+1940:tuberculosis, meningeal
+1941:cystadenocarcinoma, serous
+1942:familial encephalopathy with neuroserpin inclusion bodies
+1943:embolic stroke
+1944:atrial dilatation
+1945:cholestatic liver injury
+1946:jequier kozlowski skeletal dysplasia
+1947:arsenic poisoning
+1948:vulvar neoplasms
+1949:choroid diseases
+1950:femoral fractures
+1951:cerebral hemorrhage, spontaneous
+1952:echinococcosis, hepatic
+1953:ossification of the posterior longitudinal ligament of the spine
+1954:intermittent claudication
+1955:urinary calculi
+1956:hyperoxaluria
+1957:epidural abscess
+1958:white coat hypertension
+1959:lymphatic diseases
+1960:brucellosis, bovine
+1961:scapuloperoneal myopathy, x-linked dominant
+1962:dysentery
+1963:peritonsillar abscess
+1964:leukemia, large granular lymphocytic
+1965:combined saposin deficiency
+1966:atopic asthma
+1967:hyperplasia
+1968:hoyeraal hreidarsson syndrome
+1969:inflammation, post stroke
+1970:nondisjunction, genetic
+1971:lumbar radicular pain
+1972:welander distal myopathy, swedish type
+1973:cerebral hemorrhage, age-related
+1974:somatotroph   adenomas
+1975:disease progression
+1976:encephalocele
+1977:altitude sickness
+1978:deglutition disorders
+1979:small-bowel  neuroendocrine tumor
+1980:arene oxide detoxification defect
+1981:chondrocalcinosis
+1982:adrenocortical adenoma
+1983:opioid-related disorders
+1984:radiation-induced oral mucositis
+1985:chronic inflammation
+1986:ventricular dysfunction
+1987:long term adverse effects
+1988:sialic acid storage disease
+1989:synucleinopathies
+1990:venous neointimal hyperplasia
+1991:visceral pain
+1992:bone regeneration
+1993:laryngopharyngeal neoplasms
+1994:delayed graft function
+1995:autolysis
+1996:keratitis
+1997:erythroblastosis, fetal
+1998:early embryonic arrestdagger
+1999:pruritus
+2000:relative energy deficiency in sport
+2001:digestive system diseases
+2002:neurosarcoidosis
+2003:fatigue syndrome, chronic
+2004:microphthalmia, syndromic 2
+2005:dna repair-deficiency disorders
+2006:carcinoma, intraductal, noninfiltrating
+2007:palatal neoplasms
+2008:ear neoplasms
+2009:granulosa cell tumor
+2010:human t-cell leukemia virus type 1 infections
+2011:epilepsy, rolandic
+2012:muscular dystrophy, oculopharyngeal
+2013:carcinosarcoma
+2014:lyme disease
+2015:hyperandrogenism
+2016:leukoencephalopathy, progressive multifocal
+2017:lymphoma, aids-related
+2018:sleep initiation and maintenance disorders
+2019:urinary bladder, overactive
+2020:severe fever with thrombocytopenia syndrome
+2021:glucose-galactose malabsorption
+2022:hyperphagia
+2023:epilepsy, post-traumatic
+2024:typical teratoid rhabdoid tumor
+2025:iga vasculitis
+2026:classical swine fever
+2027:osteoblastoma
+2028:vitamin b deficiency
+2029:labyrinth diseases
+2030:turcot syndrome
+2031:hereditary fructose intolerance syndrome
+2032:white dot syndromes
+2033:cholera
+2034:asymptomatic infections
+2035:peptic ulcer
+2036:dentin dysplasia
+2037:tricho-dento-osseous syndrome
+2038:sleep deprivation
+2039:macrophage activation syndrome
+2040:papilloma, inverted
+2041:visceral hypersensitivity
+2042:prethrombotic state
+2043:panic disorder
+2044:pneumonia, ventilator-associated
+2045:spindle cell oncocytomas
+2046:adenoviridae infections
+2047:tuberculosis, spinal
+2048:autoimmune enteropathy
+2049:neurosyphilis
+2050:viral myocarditis
+2051:infant nutrition disorders
+2052:cardiomyopathy, dilated, with left ventricular noncompaction
+2053:hydatidiform mole
+2054:niemann-pick disease type c1
+2055:cleft lip
+2056:arthritis, gouty, chronic
+2057:ileus, post-operative
+2058:hyperoxaluria, primary
+2059:pleural diseases
+2060:poorly differentiated thyroid gland carcinoma
+2061:nephrotic syndrome type 1
+2062:agammaglobulinemia
+2063:recessive dystrophic epidermolysis bullosa
+2064:leukemia, myeloid, chronic, atypical, bcr-abl negative
+2065:pulmonary edema
+2066:chronic urticaria
+2067:hyperparathyroidism 2
+2068:dilated cardiomyopathy 
+2069:d-bifunctional protein deficiency
+2070:bone marrow diseases
+2071:humeral fractures
+2072:spastic paraplegia, hereditary
+2073:fibrolamellar hepatocellular carcinoma
+2074:kidney diseases, cystic
+2075:mptp poisoning
+2076:gastric intestinal   metaplasia
+2077:coronary aneurysm
+2078:arterial occlusive diseases
+2079:cleft lip
+2080:blast crisis
+2081:still's disease, adult-onset
+2082:spasm
+2083:osteosarcoma, juxtacortical
+2084:interstitial fibrosis, renal
+2085:stress disorders, traumatic
+2086:vitamin a deficiency
+2087:chromosome 5q deletion syndrome
+2088:laminopathies
+2089:congenital heart block
+2090:thrombotic stroke
+2091:gastric antral vascular ectasia
+2092:wallerian degeneration
+2093:malaria, cerebral
+2094:neoplasms, squamous cell
+2095:rhabdomyosarcoma, alveolar
+2096:bronchiectasis with or without elevated sweat chloride 1
+2097:bisphosphonate-associated osteonecrosis of the jaw
+2098:focal infection
+2099:vaginal diseases
+2100:arthrogryposis, renal dysfunction, and cholestasis 1
+2101:cervial cancer
+2102:rh deficiency syndrome
+2103:poisoning
+2104:social communication disorder
+2105:facial nerve diseases
+2106:autosomal recessive osteopetrosis 7
+2107:papillary thyroid microcarcinoma
+2108:chronic limb-threatening ischemia
+2109:central nervous system bacterial infections
+2110:peste-des-petits-ruminants
+2111:condylar hyperplasia
+2112:brain stem neoplasms
+2113:x-linked spermatogenic failure 1
+2114:roberts syndrome
+2115:tenon fibroblasts
+2116:sinus thrombosis, intracranial
+2117:camptocormia
+2118:rupture
+2119:spinal curvatures
+2120:endodermal sinus tumor
+2121:mesangial sclerosis, diffuse
+2122:neoplasms by histologic type
+2123:leukemia, myeloid, accelerated phase
+2124:paget disease, extramammary
+2125:placental insufficiency
+2126:varicose ulcer
+2127:aids dementia complex
+2128:rhabdoviridae
+2129:coproporphyria, hereditary
+2130:neoplasms, hormone-dependent
+2131:gingivitis
+2132:schistosomiasis japonica
+2133:thyroiditis, subacute
+2134:leukemia, biphenotypic, acute
+2135:neoplasms, fibrous tissue
+2136:gigantomastia
+2137:leukemia, lymphoblastic, acute
+2138:adenomas
+2139:carcinoma, adrenocortical
+2140:breast cancer
+2141:lymphoma, burkitt
+2142:cancer
+2143:chronic lymphocytic leukemia
+2144:colorectal cancer
+2145:epithelial ovarian cancer
+2146:gastric cancer
+2147:gastrointestinal cancer
+2148:glioblastoma multiforme
+2149:head and neck cancer
+2150:hematological disease
+2151:hepatocellular carcinoma
+2152:lymphoma, hodgkin
+2153:laryngeal cancer
+2154:leukemia, myeloid, chronic
+2155:leukemia/lymphoma, chronic b-cell
+2156:lung cancer
+2157:malignant melanoma
+2158:melanoma and neural system tumor syndrome
+2159:muscular disorder
+2160:myoma
+2161:myopathy, nemaline, 3
+2162:non-small cell lung cancer
+2163:squamous cell carcinoma, oral
+2164:ovarian cancer
+2165:pancreatic cancer
+2166:pituitary adenomas
+2167:prostate cancer
+2168:sarcoma [unspecific]
+2169:squamous cell carcinoma, skin or unspecific
+2170:squamous cell carcinoma, head and neck
+2171:systemic lupus erythematosus
+2172:leukemia, chronic lymphatic
+2173:leukemia, acute myelogenous
+2174:cardiac hypertrophy
+2175:cardiovascular diseases [unspecific]
+2176:cervical cancer
+2177:cervical cancer, somatic
+2178:limb-girdle muscular dystrophies types 2a
+2179:miyoshi myopathy
+2180:muscular dystrophy, limb-girdle, type 2a
+2181:nemaline myopathy
+2182:neurodegeneration
+2183:carcinoma, thyroid, papillary
+2184:primary biliary cirrhosis
+2185:serous ovarian cancer
+2186:esophageal cancer
+2187:immunological disease
+2188:muscular dystrophy, limb-girdle, type 2b
+2189:fatty liver, non-alcoholic
+2190:non-hodgkin lymphoma, somatic
+2191:supravalvar aortic stenosis
+2192:uterine leiomyoma
+2193:leukemia, megakaryoblastic, with or without down syndrome
+2194:kidney cancer
+2195:autism
+2196:bladder cancer
+2197:pituitary adenoma, growth hormone-secreting
+2198:pituitary adenoma, prolactin-secreting
+2199:polycystic kidney disease
+2200:rheumatoid arthritis
+2201:atopic dermatitis
+2202:leukemia, b-cell
+2203:melanoma, cutaneous malignant, 2
+2204:myelofibrosis, idiopathic
+2205:thrombocytopenic purpurea, autoimmune
+2206:carcinoma, thyroid, anaplastic
+2207:adenocarcinoma, pancreatic ductal
+2208:cowden syndrome
+2209:malignant lymphoma
+2210:leukemia, t-cell
+2211:cardiomyopathy, idiopathic dilated
+2212:pulmonary hypertension
+2213:carcinoma, thyroid, follicular
+2214:inclusion body myositis
+2215:mouth cancer
+2216:squamous cell carcinoma, tongue
+2217:vascular disease [unspecific]
+2218:intrahepatic cholangiocarcinoma
+2219:gastroesphageal reflux
+2220:glomerulosclerosis
+2221:cerebellar neurodegeneration
+2222:homozygous sickle cell disease
+2223:neurological disease
+2224:glomerular disease
+2225:pfv-1 infection
+2226:chronic pancreatitis
+2227:carcinoma, nasopharyngeal
+2228:squamous cell carcinoma, esophageal
+2229:lymphoma, follicular
+2230:chronic hepatitis
+2231:carcinoma, thyroid, medullary
+2232:congenital heart diseases
+2233:hepatic adenoma
+2234:malignant mesothelioma
+2235:skin disease [unspecific]
+2236:becker muscular dystrophy
+2237:thyroid cancer
+2238:essential thrombocythemia
+2239:neutrophilia
+2240:recurrent ovarian cancer
+2241:pigmented adrenocortical disease, primary isolated
+2242:spinocerebellar ataxia 1
+2243:waldenstrom macroglobulinemia
+2244:endometrial cancer
+2245:germ cell tumor
+2246:creutzfeldt-jakob disease
+2247:diarrhea predominant irritable bowel syndrome
+2248:myc-rearranged lymphoma
+2249:hcv infection
+2250:teratocarcinoma
+2251:colon neoplasms
+2252:colorectal carcinoma
+2253:neoplasms [unspecific]
+2254:leukemia, lymphoblastic
+2255:neurodegenerative diseases [unspecific]
+2256:lupus vulgaris
+2257:leukemia-lymphoma, precursor b-cell lymphoblastic
+2258:glomerulonephritis
+2259:human immunodeficiency virus infection
+2260:leukemia-lymphoma, precursor t-cell lymphoblastic
+2261:carcinoma, lung, non-small-cell
+2262:preeclampsia
+2263:urinary bladder cancer
+2264:ectopic pregnancy
+2265:prostate neoplasms
+2266:hepatitis c virus infection
+2267:gastric neoplasms
+2268:methylmalonic acidemia
+2269:sjogren syndrome
+2270:bladder neoplasms
+2271:acute cerebral infarction
+2272:premature ovarian failure
+2273:arrhythmia
+2274:carcinoma, esophageal
+2275:plasmodium vivax infection
+2276:hypoxic-ischemic encephalopathy
+2277:stroke, ischemic
+2278:dengue virus infection
+2279:spondylarthritis
+2280:polycystic ovarian syndrome
+2281:leukemia, myeloid, acute, pediatric
+2282:chronic hepatitis b
+2283:aortic stenosis
+2284:carcinoma, hepatocellular, hbv-related
+2285:allergic rhinitis
+2286:lung fibrosis
+2287:spinal muscular atrophy
+2288:kideny transplant rejection
+2289:acute ischemic stroke
+2290:vascular hypertrophy
+2291:leukemia, lymphoblastic, acute, childhood
+2292:diabetes mellitus, gestational
+2293:spinal stenosis
+2294:traumatic brain injury
+2295:diabetic nephropathy
+2296:ischemic diseases [unspecific]
+2297:hyperactivity disorder
+2298:heart diseases [unspecific]
+2299:behcet disease
+2300:muscle atrophy
+2301:myeloproliferative neoplasms
+2302:myocardial ischemic-reperfusion injury
+2303:carcinoma, rectal
+2304:scleroderma, localized
+2305:hepatitis b virus infection
+2306:acute cerebral ischemia
+2307:leukemia, lymphoblastic, acute, t-cell
+2308:acute kidney failure
+2309:giant cell tumor of bone
+2310:liver diseases [unspecific]
+2311:interstitial lung disease
+2312:chronic kidney disease
+2313:carcinoma, oral
+2314:kidney diseases [unspecific]
+2315:lung disease [unspecific]
+2316:early-stage cervical squamous cell carcinoma
+2317:chronic obstructive pulmonary disease
+2318:machado-joseph disease
+2319:ovary mixed epithelial carcinoma
+2320:graft-versus-host disease
+2321:peripheral vascular disease
+2322:hereditary breast carcinoma
+2323:squamous cell carcinoma, lung
+2324:carcinoma, renal cell, clear-cell
+2325:adenocarcinoma, lung
+2326:hellp syndrome
+2327:mild cognitive impairment
+2328:immune thrombocytopenic purpura
+2329:early-stage non-small-cell lung carcinoma
+2330:early-stage lung carcinoma
+2331:non-neoplastic diseases
+2332:early-stage gastric carcinoma
+2333:early-stage breast carcinoma
+2334:chronic hepatitis c
+2335:influenza
+2336:carcinoma, lung
+2337:squamous cell carcinoma, laryngeal or hypopharyngeal
+2338:muscle diseases [unspecific]
+2339:myeloma
+2340:focal segmental glomerulosclerosis
+2341:macroglobulinemia
+2342:carcinoma, breast
+2343:oral neoplasms
+2344:prediabetes
+2345:carcinoma, urothelial, upper tract
+2346:carcinoma, cervical
+2347:unstable angina
+2348:carcinoma, biliary tract
+2349:allergic asthma
+2350:male infertility
+2351:carcinoma, gallbladder
+2352:carcinoma, colon
+2353:brain disease [unspecific]
+2354:mycobacterium tuberculosis infection
+2355:acute pancreatitis
+2356:coronary atherosclerosis
+2357:intestinal schistosomiasis
+2358:synovial sarcoma
+2359:carcinoma, hepatocellular, hcv-related
+2360:angiosarcoma
+2361:rheumatic heart diseases
+2362:ewing sarcoma
+2363:major depressive disorder
+2364:inherited hemoglobin disease
+2365:carcinoma, ovarian
+2366:idiopathic asthenospermia
+2367:carcinoma, pancreatic
+2368:muscular dystrophy
+2369:carcinoma, gastric
+2370:aplastic anemia
+2371:age-related macular degeneration
+2372:ischemia-reperfusion injury
+2373:mesial temporal lobe epilepsy
+2374:cardiomyopathy
+2375:carcinoma, ovarian, serous
+2376:lofgren syndrome
+2377:kidney injury
+2378:carcinoma, breast, triple negative
+2379:carcinoma, prostate
+2380:carcinoma, lung, small-cell
+2381:carcinoma, bladder
+2382:cutaneous melanoma
+2383:hyperhomocysteinemia
+2384:ischemic heart disease
+2385:acute respiratory distress syndrome
+2386:cervical neoplasms
+2387:transitional cell carcinoma
+2388:crohn colitis
+2389:respiratory syncytial virus pneumonia
+2390:cerebral malaria
+2391:proliferative glomerulonephritis
+2392:uterine cancer
+2393:primary sclerosing cholangitis
+2394:pulmonary sarcoidosis
+2395:recurrent spontaneous abortion
+2396:viral infectious disease
+2397:hepatitis [unspecific]
+2398:kawasaki syndrome
+2399:adenocarcinoma, esophageal
+2400:vascular myelopathy
+2401:aneurysmal subarachnoid hemorrhage
+2402:focal epithelial hyperplasia
+2403:eczema herpeticum
+2404:cerebellum cancer
+2405:wounds and injuries [unspecific]
+2406:cerebral ischemia
+2407:hyperlipidemia
+2408:fatty liver [unspecific]
+2409:idiopathic short stature
+2410:ankylosing spondylitis
+2411:systemic lupus erythematosus, with pericarditis
+2412:pancreatic endocrine carcinoma
+2413:oral lichen planus
+2414:mountain sickness
+2415:hypercholesterolaemia
+2416:autoimmune diseases [unspecific]
+2417:chronic fatigue syndrome
+2418:depression disorder
+2419:migraine
+2420:carcinoma, thyroid
+2421:chronic brucellosis
+2422:peripheral nerve injury
+2423:glycogen storage disease ii
+2424:human papilloma virus infection
+2425:central nervous system embryonal tumor
+2426:pelvic inflammatory disease
+2427:pleural mesothelioma
+2428:toxic epidermal necrolysis
+2429:malignant neoplasms [unspecific]
+2430:autoimmune hepatitis
+2431:heart transplant rejection
+2432:carcinoma, periampullary
+2433:carcinoma, urothelial
+2434:myotonic muscular dystrophy
+2435:lymphoma, large b-cell
+2436:b-cell childhood acute lymphoblastic leukemia
+2437:plasmodium falciparum malaria
+2438:early-stage lung adenocarcinoma
+2439:liver fibrosis
+2440:squamous cell carcinoma
+2441:carcinoma, endometrial
+2442:adenocarcinoma, colon
+2443:chronic inflammatory pain
+2444:helicobacter pylori infection
+2445:soft tissue sarcoma
+2446:colon adenoma
+2447:sarcomatoid mesothelioma
+2448:ovarian serous cystadenocarcinoma
+2449:carcinoma, endometrioid endometrial
+2450:nervous system diseases [unspecific]
+2451:sensorineural hearing loss
+2452:squamous cell carcinoma, cerevial
+2453:habitual abortion
+2454:psychiatric disorders
+2455:non-syndromic orofacial clefts
+2456:alcohol use disorder
+2457:iga nephropathy
+2458:autoimmune thyroiditis
+2459:generalized epilepsy with febrile seizures plus
+2460:adenocarcinoma, gastric
+2461:cardiometabolic disorders
+2462:neuropsychiatric disorders [unspecific]
+2463:carotid atherosclerosis
+2464:tooth agenesis
+2465:pemphigus
+2466:kaposi sarcoma
+2467:neuroinflammation
+2468:lymphedema
+2469:psoriatic arthritis
+2470:charcot-marie-tooth disease type 1a
+2471:progressive supranuclear palsy
+2472:musculoskeletal abnormalities [unspecific]
+2473:idiopathic pulmonary hypertension
+2474:primary immunodeficiency disease
+2475:hypogonadotropic hypogonadism
+2476:chronic heart failure
+2477:immune system disease [unspecific]
+2478:encephalomyelitis
+2479:vascular injuries
+2480:infection [unspecific]
+2481:listeriosis
+2482:alcoholic hepatitis
+2483:rhinosinusitis
+2484:acute erythroid leukemia
+2485:gastrointestinal stromal tumor
+2486:carcinoma, laryngeal
+2487:juvenile rheumatoid arthritis
+2488:cytotoxicity tests, immunologic
+2489:hypertrophic scar
+2490:pituitary adenoma
+2491:neuropathic pain
+2492:congenital diaphragmatic hernia
+2493:adenovirus infection
+2494:carcinoma, skin
+2495:carcinoma, salivary adenoid cystic
+2496:lacrimal adenoid cystic carcinoma
+2497:invasive bladder transitional cell carcinoma
+2498:granular corneal dystrophy
+2499:allergy
+2500:cardiomyopathy, ischemic
+2501:germ cell and embryonal neoplasms
+2502:lipid metabolism disorder
+2503:intracerebral hemorrhage
+2504:severe acute respiratory syndrome virus infection
+2505:chlamydial infection
+2506:toxoplasma gondii infection
+2507:acute megakaryoblastic leukemia
+2508:cocaine abuse
+2509:distal myopathy
+2510:childhood leukemia
+2511:congenital deafness
+2512:squamous cell carcinoma, maxillary sinus
+2513:atrophic gastritis
+2514:hailey-hailey disease
+2515:anus neoplasm
+2516:adenocarcinoma, endometrial
+2517:sezary disease
+2518:thrombocytosis
+2519:cardiac fibrosis
+2520:diffuse lipomatosis
+2521:oral leukoplakia
+2522:lepromatous leprosy
+2523:porcine reproductive and respiratory syndrome virus infection
+2524:interstitial cystitis
+2525:feingold syndrome
+2526:hepatitis e virus infection
+2527:pancreatic serous cystic neoplasm
+2528:coxsackievirus infection
+2529:salmonellosis
+2530:microvascular disease
+2531:vulvar squamous cell carcinoma
+2532:pediatric glioma
+2533:hantavirus infection
+2534:perlman syndrome
+2535:chikungunya virus infection
+2536:fetal alcohol spectrum disorder
+2537:fuchs endothelial dystrophy
+2538:bladder outlet obstruction
+2539:systemic mastocytosis
+2540:wound inflammation
+2541:diabetic vasculopathy
+2542:pediatric osteosarcoma
+2543:childhood obesity
+2544:meningitis
+2545:carcinoma, tounge
+2546:enterovirus infection
+2547:early-stage small-cell lung carcinoma
+2548:selective ige deficiency disease
+2549:long qt syndrome
+2550:cervix endometrial stromal tumor
+2551:breast malignant phyllodes tumor
+2552:epstein-barr virus infection
+2553:posterior capsule opacification
+2554:ebola hemorrhagic fever
+2555:adenocarcinoma, prostate
+2556:carcinoma, ovarian, clear cell
+2557:carcinoma, neuroendocrine
+2558:atypical teratoid tumor
+2559:gallstones
+2560:uterine corpus choriocarcinoma
+2561:endometrial stromal sarcoma
+2562:androgenetic alopecia
+2563:adenocarcinoma, cervical
+2564:japanese encephalitis virus infection
+2565:thyroid adenomas
+2566:pregnancy complications [unspecific]
+2567:cervicitis
+2568:mandibular prognathism
+2569:narcolepsy
+2570:coloboma
+2571:toxic encephalopathy
+2572:colorectal adenoma
+2573:non-sensory diseases
+2574:early-stage colon carcinoma
+2575:mitochondrial metabolism disease
+2576:aortic insufficiency
+2577:peritoneal dialysis failure
+2578:disease of metabolism
+2579:carcinoma, gastrooesophageal
+2580:neurofibromatosis type 2
+2581:ovarian disease
+2582:recurrent wheezing
+2583:bone disease [unspecific]
+2584:blindness
+2585:atrioventricular septal defect
+2586:preterm labor
+2587:chromosome 15q13.3 microdeletion syndrome
+2588:osteogenesis imperfecta
+2589:leukemia, lymphoblastic, acute, b-cell
+2590:acute brucellosis
+2591:white spot syndrome virus infection
+2592:hemoglobin diseases
+2593:cardiac myocyte injury
+2594:breast adenocarcinoma
+2595:myelofibrosis
+2596:persistent fetal circulation syndrome
+2597:cerebral aneurysm
+2598:breast ductal carcinoma
+2599:carcinoma, gingival
+2600:human cytomegalovirus infection
+2601:nasal cavity inverting papilloma
+2602:early-stage colon adenocarcinoma
+2603:neuronal apoptosis-related diseases
+2604:retinal vascular disease
+2605:alveolar rhabdomyosarcoma
+2606:heart valve disease
+2607:lung injury [unspecific]
+2608:dental enamel hypoplasia
+2609:hypohidrotic ectodermal dysplasia
+2610:salivary gland disease
+2611:cone dystrophy
+2612:allergic contact dermatitis
+2613:cornea squamous cell carcinoma
+2614:sciatic nerve injury
+2615:pediatric ependymoma
+2616:diabetic encephalopathy
+2617:diabetic polyneuropathy
+2618:respiratory system disease
+2619:infectious bursal disease virus
+2620:monocytic leukemia
+2621:arteriovenous malformations of the brain
+2622:rheumatic myocarditis
+2623:diabetic peripheral neuropathy
+2624:carcinoma, oropharyngeal
+2625:subacute sclerosing panencephalitis
+2626:lichen planus
+2627:cutaneous lupus erythematosus
+2628:johne disease
+2629:small intestine carcinoma
+2630:embryonal testis carcinoma
+2631:non-traumatic osteonecrosis
+2632:patau syndrome
+2633:myositis ossificans
+2634:cryptosporidium infection
+2635:odontogenic tumors
+2636:oligodendroglioma
+2637:osteopetrosis
+2638:malignant peripheral nerve sheath tumor
+2639:rhabdoid cancer
+2640:epithelioid sarcoma
+2641:melasma
+2642:glioblastoma mesenchymal subtype
+2643:fungal keratitis
+2644:inner ear inflammation
+2645:anxiety
+2646:hepatic ischemia-reperfusion injury
+2647:adenocarcinoma, gastric-esophageal junction
+2648:nephrolithiasis
+2649:chromosome 22q11.2 deletion syndrome, distal
+2650:borjeson-forssman-lehmann syndrome
+2651:somatotropinoma
+2652:lynch syndrome
+2653:congenital myasthenic syndrome
+2654:cardiac myxoma
+2655:congenital microtia
+2656:post-traumatic stress disorder
+2657:iron metabolism disease
+2658:liver transplant rejection
+2659:carcinoma, gastric, signet ring cell
+2660:complex regional pain syndrome
+2661:sickle cell anemia
+2662:myxoid liposarcoma
+2663:anaplastic astrocytoma
+2664:knee osteoarthritis
+2665:diabetic cataract
+2666:obstructive sleep apnea
+2667:thyroid-associated ophthalmopathy
+2668:ileus
+2669:bone cancer
+2670:spinal chordoma
+2671:cartilage disease [unspecific]
+2672:kidney osteogenic sarcoma
+2673:autosomal dominant polycystic kidney disease
+2674:pineal gland cancer
+2675:evans syndrome
+2676:cerebrovascular disease
+2677:angiomyolipoma
+2678:sickle cell disease
+2679:meningitis, pneumococcal
+2680:cor pulmonale
+2681:lymphocytic choriomeningitis
+2682:dengue shock syndrome
+2683:malt lymphoma
+2684:arterial calcification of infancy
+2685:ocular motility disease
+2686:carcinoma, head and neck
+2687:hemophilus influenzae infection
+2688:visceral leishmaniasis
+2689:chronic cerebral hypoperfusion
+2690:diarrhea
+2691:rapidly progressive glomerulonephritis
+2692:arteriovenous malformation
+2693:enteropathy
+2694:mast cell neoplasm
+2695:bladder fibrosis
+2696:mucosulfatidosis
+2697:tauopathy
+2698:pelvic organ prolapse
+2699:primary aldosteronism
+2700:light-induced retinal injury
+2701:hemoglobinopathy
+2702:hemophagocytic lymphohistiocytosis
+2703:uremic neuropathy
+2704:carcinoma, vulvar
+2705:skin injury
+2706:mitochondrial encephalomyopathy
+2707:uterine leiomyosarcoma
+2708:uterine carcinosarcoma
+2709:intraductal papillary mucinous neoplasms
+2710:short bowel syndrome
+2711:prostate disease
+2712:intestinal barrier dysfunction
+2713:pten hamartoma tumor tyndrome
+2714:melas syndrome
+2715:lymphoma, primary effusion
+2716:neuroma
+2717:learned helplessness
+2718:allergic rhinitis,perennial
+2719:squamous cell carcinoma, sinonasal
+2720:hereditary hemorrhagic telangiectasia
+2721:cytomegalovirus retinitis
+2722:cerebral cavernous malformations
+2723:endocrine gland neoplasms
+2724:vasomotor rhinitis
+2725:alcoholic cardiomyopathy
+2726:ovarian germ cell cancer
+2727:nut midline carcinoma
+2728:urinary system cancer
+2729:nevus
+2730:thyroid lymphoma
+2731:mycobacterium avium complex disease
+2732:stroke, hemorrhagic
+2733:carcinoma, supraglottic
+2734:uterine corpus serous adenocarcinoma
+2735:varicella
+2736:acute liver failure
+2737:pallister-killian syndrome
+2738:small cell carcinoma, esophageal
+2739:head and neck adenoid cystic carcinoma
+2740:medulloepithelioma
+2741:carcinoma, renal cell, chromophobe
+2742:necrotizing enterocolitis
+2743:uterine corpus myxoid leiomyosarcoma
+2744:neuroepithelial tumors
+2745:vogt-koyanagi-harada disease
+2746:silicosis
+2747:balkan nephropathy
+2748:polyangiitis
+2749:reproductive system disease
+2750:porphyromonas gingivalis
+2751:adenocarcinoma, sebaceous
+2752:penis carcinoma
+2753:skin hemangioma
+2754:african swine fever
+2755:vulvar squamous tumor
+2756:mitral valve disease
+2757:acute peritonitis
+2758:parathyroid carcinoma
+2759:ganglioglioma
+2760:renal oncocytoma
+2761:smoke inhalation injury
+2762:x-linked alport syndrome
+2763:niemann-pick disease, type c
+2764:carcinoma, ehrlich tumor
+2765:gerstmann-straussler-scheinker syndrome
+2766:multiple endocrine neoplasia type 1
+2767:esophagitis
+2768:pancreatic intraductal papillary mucinous neoplasms
+2769:hiv-associated lipodystrophy
+2770:gastroduodenal ulcer
+2771:sebaceous carcinoma
+2772:chronic alcohol-induced alveolar macrophage dysfunction
+2773:proliferative vitreoretinal disease
+2774:adenosquamous pancreas carcinoma
+2775:non specific chronic endometritis
+2776:adenocarcinoma, ampullary
+2777:placenta cancer
+2778:cardiovascular disease
+2779:repeated implantation failure
+2780:liver cancer
+2781:pulmonary tuberculosis
+2782:triple negative breast cancer
+2783:hepatic fibrosis
+2784:oral squamous cell carcinoma
+2785:t2dm with depression
+2786:type 2 diabetes mellitus
+2787:hypopharyngeal squamous cell carcinoma
+2788:lung adenocarcinoma
+2789:hepatic steatosis
+2790:clear cell renal cell carcinoma
+2791:senescence
+2792:cervical carcinoma
+2793:acute myeloid leukemia
+2794:papillary thyroid carcinoma
+2795:heart disease
+2796:nonalcoholic steatohepatitis
+2797:cutaneous squamous cell carcinoma
+2798:hypertrophic cardiomyopathy
+2799:basal cell carcinoma
+2800:laryngeal squamous cell carcinoma
+2801:immunosenescence
+2802:chronic myeloid leukemia
+2803:prostate adenocarcinoma
+2804:colon cancer
+2805:thoracic aortic dissection
+2806:ovarian endometriosis
+2807:nonfunctioning pituitary adenomas
+2808:acute lymphoblastic leukemia
+2809:age-related cataract
+2810:primary great saphenous vein varicosities
+2811:ventricular septal defect
+2812:infantile hemangioma
+2813:alzheimer's disease
+2814:facet joint osteoarthritis
+2815:gastric carcinoma
+2816:vascular endothelial dysfunction
+2817:retinal neurodegeneration
+2818:breast carcinoma
+2819:acne
+2820:gallbladder cancer
+2821:retinal vascular dysfunction
+2822:acute promyelocytic leukemia
+2823:thyroid carcinoma
+2824:salivary adenoid cystic carcinoma
+2825:abdominal aortic aneurysm
+2826:parathyroid adenoma
+2827:renal carcinoma
+2828:mucoepidermoid carcinoma
+2829:hypopharyngeal carcinoma
+2830:oral mucosal melanoma
+2831:gestational diabetes mellitus
+2832:proliferative vitreoretinopathy
+2833:kawasaki disease
+2834:endometrial carcinoma
+2835:t-cell lymphoblastic lymphoma
+2836:conjunctival melanoma
+2837:neuronal cell injury
+2838:oral cancer
+2839:influenza a virus infection
+2840:hashimoto's thyroiditis
+2841:acute stanford type a aortic dissection
+2842:head and neck squamous cell carcinoma
+2843:diabetic foot ulcer
+2844:inflammatory response
+2845:lipopolysaccharide
+2846:radiation-induced liver disease
+2847:premature ovarian insufficiency
+2848:small cell lung cancer
+2849:hypoxic-ischaemic encephalopathy
+2850:coronary heart disease
+2851:pressure ulcer
+2852:down's syndrome
+2853:vein graft
+2854:oxidative injury
+2855:renal cell carcinoma
+2856:rectal cancer
+2857:senile dementia
+2858:laryngocarcinoma
+2859:dengue fever
+2860:alcoholic liver disease
+2861:idiopathic pulmonary arterial hypertension
+2862:steroid-induced osteonecrosis of the femoral head
+2863:mantle cell lymphoma
+2864:non-obstructive azoospermia
+2865:parkinson's disease
+2866:cellular senescence
+2867:inflammatory bowel disease
+2868:oxygen-induced retinopathy
+2869:bedsore
+2870:diffuse large b-cell lymphoma
+2871:ulcerative colitis
+2872:primary hepatic carcinoma
+2873:demyelinating disease
+2874:gastrointestinal stromal tumour
+2875:lubrication disorder
+2876:idiopathic membranous nephropathy
+2877:stomach adenocarcinoma
+2878:congenital heart disease
+2879:diabetic cardiomyopathy
+2880:osteogenesis
+2881:inflamed corneas
+2882:early allograft dysfunction
+2883:periventricular white matter damage
+2884:spinal cord injury
+2885:primary sjogren's syndrome
+2886:polarized macrophages
+2887:cardiac fibroblasts
+2888:avian leukosis virus
+2889:neuroinflammatory disorders
+2890:ovarian aging
+2891:angiogenesis
+2892:duchenne muscular dystrophy
+2893:photoaging
+2894:diabetic kidney disease
+2895:intervertebral disk degeneration
+2896:type 1 diabetes mellitus
+2897:axial spondyloarthritis
+2898:ischemia reperfusion injury
+2899:intrauterine adhesions
+2900:human aortic smooth muscle cell
+2901:fetal growth restriction
+2902:nasopharyngeal cancer
+2903:neuronal injury
+2904:vascular disease
+2905:scoliosis
+2906:doxorubicin-induced cardiotoxicity 
+2907:aortic valve calcification
+2908:chondrocyte apoptosis
+2909:temporal lobe epilepsy
+2910:hepatoma
+2911:postmenopausal osteoporosis
+2912:t cell acute lymphoblastic leukemia
+2913:sepsis-induced liver damage
+2914:haemangiomas
+2915:huntington's disease
+2916:malignant glioma
+2917:non-small cell lung carcinoma
+2918:stomach cancer
+2919:muscle-invasive bladder cancer
+2920:subarachnoid hemorrhage, traumatic
+2921:nephroblastoma
+2922:earlobe keloid
+2923:crohn's disease
+2924:childhood acute lymphocytic leukemia
+2925:ovarian epithelial cancer
+2926:barrett's esophagus
+2927:esophagus squamous cell carcinoma
+2928:malignant pleural mesothelioma
+2929:pain, intractable
+2930:acute lymphocytic leukemia
+2931:adolescent idiopathic scoliosis
+2932:aging
+2933:autoimmune thyroid disease
+2934:autosomal dominant cerebellar ataxia
+2935:beckwith-wiedemann syndrome
+2936:biparental complete hydatidiform moles
+2937:blepharophimosis, ptosis, and epicanthus inversus
+2938:brain germinoma
+2939:carcinoma, ductal
+2940:cardiovascular system disease
+2941:chronic myeloproliferative disorders
+2942:chronic nonalcoholic liver disease
+2943:colorectal neoplasia
+2944:congenital hyperinsulinism
+2945:deleterious effects in the somatic thymus tissue
+2946:dilated cardiomyopathy
+2947:dyskeratosis congenita
+2948:embryonal carcinoma
+2949:familial and sporadic intracranial aneurysms
+2950:germ cell cancer
+2951:gestational choriocarcinoma
+2952:gestational trophoblastic neoplasm
+2953:growth restriction
+2954:hematopoiesis
+2955:hepatic colorectal metastasis
+2956:hodgkin's lymphoma
+2957:human spinocerebellar ataxia type 8
+2958:infection of chicken embryo lethal orphan adenovirus
+2959:infection of mouse minute virus
+2960:kidney disease
+2961:klinefelter's syndrome
+2962:lymphoblastic leukemia
+2963:melanosis
+2964:mood disorder
+2965:mullerian aplasia
+2966:murine plasmacytomas
+2967:myelodysplastic syndrome
+2968:myeloproliferative polycythaemia vera
+2969:neural system tumors syndrome
+2970:pancreaticobiliary maljunction
+2971:parotid gland cancer
+2972:peripheral artery disease
+2973:phaeochromocytoma
+2974:photoperiod-sensitive male sterility
+2975:pseudohypoparathyroidism
+2976:psoriasis vulgaris
+2977:restless legs syndrome
+2978:schizoaffective disorder
+2979:schmid-fraccaro syndrome
+2980:silver-russell syndrome
+2981:spinocerebellar ataxia type 7
+2982:spinocerebellar ataxia type 8
+2983:split hand/split foot malformation disorder
+2984:syndromic developmental defect
+2985:testicular cancer
+2986:tongue cancer
+2987:transient neonatal diabetes mellitus
+2988:trophoblastic neoplasm
+2989:velocardiofacial syndrome
+2990:west syndrome
+2991:gastrointestinal system cancer
+2992:type 1 endometrial cancer
+2993:microinvasive gastric cancer
+2994:chromophobe renal cell carcinoma
+2995:runx1-rearranged acute leukemia
+2996:prostate
+2997:congestive heart failure
+2998:intracranial hemorrhage, hypertensive
+2999:melanoma, cutaneous malignant
+3000:nervous system cancer
+3001:neurofibromatoses
+3002:plexiform neurofibroma
+3003:primary open angle glaucoma
+3004:stroke, lacunar
+3005:childhood medulloblastoma
+3006:solid tumors
+3007:renal clear cell carcinoma
+3008:bone disease
+3009:brain cancer
+3010:leukemia, lymphoid
+3011:myeloid neoplasm
+3012:neuropathy
+3013:split hand-foot malformation 2
+3014:brain glioma
+3015:heart dysfunction
+3016:cardiomyocyte apoptosis
+3017:b-cell lymphoma
+3018:bladder transitional cell carcinomas
+3019:hypersensitivity reaction type ii disease
+3020:lps-induced inflammatory injury
+3021:t-cell leukemia
+3022:pseudohypoparathyroidism type 1b
+3023:cardiac fibroblast proliferation and fibrosis
+3024:cardiomyocyte hypertrophy
+3025:central nervous system disease
+3026:esophagus
+3027:hyperprolactinemia
+3028:intestinal epithelial barrier function
+3029:myeloproliferative neoplasm
+3030:middle cerebral artery infarction
+3031:transient cerebral ischemia
+3032:castration-resistant prostate cancer
+3033:schizophrenia spectrum and other psychotic disorders
+3034:follicular thyroid carcinoma
+3035:atypical teratoid rhabdoid tumor
+3036:embryonal cancer
+3037:functionless pituitary adenoma
+3038:lemierre's syndrome
+3039:lung small cell carcinoma
+3040:sporadic thoracic aortic aneurysm
+3041:triple-receptor negative breast cancer
+3042:hirschsprung's disease
+3043:periampullary region tumor
+3044:cervix carcinoma
+3045:glioma vasculogenic mimicry formation
+3046:gemistocytic astrocytoma
+3047:in situ pulmonary adenocarcinoma
+3048:nonalcoholic fatty liver disease
+3049:acute monocytic leukemia
+3050:calcific aortic valve disease
+3051:decreased myogenesis
+3052:endometrial adenocarcinoma
+3053:fatty liver disease
+3054:fibroma
+3055:flavivirus infections
+3056:follicular and hürthle cell thyroid neoplasm
+3057:high glucose-induced podocyte injury
+3058:histiocytoid hemangioma
+3059:hiv
+3060:klatskin's tumor
+3061:lymph node metastasis
+3062:ovarian endometrial cancer
+3063:primary pulmonary hypertension
+3064:tdp-43 protein, human
+3065:thyroid medullary carcinoma
+3066:uterine corpus endometrial stromal sarcoma
+3067:acute spinal cord injury
+3068:liver disease
+3069:metabolic syndrome x
+3070:pituitary cancer
+3071:purpura, thrombocytopenic
+3072:testicular germ cell cancer
+3073:syndrome
+3074:megakaryoblastic leukemia
+3075:myeloid leukemia
+3076:degenerative disc disease
+3077:dengue disease
+3078:relapsing-remitting multiple sclerosis
+3079:extrahepatic cholangiocarcinoma
+3080:glucose metabolism disease
+3081:hematologic cancer
+3082:plasmacytoma
+3083:cartilage-hair hypoplasia
+3084:colon adenocarcinoma
+3085:ebv-associated gastric carcinoma
+3086:kidney clear cell sarcoma
+3087:neurodegenerative disease
+3088:systemic scleroderma
+3089:bladder adenocarcinoma
+3090:glandular cystitis
+3091:lithiasis
+3092:collecting duct carcinoma
+3093:denatured dermis
+3094:membranous glomerulonephritis
+3095:malignant neoplasm of breast
+3096:malignant tumor of colon
+3097:childhood acute lymphoblastic leukemia
+3098:juvenile astrocytoma
+3099:adult astrocytic tumor
+3100:ovarian neoplasm
+3101:malignant neoplasm of ovary
+3102:hereditary ovarian carcinoma
+3103:adult acute lymphocytic leukemia
+3104:precursor cell lymphoblastic leukemia lymphoma
+3105:acanthosis nigricans
+3106:skeletal dysplasia
+3107:dysmorphic features
+3108:thanatophoric dysplasia, type i (disorder)
+3109:achondroplasia, severe, with developmental delay and acanthosis nigricans
+3110:hereditary breast and ovarian cancer syndrome
+3111:xeroderma pigmentosum
+3112:breast cancer, familial
+3113:carcinoma of male breast
+3114:malignant neoplasm of male breast
+3115:thanatophoric dysplasia
+3116:lethal skeletal dysplasia
+3117:sporadic breast carcinoma
+3118:hepatocarcinogenesis
+3119:amyotrophic lateral sclerosis 1
+3120:leukemia, myelocytic, acute
+3121:adult fibrosarcoma
+3122:right ventricular hypertrophy
+3123:malignant neoplasm of esophagus
+3124:craniosynostosis
+3125:secondary malignant neoplasm of lung
+3126:achondroplasia
+3127:liver carcinoma
+3128:breast-ovarian cancer, familial, susceptibility to, 1
+3129:carcinoma, papillary
+3130:secondary malignant neoplasm of lymph node
+3131:psychological distress
+3132:hypochondroplasia (disorder)
+3133:adenocarcinoma of large intestine
+3134:low vision
+3135:infantile neuronal ceroid lipofuscinosis
+3136:ceroid lipofuscinosis, neuronal 1, infantile
+3137:coronary arteriosclerosis
+3138:pai-1 polymorphism
+3139:microcephaly
+3140:complete trisomy 21 syndrome
+3141:osteosarcoma of bone
+3142:childhood osteosarcoma
+3143:central neuroblastoma
+3144:childhood neuroblastoma
+3145:chondrodysplasia
+3146:malignant neoplasm of prostate
+3147:prostate cancer, familial
+3148:hereditary prostate carcinoma
+3149:squamous cell carcinoma of esophagus
+3150:malignant neoplasm of pancreas
+3151:malignant neoplasm of skin
+3152:thanatophoric dysplasia, type 2
+3153:infantile fibrosarcoma
+3154:tumor miofibroblástico peribronquial congénito
+3155:adult glioblastoma
+3156:childhood glioblastoma
+3157:presenile dementia
+3158:cerebral amyloid angiopathy, itm2b-related, 1
+3159:familial (fpah)
+3160:non-obstructive reflux-associated chronic pyelonephritis (disorder)
+3161:reflux nephropathy (disorder)
+3162:node-negative breast cancer
+3163:congenital disorder of glycosylation, type 2c
+3164:invasive carcinoma of breast
+3165:activated protein c resistance
+3166:fascioliasis
+3167:li-fraumeni-like syndrome
+3168:conventional (clear cell) renal cell carcinoma
+3169:atherosclerotic lesion
+3170:pallister-hall syndrome
+3171:fallopian tube carcinoma
+3172:adult synovial sarcoma
+3173:childhood synovial sarcoma
+3174:nadh cytochrome b5 reductase deficiency
+3175:osteopenia
+3176:malignant neoplasm of colon and/or rectum
+3177:adenocarcinoma, clear cell
+3178:malignant childhood neoplasm
+3179:malignant neoplasm of endometrium
+3180:meningococcemia
+3181:septicemia
+3182:malignant neoplasm of urinary bladder
+3183:von hippel-lindau syndrome
+3184:hemangioblastoma
+3185:adrenal gland pheochromocytoma
+3186:ewings sarcoma-primitive neuroectodermal tumor (pnet)
+3187:ewing sarcoma/peripheral primitive neuroectodermal tumor
+3188:diabetes mellitus, non-insulin-dependent
+3189:macroangiopathy
+3190:peripheral arterial occlusive disease
+3191:refractory anaemia with excess blasts
+3192:eosinophilia
+3193:leukemia, eosinophilic, acute
+3194:acute erythroblastic leukemia
+3195:adult acute eosinophilic leukemia
+3196:childhood acute eosinophilic leukemia
+3197:basophilia
+3198:childhood myelodysplastic syndrome
+3199:adult myelodysplastic syndrome
+3200:b-cell malignancy, low-grade
+3201:dyslexia
+3202:hereditary motor and sensory-neuropathy type ii
+3203:cranioschisis
+3204:athabaskan brainstem dysgenesis
+3205:bosley-salih-alorainy syndrome
+3206:acute leukemia
+3207:craniofacial dysostosis
+3208:craniofacial dysostosis type 1
+3209:leukemogenesis
+3210:blood spots
+3211:basal cell nevus syndrome
+3212:immunosuppression
+3213:intestinal carcinoma
+3214:malignant neoplasm of lung
+3215:carcinoma of lung
+3216:primary malignant neoplasm of lung
+3217:williams syndrome
+3218:bilateral breast cancer
+3219:childhood b acute lymphoblastic leukemia
+3220:juvenile myelomonocytic leukemia
+3221:ataxia-telangiectasia-like disorder
+3222:ataxia, early-onset, with oculomotor apraxia and hypoalbuminemia
+3223:ataxia-telangiectasisa-like disorder 1
+3224:trichorhinophalangeal dysplasia type i
+3225:malignant neoplasm of stomach
+3226:autosomal dominant osteopetrosis
+3227:gyrate atrophy
+3228:optic atrophy
+3229:advanced breast cancer
+3230:conn syndrome
+3231:hyperinsulinemic hypoglycemia, familial, 6
+3232:pai-1 4g/5g polymorphism
+3233:van der woude syndrome
+3234:hereditary multiple exostoses
+3235:protein c deficiency
+3236:prothrombin g20210a mutation
+3237:diabetes
+3238:noninfiltrating intraductal carcinoma
+3239:malignant neoplasm of gastrointestinal tract
+3240:attention deficit hyperactivity disorder
+3241:rous sarcoma
+3242:congenital mesoblastic nephroma
+3243:cockayne syndrome
+3244:trichothiodystrophy syndromes
+3245:android obesity
+3246:atherothrombosis
+3247:insulin resistance syndrome
+3248:contralateral breast cancer
+3249:unilateral breast carcinoma
+3250:unilateral breast neoplasms
+3251:adenocarcinoma of pancreas
+3252:human immunodeficiency virus (hiv) ii infection category b1
+3253:familial retinoblastoma
+3254:retinoblastoma unilateral
+3255:primary effusion lymphoma
+3256:cystadenoma
+3257:malignant female reproductive system neoplasm
+3258:crouzon syndrome with acanthosis nigricans (disorder)
+3259:undifferentiated carcinoma
+3260:malignant head and neck neoplasm
+3261:head and neck carcinoma
+3262:chondrodysplasia punctata
+3263:chondrodysplasia punctata, x-linked dominant type
+3264:desmosterolosis
+3265:female breast carcinoma
+3266:invasive ductal breast carcinoma
+3267:mammary gland tumor
+3268:leukemia, prolymphocytic, b-cell
+3269:papillary serous cystadenocarcinoma
+3270:idiopathic crescentic glomerulonephritis
+3271:ischemia of kidney
+3272:buruli ulcer
+3273:congenital abnormal synostosis
+3274:coronal craniosynostosis
+3275:wasting
+3276:pseudohermaphrodite (non-specific)
+3277:penile hypospadias
+3278:atypical medullary carcinoma
+3279:autosomal recessive polycystic kidney disease
+3280:spastic tetraparesis
+3281:dementia, familial danish
+3282:malignant neoplasm of thyroid
+3283:mammary neoplasms, human
+3284:mammary carcinoma, human
+3285:thrombosis of cerebral veins
+3286:cooley's anemia
+3287:epithelial hyperplasia of skin
+3288:north american indian childhood cirrhosis
+3289:nodular thyroid disease
+3290:russell-silver syndrome
+3291:breast cancer, somatic
+3292:papillary neoplasm
+3293:myofibromatosis
+3294:infantile fibromatosis
+3295:mental depression
+3296:diabetes insipidus
+3297:brachycephaly
+3298:plagiocephaly
+3299:neuropathy, hereditary motor and sensory, russe type
+3300:secondary malignant neoplasm of bone
+3301:malignant neoplasm of female breast
+3302:anaplastic carcinoma
+3303:epithelioma
+3304:asthma attack
+3305:absence epilepsy
+3306:tarsal-carpal coalition syndrome
+3307:mental retardation
+3308:small cell carcinoma of lung
+3309:hereditary sensory autonomic neuropathy, type 1
+3310:glycogen storage disease type ii
+3311:generalized glycogen storage disease of infants
+3312:leri-weill dyschondrosteosis
+3313:scleroderma
+3314:atresia
+3315:autosomal recessive osteopetrosis
+3316:rhinovirus infection
+3317:ovarian adenocarcinoma
+3318:carcinoma of peritoneum
+3319:infant leukemia
+3320:deep vein thrombosis
+3321:autism spectrum disorders
+3322:cardiomyopathy, familial hypertrophic, 10
+3323:malignant fibrous histiocytoma
+3324:dysgerminoma
+3325:dysgerminoma of ovary
+3326:external exotoses
+3327:brachydactyly
+3328:trichorhinophalangeal syndrome, type iii
+3329:abnormality of the skeletal system
+3330:senile plaques
+3331:neuropil threads
+3332:cartilaginous exostosis
+3333:wolf-hirschhorn syndrome
+3334:factor v leiden mutation
+3335:multiple mitochondrial dysfunctions syndrome 1
+3336:deficiency of acetyl-coa acetyltransferase
+3337:precursor b-cell lymphoblastic leukemia
+3338:myeloid leukemia, chronic
+3339:adult lymphoma
+3340:childhood lymphoma
+3341:cherubism
+3342:adult anaplastic astrocytoma
+3343:grade iii childhood astrocytoma
+3344:charge syndrome
+3345:hoyeraal-hreidarsson syndrome
+3346:tumoral calcinosis, hyperphosphatemic, familial
+3347:hypotrichosis 1
+3348:benign prostatic hyperplasia
+3349:agenesis of corpus callosum
+3350:visual seizure
+3351:thyroid carcinoma, sporadic medullary
+3352:xeroderma pigmentosum, complementation group d
+3353:bladder neoplasm
+3354:bladder cancer recurrent
+3355:carcinoma of bladder
+3356:carcinoma of urinary bladder, superficial
+3357:rectal carcinoma
+3358:familial hypercholesterolemia - heterozygous
+3359:global developmental delay
+3360:atypical ductal breast hyperplasia
+3361:cardiomyopathy, familial idiopathic
+3362:maturity onset diabetes mellitus in young
+3363:malignant neoplasm of testis
+3364:gastrointestinal carcinoid tumor
+3365:teratoma, malignant
+3366:malignant testicular germ cell tumor
+3367:adenocarcinoma of lung (disorder)
+3368:ductal carcinoma
+3369:cystinuria
+3370:congenital leukocyte adherence deficiency
+3371:alzheimer disease, late onset
+3372:disease due to parvoviridae
+3373:carcinoma, lobular
+3374:stage 0 breast cancer ajcc v6 and v7
+3375:thyroid neoplasm
+3376:infective cystitis
+3377:stromal neoplasm
+3378:multifocal breast carcinoma
+3379:childhood testicular germ cell tumor
+3380:congenital absence of germinal epithelium of testes
+3381:truncus arteriosus, persistent
+3382:inflammatory myofibroblastic tumor
+3383:ossifying fibromyxoid tumor
+3384:premenopausal breast cancer
+3385:recurrent childhood acute lymphoblastic leukemia
+3386:neuroectodermal tumor, primitive
+3387:adult medulloblastoma
+3388:degenerative polyarthritis
+3389:herpes nos
+3390:end stage cardiac failure
+3391:nicolaides baraitser syndrome
+3392:achondrogenesis
+3393:vascular occlusion
+3394:renal carnitine transport defect
+3395:her2 gene amplification
+3396:severe combined immunodeficiency
+3397:resistance to insulin-like growth factor i
+3398:adult non-hodgkin lymphoma
+3399:childhood non-hodgkin lymphoma
+3400:lymphoma, non-hodgkin, familial
+3401:fanconi anemia, complementation group a (disorder)
+3402:adult liver carcinoma
+3403:liver and intrahepatic biliary tract carcinoma
+3404:malignant neoplasm of liver
+3405:cirrhosis
+3406:impaired cognition
+3407:partial trisomy
+3408:estrogen receptor-negative breast cancer
+3409:blast phase
+3410:pitt-hopkins-like syndrome 1
+3411:multiple lipomata
+3412:lipomatosis, multiple
+3413:childhood kidney wilms tumor
+3414:central retinal vein occlusion
+3415:adenocarcinoma of colon
+3416:restrictive cardiomyopathy
+3417:periosteal disorder
+3418:pfeiffer syndrome
+3419:radiation-induced cancer
+3420:retinoblastoma bilateral
+3421:pneumocystis jiroveci pneumonia
+3422:chronic rejection of renal transplant
+3423:secondary malignant neoplasm of liver
+3424:primary lactic acidosis
+3425:childhood ataxia with central nervous system hypomyelinization
+3426:tnf receptor-associated periodic fever syndrome (traps)
+3427:tumor necrosis factor receptor 1-associated periodic syndrome
+3428:peripheral t-cell lymphoma
+3429:chromosome 1p36 deletion syndrome
+3430:primary serous papillary carcinoma of peritoneum
+3431:thrombophilia
+3432:somatotrophinoma, familial
+3433:unicoronal synostosis
+3434:muenke syndrome
+3435:mental retardation, x-linked, snyder-robinson type
+3436:hyperplastic polyp
+3437:leukoplakia
+3438:helicobacter pylori (h. pylori) infection in conditions classified elsewhere and of unspecified site
+3439:paroxysmal nonkinesigenic dyskinesia 1
+3440:diabetes mellitus, insulin-dependent
+3441:intestinal volvulus
+3442:glomerulosclerosis (disorder)
+3443:adenocarcinoma of lung, stage i
+3444:embryonal rhabdomyosarcoma
+3445:childhood rhabdomyosarcoma
+3446:adult rhabdomyosarcoma
+3447:childhood astrocytoma
+3448:melanocytic nevus
+3449:malignant neoplasm of salivary gland
+3450:salivary gland carcinoma
+3451:candidiasis
+3452:systemic candidiasis
+3453:lymphoid leukemia
+3454:pancreatic neoplasm
+3455:chronic leukemia (category)
+3456:her-2 protein overexpression
+3457:ewings sarcoma
+3458:contralateral breast carcinoma
+3459:adenocarcinoma of prostate
+3460:pick disease of the brain
+3461:nonorganic psychosis
+3462:ige-mediated allergic asthma
+3463:megacalycosis
+3464:infantile spasm
+3465:t-cell lymphoma
+3466:alpha 1-antitrypsin deficiency
+3467:secondary malignant neoplasm of colon and/or rectum
+3468:papillary craniopharyngioma
+3469:monoblastic leukemia
+3470:promyelocytic leukemia
+3471:adenosis of breast
+3472:breast microglandular adenosis
+3473:pulmonary lymphangioleiomyomatosis
+3474:lymphangioleiomyomatosis
+3475:tuberous sclerosis 2 (disorder)
+3476:adenomatous polyps
+3477:adenoma of large intestine
+3478:peroxisome biogenesis disorder, complementation group c
+3479:dural arteriovenous fistula
+3480:ki-1+ anaplastic large cell lymphoma
+3481:respiratory syncytial virus (rsv) infection in conditions classified elsewhere and of unspecified site
+3482:autosomal dominant nocturnal frontal lobe epilepsy
+3483:pre b-cell acute lymphoblastic leukemia
+3484:aural atresia, congenital
+3485:fibroid tumor
+3486:peritoneal dissemination
+3487:scrub typhus
+3488:diffuse panbronchiolitis
+3489:carcinoma, spindle-cell
+3490:mammary carcinoma, animal
+3491:liposarcoma, well differentiated
+3492:unipolar depression
+3493:phobic anxiety disorder
+3494:malignant tumor of peritoneum
+3495:adult leiomyosarcoma
+3496:adult malignant peripheral nerve sheath tumor
+3497:childhood leiomyosarcoma
+3498:childhood malignant peripheral nerve sheath tumor
+3499:adult anaplastic large cell lymphoma
+3500:childhood anaplastic large cell lymphoma
+3501:mural thrombus
+3502:mural thrombus of heart
+3503:neonatal meningitis
+3504:motor neuron atrophy
+3505:malignant neoplasm of abdomen
+3506:papilloma
+3507:bladder papilloma
+3508:malignant tumor of cervix
+3509:uterine cervical neoplasm
+3510:adult t-cell lymphoma/leukemia
+3511:hereditary malignant neoplasm
+3512:failure to thrive
+3513:hemolytic anemia, nonspherocytic, due to hexokinase deficiency
+3514:breast fibrocystic disease
+3515:sporadic retinoblastoma
+3516:shprintzen-goldberg syndrome
+3517:measles
+3518:metastatic non-small cell lung cancer
+3519:kidney neoplasm
+3520:neonatal respiratory failure
+3521:secretory breast carcinoma
+3522:carcinoma of vulva
+3523:primary peritoneal carcinoma
+3524:uv-sensitive syndrome
+3525:angiomyolipoma of kidney
+3526:tropical spastic paraparesis
+3527:distal renal tubular acidosis
+3528:viral meningitis
+3529:gastric ulcer
+3530:chronic obstructive airway disease
+3531:stage 0 breast carcinoma
+3532:myocardial rupture
+3533:rheumatism
+3534:graft-vs-host disease
+3535:pancreatic cancer, susceptibility to, 4
+3536:mental retardation, autosomal dominant 40
+3537:common acute lymphoblastic leukemia
+3538:secondary acute myeloid leukemia
+3539:chronic kidney disease stage 5
+3540:myopathies, nemaline
+3541:fibrinolytic defect
+3542:lymphoid neoplasm
+3543:lobar pneumonia
+3544:streptococcal pneumonia
+3545:vanishing white matter disease
+3546:anaplastic thyroid carcinoma
+3547:primary differentiated carcinoma of thyroid gland
+3548:progesterone resistance
+3549:malignant neoplasm of brain
+3550:trifunctional protein deficiency with myopathy and neuropathy
+3551:fetal alcohol syndrome
+3552:hamman-rich syndrome
+3553:nonspecific interstitial pneumonia
+3554:idiopathic interstitial pneumonias
+3555:usual interstitial pneumonia
+3556:age related macular degeneration
+3557:lujan fryns syndrome
+3558:submucous cleft palate
+3559:giant cell epulis
+3560:bone cysts, aneurysmal
+3561:granuloma, giant cell reparative
+3562:liver cirrhosis, experimental
+3563:gilles de la tourette syndrome
+3564:nasal type extranodal nk/t-cell lymphoma
+3565:adult nasal type extranodal nk/t-cell lymphoma
+3566:childhood nasal type extranodal nk/t-cell lymphoma
+3567:respiratory distress syndrome, adult
+3568:adult b acute lymphoblastic leukemia
+3569:malignant neoplasm of tongue
+3570:squamous cell carcinoma of tongue
+3571:tongue carcinoma
+3572:lafora disease
+3573:mit family translocation renal cell carcinoma
+3574:crossed polydactyly, type i
+3575:noninvasive ductal carcinoma
+3576:fanconi anemia, complementation group o
+3577:breast-ovarian cancer, familial, susceptibility to, 3
+3578:osteopetrosis, autosomal recessive 3
+3579:sensorineural hearing loss (disorder)
+3580:deafness, autosomal dominant 20
+3581:adenomatous goiter
+3582:plasminogen activator inhibitor-1 deficiency
+3583:refractory anemias
+3584:refractory anemia, without ringed sideroblasts, without excess blasts
+3585:atherosclerotic occlusive disease
+3586:hereditary nonpolyposis colorectal cancer
+3587:pigmentary disorder, reticulate, with systemic manifestations
+3588:mixed lineage leukemia
+3589:miscarriage
+3590:argyrophilic grain disease
+3591:medullary carcinoma
+3592:medullary carcinoma of breast
+3593:medullary carcinoma with lymphoid stroma of breast
+3594:marginal zone b-cell lymphoma
+3595:cardiac arrest
+3596:familial alzheimer disease (fad)
+3597:cerebrovascular infarction
+3598:carcinoma, large cell
+3599:acute myelomonocytic leukemia
+3600:anaplasia
+3601:gliosarcoma
+3602:adult gliosarcoma
+3603:childhood gliosarcoma
+3604:sarcoma, spindle cell
+3605:ichthyosis, x-linked
+3606:steroid sulfatase deficiency disease
+3607:hereditary persistence of fetal hemoglobin thalassemia
+3608:asthma chronic
+3609:meningomyelocele
+3610:spina bifida cystica
+3611:spina bifida
+3612:acute gvh disease
+3613:malignant neoplasm of kidney
+3614:childhood renal cell carcinoma
+3615:aneurysmal disease
+3616:channelopathies
+3617:progression of prostate cancer
+3618:adrenal cortical adenoma
+3619:leukodystrophy
+3620:premature menopause
+3621:ovarian failure, premature
+3622:vascular endothelial growth factor overexpression
+3623:hypercholesterolemia, familial
+3624:hyperlipoproteinemia type iia
+3625:polyarthritis
+3626:ovarioleukodystrophy
+3627:charcot-marie-tooth disease, axonal, autosomal dominant, type 2a2a
+3628:lymphoma, large-cell, follicular
+3629:occult carcinoma
+3630:amyotrophic lateral sclerosis 4, juvenile
+3631:juvenile amyotrophic lateral sclerosis
+3632:sarcomatoid renal cell carcinoma
+3633:collecting duct carcinoma of the kidney
+3634:papillary renal cell carcinoma
+3635:severe sepsis
+3636:tinea capitis
+3637:pneumonitis
+3638:ovarian cystadenoma
+3639:nonproliferative fibrocystic disease
+3640:bile duct carcinoma
+3641:brachydactyly type c
+3642:inclusion body myopathy, sporadic
+3643:enteritis
+3644:follicular variant thyroid gland papillary carcinoma
+3645:tricuspid valve stenosis
+3646:timothy syndrome
+3647:down syndrome critical region
+3648:adult diffuse large cell lymphoma
+3649:childhood diffuse large cell lymphoma
+3650:pineoblastoma
+3651:adult pineoblastoma
+3652:childhood pineoblastoma
+3653:otosclerosis
+3654:hiv-1 infection
+3655:familial atypical multiple mole-melanoma
+3656:lymphatic metastasis
+3657:malnutrition
+3658:jaw keratocyst
+3659:adult diffuse large b-cell lymphoma
+3660:gardner syndrome
+3661:malignant melanoma of eye
+3662:left ventricular hypertrophy
+3663:infection due to brucella suis
+3664:brucella melitensis infection
+3665:adenocarcinoma, basal cell
+3666:adenocarcinoma, oxyphilic
+3667:carcinoma, cribriform
+3668:carcinoma, granular cell
+3669:adenocarcinoma, tubular
+3670:toxoplasmosis, congenital
+3671:ring chromosome 15 syndrome
+3672:fleck corneal dystrophy
+3673:focal cortical dysplasia
+3674:thyroid associated opthalmopathies
+3675:encephalitis, st. louis
+3676:west nile viral infection
+3677:craniometaphyseal dysplasia, autosomal dominant
+3678:campomelic dysplasia
+3679:coronary microvascular disease
+3680:iga glomerulonephritis
+3681:papillary serous endometrial carcinoma
+3682:borderline ovarian tumour
+3683:adenocarcinoma of rectum
+3684:squamous cell carcinoma of the head and neck
+3685:leukemia, plasma cell
+3686:acute megakaryocytic leukemias
+3687:c-cell hyperplasia of thyroid
+3688:columnar cell hyperplasia of the breast
+3689:myeloblastic leukemia
+3690:hyperthyroidism
+3691:hamartoma
+3692:peutz-jeghers syndrome
+3693:osteoglophonic dwarfism
+3694:malignant neoplasm of stomach stage iv
+3695:fanconi anemia, complementation group d2
+3696:alpha-ketoglutarate dehydrogenase deficiency
+3697:developmental reading disorder
+3698:skin carcinoma
+3699:acute confusional senile dementia
+3700:alzheimer's disease, focal onset
+3701:alzheimer disease, early onset
+3702:congenital metabolic disorder
+3703:ichthyosis, leukocyte vacuoles, alopecia, and sclerosing cholangitis
+3704:seborrheic keratosis
+3705:adult hodgkin lymphoma
+3706:childhood hodgkin lymphoma
+3707:autosomal recessive hereditary spastic paraplegia
+3708:spastic paraplegia type 5a, recessive
+3709:allergic conjunctivitis
+3710:keratoconjunctivitis, vernal
+3711:chronic active hepatitis
+3712:deficiency of monooxygenase
+3713:syndactyly
+3714:polydactyly, postaxial
+3715:radial polydactyly
+3716:cholangitis
+3717:malignant neoplasm of cardioesophageal junction of stomach
+3718:gastrooesophageal cancer
+3719:androgen-insensitivity syndrome
+3720:testicular feminization
+3721:lhermitte-duclos disease
+3722:marijuana abuse
+3723:carcinomatosis of peritoneal cavity
+3724:zollinger-ellison syndrome
+3725:lupus anticoagulant disorder
+3726:tetrasomy 21
+3727:osteoarthritis of hip
+3728:acoustic neuroma
+3729:stage, ovarian epithelial cancer
+3730:acquired porencephaly
+3731:congenital porencephaly
+3732:brain small vessel disease with hemorrhage
+3733:porencephaly, familial
+3734:familial vascular leukoencephalopathy
+3735:porencephaly
+3736:porencephaly, type 1, autosomal dominant
+3737:splenic marginal zone b-cell lymphoma
+3738:idiopathic hypereosinophilic syndrome
+3739:chronic eosinophilic leukemia
+3740:steatohepatitis
+3741:liposarcoma, dedifferentiated
+3742:lupus erythematosus, discoid
+3743:lupus erythematosus
+3744:familial benign pemphigus
+3745:carney complex
+3746:accommodation phosphene disorder
+3747:amyloidosis, familial
+3748:middle cerebral artery occlusion
+3749:amphetamine addiction
+3750:amphetamine abuse
+3751:familial dementia
+3752:progressive cgvhd
+3753:craniopharyngioma
+3754:kidney failure
+3755:stage iii colon cancer
+3756:stage iii colon cancer ajcc v7
+3757:stage iii colon cancer ajcc v8
+3758:disseminated eosinophilic collagen disease
+3759:hypereosinophilic syndrome
+3760:trichorhinophalangeal syndrome
+3761:malignant neoplasm of breast staging
+3762:axonal neuropathy
+3763:pyruvate carboxylase deficiency disease
+3764:pituitary-dependent cushing's disease
+3765:dystrophia unguium
+3766:peroxisome biogenesis disorder, complementation group g
+3767:anemia, severe
+3768:adult meningioma
+3769:meningioma, benign, no icd-o subtype
+3770:hereditary site-specific ovarian cancer syndrome
+3771:multiple endocrine neoplasia type 2a
+3772:alloxan diabetes
+3773:streptozotocin diabetes
+3774:mrsa - methicillin resistant staphylococcus aureus infection
+3775:erythromelalgia
+3776:xeroderma pigmentosum and cockayne syndrome complex
+3777:carcinoma breast stage iv
+3778:cardioembolic stroke
+3779:focal glomerulosclerosis
+3780:hyalinosis, segmental glomerular
+3781:myelodysplasia
+3782:destructive arthritis
+3783:seckel syndrome
+3784:intrahepatic cholestasis
+3785:atherosclerotic renal artery stenosis
+3786:refractory cytopenia of childhood
+3787:chronic total occlusion vessel
+3788:reading disabilities
+3789:muckle-wells syndrome
+3790:chronic infantile neurological, cutaneous, and articular syndrome
+3791:rhabdoid tumor
+3792:metastatic prostate carcinoma
+3793:metastasis from malignant tumor of prostate
+3794:classical hodgkin's lymphoma
+3795:adult classical hodgkin lymphoma
+3796:chronic congestive heart failure
+3797:malignant neoplasm of larynx
+3798:cyst
+3799:non-small cell lung cancer stage i
+3800:angioimmunoblastic lymphadenopathy
+3801:anaplastic large cell lymphoma, alk negative
+3802:reticulosarcoma
+3803:lymphoma, mixed-cell
+3804:lymphoma, undifferentiated
+3805:high grade lymphoma (neoplasm)
+3806:lymphoma, intermediate-grade
+3807:low grade lymphoma (neoplasm)
+3808:diffuse mixed-cell lymphoma
+3809:lymphoma, small noncleaved-cell
+3810:mucosa-associated lymphoid tissue lymphoma
+3811:lymphoma, diffuse
+3812:coenzyme q10 deficiency
+3813:coenzyme q10 deficiency, primary, 1
+3814:intraurothelial neoplasia
+3815:multinodular goiter
+3816:high-grade prostatic intraepithelial neoplasia
+3817:neurofibroma
+3818:lymphoma, mixed-cell, follicular
+3819:lymphoma, small cleaved-cell, follicular
+3820:lymphoma, follicular, grade 1
+3821:lymphoma, follicular, grade 3
+3822:lymphoma, follicular, grade 2
+3823:alcoholic intoxication, chronic
+3824:proliferative retinopathy
+3825:color blindness
+3826:optic atrophy 1
+3827:hereditary motor and sensory neuropathy with optic atrophy (disorder)
+3828:dominant hereditary optic atrophy
+3829:nodular fasciitis
+3830:aortic aneurysm, familial thoracic 4
+3831:intraepithelial neoplasia
+3832:mixed salivary gland tumor
+3833:invasive lobular breast carcinoma
+3834:acute myeloid leukemia with multilineage dysplasia following myelodysplastic syndrome
+3835:malignant neoplasm of ureteric orifice
+3836:metastatic colorectal carcinoma
+3837:urinary stress incontinence
+3838:behavioral tic
+3839:q fever
+3840:acute q fever
+3841:chronic q fever
+3842:coxiella burnetii infection
+3843:xeroderma pigmentosum, complementation group c
+3844:congenital small ears
+3845:lacrimoauriculodentodigital syndrome
+3846:aplasia cutis congenita
+3847:cortical dysplasia
+3848:cortical dysplasia with focal epilepsy syndrome
+3849:mixed tumor, mullerian
+3850:multiple chronic conditions
+3851:brain small vessel disease with axenfeld-rieger anomaly
+3852:brain small vessel disease with or without ocular anomalies
+3853:cornelia de lange syndrome
+3854:epileptic encephalopathy
+3855:congenital muscular hypertrophy-cerebral syndrome
+3856:autosomal dominant retinitis pigmentosa
+3857:noonan-like syndrome with loose anagen hair
+3858:atelosteogenesis type 2
+3859:subfertility
+3860:adult soft tissue sarcoma
+3861:childhood soft tissue sarcoma
+3862:non-metastatic childhood soft tissue sarcoma
+3863:arthritis, adjuvant-induced
+3864:peritonitis
+3865:arthritis, collagen-induced
+3866:arthritis, experimental
+3867:primary peritonitis
+3868:secondary peritonitis
+3869:retinitis pigmentosa 33 (disorder)
+3870:lip and oral cavity carcinoma
+3871:desmoplastic small round cell tumor
+3872:adult desmoplastic small round cell tumor
+3873:childhood desmoplastic small round cell tumor
+3874:major affective disorder 2
+3875:major affective disorder 1
+3876:major affective disorder 4
+3877:major affective disorder 6
+3878:major affective disorder 7
+3879:major affective disorder 8
+3880:major affective disorder 9
+3881:fibrodysplasia ossificans progressiva
+3882:hypereosinophilia
+3883:chronic myeloproliferative disorder
+3884:charcot-marie-tooth disease, type 2a
+3885:adenoid cystic carcinoma
+3886:enchondromatosis
+3887:trichomonas vaginalis (finding)
+3888:hemorrhagic fevers, viral
+3889:acute intermittent porphyria
+3890:acute interstitial pneumonia
+3891:pseudohyperkalemia cardiff
+3892:leukopenia
+3893:epithelial hyperplasia
+3894:trachomatis
+3895:charcot-marie-tooth disease, axonal, autosomal recessive, type 2a2b
+3896:nevus, epidermal (disorder)
+3897:syringocystadenoma papilliferum
+3898:premature aging syndrome
+3899:sporadic parkinson disease
+3900:advanced renal cell carcinoma
+3901:bacteremia
+3902:follicular adenoma
+3903:seasonal affective disorder
+3904:pyruvate dehydrogenase complex deficiency disease
+3905:sepsis due to urinary tract infection
+3906:catshl syndrome
+3907:patent ductus arteriosus
+3908:patent ductus arteriosus 1
+3909:ketosis
+3910:encephalopathy, toxic
+3911:toxic encephalitis
+3912:squamous cell carcinoma of lung
+3913:ductal breast carcinoma
+3914:acute cerebrovascular accidents
+3915:metastatic melanoma
+3916:prostatic intraepithelial neoplasias
+3917:krukenberg tumor
+3918:secondary malignant neoplasm of ovary
+3919:basal-like breast carcinoma
+3920:acquired camptodactyly
+3921:congenital camptodactyly
+3922:fish-eye disease
+3923:skin carcinogenesis
+3924:fibrosis, liver
+3925:inclusion body myositis (disorder)
+3926:sinusitis
+3927:chronic hyperplastic eosinophilic sinusitis
+3928:toxic shock syndrome
+3929:fibrous nodule
+3930:coffin-lowry syndrome
+3931:sudden infant death syndrome
+3932:carcinoma in situ of fallopian tube
+3933:anterior myocardial infarction
+3934:pachyonychia congenita 3
+3935:laryngeal neoplasm
+3936:malignant lymphoma, lymphocytic, intermediate differentiation, diffuse
+3937:lymphoma, lymphocytic, intermediate
+3938:myxoma
+3939:urothelial carcinoma
+3940:thyroid gland follicular adenoma
+3941:ischemic cardiomyopathy
+3942:bronchial hyperreactivity
+3943:leigh syndrome due to mitochondrial complex i deficiency
+3944:leigh syndrome due to mitochondrial complex ii deficiency
+3945:leigh syndrome due to mitochondrial complex iii deficiency
+3946:leigh syndrome due to mitochondrial complex iv deficiency
+3947:leigh syndrome due to mitochondrial complex v deficiency
+3948:necrotizing encephalopathy, infantile subacute, of leigh
+3949:thin basement membrane disease
+3950:infectious mononucleosis
+3951:l2 acute lymphoblastic leukemia
+3952:aggressive periodontitis, generalized
+3953:islet cell tumor
+3954:amyotrophic lateral sclerosis, familial
+3955:acute myeloid leukemia, m1
+3956:acute myeloid leukemia (aml-m2)
+3957:erythroblastosis
+3958:malignant squamous cell neoplasm
+3959:fg syndrome 4 (disorder)
+3960:fg syndrome 2
+3961:keratosis
+3962:melanosis coli
+3963:hyperkeratosis
+3964:mediastinal (thymic) large b-cell lymphoma
+3965:multiple polyps
+3966:pustulosis of palms and soles
+3967:multiple system atrophy 1, susceptibility to
+3968:parasitemia
+3969:polyneuropathy
+3970:verrucous epidermal nevus
+3971:precocious pubarche
+3972:premature adrenarche
+3973:splanchnic vein thrombosis
+3974:cerebral thrombosis
+3975:cerebral arterial thrombosis
+3976:premature centromere division
+3977:primary ciliary dyskinesia
+3978:cortical cataract
+3979:cleft uvula
+3980:cleft of hard palate
+3981:cleft soft palate
+3982:submucous cleft of hard palate
+3983:anophthalmia and pulmonary hypoplasia
+3984:spastic paraplegia
+3985:subfertility, female
+3986:apert syndrome
+3987:inverted papilloma
+3988:inverted squamous cell papilloma
+3989:neoplasms, nerve tissue
+3990:acute respiratory distress
+3991:congenital hypoplasia of lung
+3992:hereditary spherocytosis
+3993:abdominal adhesions
+3994:chondrodysplasia punctata, rhizomelic
+3995:rhizomelia
+3996:malignant phyllodes tumor of breast
+3997:node-positive breast cancer
+3998:fanconi anemia, complementation group j
+3999:acute otitis media
+4000:infectious otitis media
+4001:rieger syndrome
+4002:axenfeld anomaly (disorder)
+4003:axenfeld syndrome
+4004:axenfeld-rieger syndrome, type 3
+4005:axenfeld-rieger syndrome, type 1
+4006:low grade squamous intraepithelial neoplasia
+4007:histiocytosis, langerhans-cell
+4008:letterer-siwe disease
+4009:carcinoma of anal margin
+4010:anal squamous cell carcinoma
+4011:community acquired pneumonia
+4012:cataract, anterior polar
+4013:myofibrillar myopathy
+4014:common wart
+4015:hepatoma, morris
+4016:hepatoma, novikoff
+4017:experimental hepatoma
+4018:familial acanthosis nigricans
+4019:left-sided heart failure
+4020:heart failure, right-sided
+4021:myocardial failure
+4022:primary chondrosarcoma of bone
+4023:malignant neoplasm of nasopharynx
+4024:cancer of nasopharynx
+4025:carcinoma of urinary bladder, invasive
+4026:myopathy, myofibrillar, desmin-related
+4027:myopathy, myofibrillar, 3
+4028:albinism, oculocutaneous
+4029:hemorrhage, intracerebral, susceptibility to
+4030:polyposis, adenomatous intestinal
+4031:familial intestinal polyposis
+4032:chronic myeloid leukaemia transformation
+4033:myotonic dystrophy 1
+4034:cleft upper lip
+4035:cleft palate, isolated
+4036:biliary tract cancer
+4037:obsessive-compulsive personality
+4038:mucopolysaccharidosis iv
+4039:dupuytren's disease
+4040:episodic kinesigenic dyskinesia 1
+4041:cutaneous fibrous histiocytoma
+4042:sclerosing hemangioma
+4043:mild cognitive disorder
+4044:postinfarction
+4045:bronchioloalveolar adenocarcinoma
+4046:paget disease extramammary
+4047:pulmonary thromboembolisms
+4048:angiopathy, hereditary, with nephropathy, aneurysms, and muscle cramps
+4049:pure red-cell aplasia
+4050:triple-negative breast carcinoma
+4051:inflammatory breast carcinoma
+4052:meniscal degeneration
+4053:paraplegia
+4054:sensory neuropathy
+4055:androgen independent prostate cancer
+4056:hyperlipidemia, familial combined
+4057:alexander disease
+4058:cancer of digestive system
+4059:cerebral amyloid angiopathy
+4060:angiofibroma
+4061:juvenile angiofibroma
+4062:gastrointestinal mucositis
+4063:myoclonic epilepsy
+4064:action myoclonus-renal failure syndrome
+4065:asbestosis
+4066:mixed anxiety and depressive disorder
+4067:macular dystrophy, corneal type 1
+4068:arachnoid cysts
+4069:intracranial meningioma
+4070:stress, psychological
+4071:pancreatic carcinoma resectable
+4072:childhood alveolar rhabdomyosarcoma
+4073:chromosome 21 monosomy
+4074:familial multiple trichoepitheliomata
+4075:peritoneal adhesion
+4076:myoclonic epilepsies, progressive
+4077:unverricht-lundborg syndrome
+4078:inherited neuropathies
+4079:gastric adenoma
+4080:amyotrophic lateral sclerosis, sporadic
+4081:idiopathic membranous glomerulonephritis
+4082:multiple endocrine neoplasia type 2
+4083:locally metastatic malignant neoplasm
+4084:mitochondrial complex i deficiency, nuclear type 13
+4085:colitis, ischemic
+4086:plasma cell neoplasm
+4087:idiopathic osteoarthritis
+4088:generalized osteoarthritis
+4089:non-small cell lung cancer recurrent
+4090:serous cystadenocarcinoma ovary
+4091:japanese encephalitis
+4092:charcot-marie-tooth disease, type ia (disorder)
+4093:intestinal obstruction
+4094:glaucoma, primary open angle
+4095:portal vein thrombosis
+4096:motor neuron disease
+4097:prolymphocytic leukemia
+4098:methylenetetrahydrofolate reductase polymorphism
+4099:methylenetetrahydrofolate reductase gene mutation
+4100:nodular glomerulosclerosis
+4101:invasive prostate carcinoma
+4102:b acute lymphoblastic leukemia with t(9;22)(q34.1;q11.2); bcr-abl1
+4103:cadasil syndrome
+4104:hypertrophic obstructive cardiomyopathy
+4105:hypertrichosis
+4106:hypertrichosis universalis congenita, ambras type (disorder)
+4107:sebaceous adenocarcinoma
+4108:small lymphocytic lymphoma
+4109:osteoarthrosis deformans
+4110:tardive dyskinesia
+4111:drug-induced tardive dyskinesia
+4112:hormone refractory prostate cancer
+4113:pancreatic carcinoma, familial
+4114:osteoporosis, age-related
+4115:osteoporosis, senile
+4116:post-traumatic osteoporosis
+4117:adult acute megakaryoblastic leukemia
+4118:childhood acute megakaryoblastic leukemia
+4119:hmsn type v
+4120:ovarian serous adenocarcinoma
+4121:clear cell adenocarcinoma of ovary
+4122:proteus syndrome
+4123:neuroticism
+4124:pelvic cancer
+4125:mesoblastic nephroma, cellular
+4126:oestrogen deficiency
+4127:stage iii breast cancer ajcc v6
+4128:stage iii breast cancer ajcc v7
+4129:anatomic stage iii breast cancer ajcc v8
+4130:prognostic stage iii breast cancer ajcc v8
+4131:breast cancer stage iii
+4132:cancer of neck
+4133:cancer of head
+4134:pleomorphic adenoma of parotid gland
+4135:agenesis
+4136:costello syndrome (disorder)
+4137:schizophrenia 8 (disorder)
+4138:peripheral motor neuropathy
+4139:allergic rhinitis (disorder)
+4140:solar lentigo
+4141:anophthalmos
+4142:hiv-infection/aids
+4143:parathyroid gland adenocarcinoma
+4144:appendicitis
+4145:gangrene
+4146:acute appendicitis nos (disorder)
+4147:ruptured appendicitis
+4148:marinesco-sjogren syndrome
+4149:situs inversus
+4150:atypical lobular breast hyperplasia
+4151:keratocystic odontogenic tumor
+4152:secondary malignant neoplasm of lymph nodes of neck
+4153:hyperleukocytosis
+4154:riddle syndrome
+4155:vitiligo-associated multiple autoimmune disease susceptibility 1 (finding)
+4156:thrombasthenia
+4157:serous tubal intraepithelial carcinoma
+4158:epilepsy, progressive myoclonic, 8
+4159:cerebral cavernous malformations 3
+4160:metastatic breast carcinoma
+4161:3-methylglutaconic aciduria type 3
+4162:optic atrophy with or without deafness, ophthalmoplegia, myopathy, ataxia, and neuropathy
+4163:inverted urothelial papilloma
+4164:xeroderma pigmentosum, group g
+4165:bowen's disease
+4166:actinic keratosis
+4167:perianal squamous intraepithelial neoplasia
+4168:alzheimer disease 5
+4169:glioblastoma, idh-wildtype
+4170:metaplastic carcinoma
+4171:microsatellite instability-high colorectal cancer
+4172:vagina carcinoma
+4173:liposarcoma, myxoid
+4174:tuberculosis, drug-resistant
+4175:st segment elevation myocardial infarction
+4176:transitional cell carcinoma of bladder
+4177:childhood t acute lymphoblastic leukemia
+4178:non-proliferative retinopathy
+4179:oestrogen receptor positive breast cancer
+4180:other creutzfeldt-jakob disease
+4181:sporadic cjd
+4182:child attention deficit disorder
+4183:attention deficit disorder
+4184:gastroesophageal reflux disease
+4185:dysplastic nevus
+4186:metastatic renal cell cancer
+4187:metastatic renal cell carcinoma
+4188:abetalipoproteinemia
+4189:infection caused by helicobacter pylori
+4190:adult type dermatomyositis
+4191:juvenile-onset still disease
+4192:juvenile arthritis
+4193:juvenile psoriatic arthritis
+4194:polyarthritis, juvenile, rheumatoid factor negative
+4195:polyarthritis, juvenile, rheumatoid factor positive
+4196:speech delay
+4197:paget disease
+4198:leukaemia recurrent
+4199:carcinoma of larynx
+4200:dystrophia myotonica 2
+4201:deficiency of hexokinase (disorder)
+4202:giardiasis
+4203:cytomegalovirus viremia
+4204:chronic thromboembolic pulmonary hypertension
+4205:hepatitis, toxic
+4206:hepatitis, drug-induced
+4207:drug-induced acute liver injury
+4208:chemically-induced liver toxicity
+4209:gastric gastrointestinal stromal tumor
+4210:mucopolysaccharidoses
+4211:mucopolysaccharidosis type iiia
+4212:pachyonychia congenita
+4213:hypocholesterolemia
+4214:cholestasis, progressive familial intrahepatic 1
+4215:shared paranoid disorder
+4216:thanatophoric dysplasia, type 1
+4217:low tension glaucoma
+4218:spinocerebellar ataxia type 6 (disorder)
+4219:high grade serous carcinoma
+4220:stage iii colorectal cancer
+4221:stage iii colorectal cancer ajcc v7
+4222:epilepsy, pyridoxine-dependent
+4223:hemimegalencephaly
+4224:hyperfibrinolysis
+4225:hemangioendothelioma
+4226:eczema
+4227:thrombosis of renal vein
+4228:bone destruction
+4229:leiomyosarcoma of uterus
+4230:adult teratoma
+4231:childhood teratoma
+4232:dermatosis papulosa nigra
+4233:stucco keratosis
+4234:peyronie disease
+4235:micrognathism
+4236:chronic lymphoproliferative disorder of nk-cells
+4237:leukemia, natural killer cell large granular lymphocytic
+4238:ganglioneuromatosis
+4239:severe intellectual disability
+4240:autistic behavior
+4241:pitt-hopkins syndrome
+4242:congenital disorder of glycosylation, type iu
+4243:lobular carcinoma in situ of breast
+4244:non-infiltrating lobular carcinoma
+4245:classical phenylketonuria
+4246:hepatic vein thrombosis
+4247:thyroid cancer, follicular
+4248:suicidal
+4249:gonorrhea
+4250:mastocytosis, systemic
+4251:hepatocellular adenoma
+4252:clinical depression
+4253:epiretinal membrane
+4254:radiation nephropathy
+4255:epilepsy, cryptogenic
+4256:awakening epilepsy
+4257:holoprosencephaly
+4258:cerebellar degeneration
+4259:substance dependence
+4260:organic mental disorders, substance-induced
+4261:substance abuse problem
+4262:anemia, diamond-blackfan
+4263:diamond-blackfan anemia 10
+4264:diamond-blackfan anemia 9
+4265:prune belly syndrome
+4266:painful bladder syndrome
+4267:tuberous sclerosis 1 (disorder)
+4268:pheochromocytoma, extra-adrenal
+4269:hereditary paraganglioma-pheochromocytoma syndrome
+4270:specific language impairment
+4271:auditory processing disorder, central
+4272:cataplexy
+4273:hereditary peripheral neuropathy
+4274:cystadenoma, serous
+4275:paralytic stroke
+4276:malignant melanoma of conjunctiva
+4277:adenosquamous carcinoma
+4278:human immunodeficiency virus type 1, susceptibility to
+4279:hypercholesterolemia, autosomal recessive
+4280:leukocyte adhesion deficiency, type iii
+4281:recurrent major depressive episodes
+4282:mobius syndrome
+4283:secondary malignant neoplasm of female breast
+4284:stage iv pancreatic cancer
+4285:stage iv pancreatic cancer ajcc v6 and v7
+4286:stage iv pancreatic cancer ajcc v8
+4287:leopard syndrome
+4288:poorly differentiated thyroid carcinoma
+4289:amyotrophic lateral sclerosis 2, juvenile (disorder)
+4290:chronic kidney insufficiency
+4291:depression, bipolar
+4292:endogenous depression
+4293:manic disorder
+4294:melancholia
+4295:depressive syndrome
+4296:depression, neurotic
+4297:manic
+4298:diffuse alveolar damage
+4299:myasthenic syndromes, congenital
+4300:irido-corneal dysgenesis
+4301:complicated malaria
+4302:metastatic malignant neoplasm in the viscera
+4303:cystadenocarcinoma
+4304:acinar cell carcinoma
+4305:heterotaxy syndrome
+4306:pineal gland neoplasm
+4307:usual ductal hyperplasia of breast
+4308:organ dysfunction syndrome
+4309:factor vii deficiency
+4310:jacksonian seizure
+4311:complex partial seizures
+4312:generalized seizures
+4313:clonic seizures
+4314:epileptic drop attack
+4315:tonic - clonic seizures
+4316:single seizure
+4317:irido-corneo-trabecular dysgenesis (disorder)
+4318:adrenal cancer
+4319:adult acute myeloblastic leukemia
+4320:complete atrioventricular block
+4321:multifocal micronodular pneumocyte hyperplasia
+4322:bladder cancer stage iv
+4323:alzheimer disease, familial, type 3
+4324:organoid nevus phakomatosis
+4325:nevus sebaceus of jadassohn
+4326:aortic aneurysm without mention of rupture nos
+4327:pterygium of conjunctiva and cornea
+4328:pterygium of eye
+4329:isaacs syndrome
+4330:limbic encephalitis
+4331:chronic ulcerative colitis
+4332:polyp of large intestine
+4333:bicoronal craniosynostosis
+4334:cirrhosis, cryptogenic
+4335:congenital hernia of foramen of morgagni
+4336:congenital hernia of foramen of bochdalek
+4337:respiratory failure
+4338:mitochondrial abnormalities
+4339:mature b-cell neoplasm
+4340:polycystic kidney, autosomal dominant
+4341:cocaine dependence
+4342:her-2 positive breast cancer
+4343:her2-positive carcinoma of breast
+4344:iron deficiency
+4345:well differentiated oligodendroglioma
+4346:progesterone receptor-positive breast cancer
+4347:metastatic human epidermal growth factor 2 positive carcinoma of breast
+4348:mesenchymal cell neoplasm
+4349:endometrioma
+4350:alpha^+^ thalassemia
+4351:central hypothyroidism
+4352:secondary hypothyroidism
+4353:breast cancer, lobular
+4354:central visual impairment
+4355:pneumoperitoneum
+4356:cannabis abuse
+4357:cannabis dependence
+4358:hashish abuse
+4359:psychoses, drug
+4360:psychoses, substance-induced
+4361:cannabis use
+4362:subependymal giant cell astrocytoma
+4363:adult subependymal giant cell astrocytoma
+4364:childhood subependymal giant cell astrocytoma
+4365:moyamoya disease 2
+4366:moyamoya disease 1
+4367:familial non-medullary thyroid cancer
+4368:klinefelter syndrome
+4369:klinefelter's syndrome - male with more than two x chromosomes
+4370:cerebral autosomal recessive arteriopathy with subcortical infarcts and leukoencephalopathy
+4371:sheehan syndrome
+4372:stammering
+4373:stuttering, familial persistent 1
+4374:extra-osseous ewing's sarcoma
+4375:adult pilocytic astrocytoma
+4376:pilocytic astrocytoma
+4377:childhood pilocytic astrocytoma
+4378:hypertrichosis, congenital generalized
+4379:peroxisome biogenesis disorder, complementation group h
+4380:her2-negative breast cancer
+4381:childhood pre-b acute lymphoblastic leukemia
+4382:adult pre-b acute lymphoblastic leukemia
+4383:bardet-biedl syndrome
+4384:malignant neoplasm of anus
+4385:anal carcinoma
+4386:leber congenital amaurosis
+4387:autoimmune retinopathy
+4388:hyperdiploid b acute lymphoblastic leukemia
+4389:narcolepsy-cataplexy syndrome
+4390:cockayne syndrome, type ii
+4391:staphylococcal toxic shock syndrome
+4392:breast cancer stage ii
+4393:stage ii breast cancer ajcc v6 and v7
+4394:anatomic stage ii breast cancer ajcc v8
+4395:prognostic stage ii breast cancer ajcc v8
+4396:nijmegen breakage syndrome-like disorder
+4397:hyperinsulinemic hypoglycemia
+4398:multiple endocrine neoplasia type 2b
+4399:conotruncal defect
+4400:conotruncal heart malformations (disorder)
+4401:mandibuloacral dysostosis
+4402:chronic lung disease
+4403:lymphoproliferative disorder of the skin
+4404:metastatic malignant neoplasm to brain
+4405:anemia, megaloblastic
+4406:pancytopenia
+4407:hyperphenylalaninemia, non-phenylketonuric
+4408:megaloblastic anemia due to dihydrofolate reductase deficiency
+4409:deficiency of dihydrofolate reductase
+4410:smith-lemli-opitz syndrome
+4411:oculovestibuloauditory syndrome
+4412:oculomotor apraxia
+4413:exencephaly
+4414:adult liposarcoma
+4415:childhood liposarcoma
+4416:carcinoma metastatic to the skin
+4417:bladder neck obstruction
+4418:drinking behavior processes
+4419:thrombocytopenia 1 (disorder)
+4420:acute myeloid leukemia, minimal differentiation
+4421:neuropathy ataxia and retinis pigmentosa
+4422:sclerocystic ovaries
+4423:advanced uveal melanoma
+4424:malignant neoplasm of muscle
+4425:plexiform leiomyoma
+4426:traditional serrated adenoma
+4427:infection by cryptococcus neoformans
+4428:transitional cell dysplasia
+4429:treatment related acute myeloid leukaemia
+4430:chromosome 13q14 deletion syndrome
+4431:microlissencephaly
+4432:lissencephaly 4
+4433:primary microcephaly
+4434:microhydranencephaly
+4435:leukemia, monocytic, chronic
+4436:medullary carcinoma of thyroid
+4437:cutaneous mastocytosis
+4438:fanconi anemia, complementation group n
+4439:intervertebral disk displacement
+4440:disk, herniated
+4441:degeneration of lumbar intervertebral disc
+4442:prolapsed lumbar disc
+4443:paraganglioma of head and neck
+4444:brachial amyotrophic diplegia
+4445:walker-warburg congenital muscular dystrophy
+4446:muscle eye brain disease
+4447:immunoblastic large-cell lymphoma
+4448:refractory leukemia
+4449:secondary malignant neoplasm of pancreas
+4450:hemophilia, nos
+4451:acute encephalopathy
+4452:aseptic meningitis
+4453:peripheral demyelinating neuropathy
+4454:dermatomyositis, childhood type
+4455:vascular ischemia
+4456:robinow syndrome
+4457:kidney failure, acute
+4458:low grade glioma
+4459:metaplastic carcinoma of breast
+4460:atrial septal defect 1
+4461:benign ovarian neoplasm
+4462:childhood craniopharyngioma
+4463:adult craniopharyngioma
+4464:pneumonia due to pseudomonas
+4465:gaucher disease, type 1
+4466:childhood embryonal rhabdomyosarcoma
+4467:rhabdomyosarcoma with ganglionic differentiation
+4468:cardiomyopathy, familial restrictive, 1 (disorder)
+4469:stage, non-small cell lung cancer
+4470:periodic fever
+4471:extramedullary plasmacytoma
+4472:major depression, single episode
+4473:anti-basement membrane glomerulonephritis
+4474:acinar cell carcinoma of pancreas
+4475:interrupted aortic arch
+4476:pancreatic intraductal papillary mucinous neoplasm
+4477:primary malignant liver neoplasm
+4478:laryngeal cleft
+4479:pachygyria
+4480:other specified congenital malformations of brain
+4481:arnold-chiari syndrome, type iv
+4482:disease caused by shigella sonnei
+4483:acute kidney tubular necrosis
+4484:locally advanced malignant neoplasm
+4485:mammary analogue secretory carcinoma
+4486:mammary analog secretory carcinoma of salivary gland
+4487:hiv coinfection
+4488:luminal b breast carcinoma
+4489:gonadal dysgenesis, 45,x
+4490:cystic kidney
+4491:congenital cystic kidney disease
+4492:hantavirus infection in conditions classified elsewhere and of unspecified site
+4493:growth hormone treatment
+4494:primary cholangiocarcinoma of intrahepatic biliary tract
+4495:adenocarcinoma of lung, stage iv
+4496:stage i lung cancer ajcc v6
+4497:stage i lung cancer ajcc v7
+4498:stage i lung cancer ajcc v8
+4499:malignant neoplasm of adrenal cortex
+4500:mitochondrial respiratory chain deficiencies
+4501:comedone
+4502:cancer of urinary tract
+4503:cystic renal dysplasia
+4504:pseudohypoaldosteronism, type ii
+4505:pseudohypoaldosteronism, type iie
+4506:hyperkalemic mineralocorticoid resistance
+4507:exudative retinopathy
+4508:tumoral calcinosis
+4509:cerebroretinal microangiopathy with calcifications and cysts (disorder)
+4510:cerebroretinal microangiopathy with calcifications and cysts 1
+4511:borderline personality disorder
+4512:2,8-dihydroxyadenine urolithiasis
+4513:lateral meningocele syndrome
+4514:limb-mammary syndrome
+4515:childhood asthma
+4516:merkel cell carcinoma
+4517:congenital ocular coloboma (disorder)
+4518:fryns-aftimos syndrome
+4519:iris coloboma with ptosis, hypertelorism, and mental retardation
+4520:baraitser-winter syndrome 2
+4521:uveoretinal coloboma
+4522:grn-related frontotemporal dementia
+4523:bilateral cataracts (disorder)
+4524:luminal a breast carcinoma
+4525:myeloblastosis
+4526:hippocampal sclerosis
+4527:hydranencephaly
+4528:vertical talus
+4529:arnold chiari malformation
+4530:postsurgical menopause
+4531:quadriplegia
+4532:hemiplegia, infantile
+4533:central diabetes insipidus
+4534:separation anxiety disorder
+4535:bernard-soulier syndrome
+4536:barber say syndrome
+4537:brooke-spiegler syndrome
+4538:motor neuron disease, lower
+4539:autoimmune chronic hepatitis
+4540:wernicke encephalopathy
+4541:tdp-43 proteinopathies
+4542:non-arthropod borne lymphocytic choriomeningitis
+4543:common migraine
+4544:chronic gastroduodenitis
+4545:squamous cell carcinoma of vulva
+4546:vulval intraepithelial neoplasia
+4547:early infantile epileptic encephalopathy with suppression bursts
+4548:isodicentric chromosome 15 syndrome
+4549:leptospirosis
+4550:dyskinetic syndrome
+4551:malocclusion
+4552:central serous chorioretinopathy
+4553:bone marrow toxicity
+4554:acute kidney insufficiency
+4555:amyotrophic lateral sclerosis 18
+4556:giant cell glioblastoma
+4557:aase smith syndrome 2
+4558:adult type ovarian granulosa cell tumor
+4559:ovarian granulosa cell tumor
+4560:epileptic syndromes
+4561:chronic graft-versus-host disease
+4562:greig cephalopolysyndactyly syndrome
+4563:autoimmune arthritis
+4564:neutrophil extracellular trap formation
+4565:depletion of mitochondrial dna
+4566:cholesteryl ester transfer protein deficiency
+4567:fanconi anemia, complementation group f
+4568:type ii endometrial adenocarcinoma
+4569:pten hamartoma tumor syndrome
+4570:emotional neglect
+4571:bulbo-spinal atrophy, x-linked
+4572:myxoid/round cell liposarcoma
+4573:microphthalmia, syndromic 7
+4574:spinocerebellar ataxia 26
+4575:thickening of pleura
+4576:fibrosis of pleura
+4577:immune reconstitution inflammatory syndrome
+4578:bipolar i disorder
+4579:avellino corneal dystrophy
+4580:amyloidosis cutis dyschromia
+4581:multi-infarct dementia
+4582:congenital malformation syndrome
+4583:mild depression
+4584:mental retardation, autosomal dominant 7
+4585:congenital macrodactylia
+4586:malignant neoplasm of colon stage iv
+4587:globoid cell leukodystrophy
+4588:malignant atrophic papulosis
+4589:polymicrogyria
+4590:aicardi-goutieres syndrome
+4591:malignant neoplasm of head of pancreas
+4592:malignant neoplasm of body of pancreas
+4593:malignant neoplasm of tail of pancreas
+4594:malignant neoplasm of other specified sites of pancreas
+4595:macrocephaly
+4596:mental impairment
+4597:mental handicap
+4598:henoch-schoenlein purpura
+4599:spastic paraplegia 28, autosomal recessive (disorder)
+4600:spastic paraplegia 56, autosomal recessive
+4601:spastic paraplegia 54, autosomal recessive
+4602:metastatic leiomyosarcoma
+4603:dystonia musculorum deformans
+4604:pili torti-deafness syndrome
+4605:idiopathic familial dystonia
+4606:focal dystonia
+4607:adult-onset dystonias
+4608:adult-onset idiopathic focal dystonias
+4609:adult-onset idiopathic torsion dystonias
+4610:autosomal dominant familial dystonia
+4611:autosomal recessive familial dystonia
+4612:childhood onset dystonias
+4613:dystonia, primary
+4614:dystonia, secondary
+4615:dystonias, sporadic
+4616:familial dystonia
+4617:pseudodystonia
+4618:dystonia 25
+4619:early onset torsion dystonia
+4620:writer's cramp
+4621:anemia, hemolytic, acquired
+4622:anemia, microangiopathic
+4623:microangiopathic hemolytic anemia
+4624:schizencephaly
+4625:developmental porencephaly
+4626:cowden syndrome 6
+4627:precursor t cell lymphoblastic leukemia/lymphoblastic lymphoma
+4628:fanconi anemia, complementation group s
+4629:environment-related malignant neoplasm
+4630:turcot syndrome (disorder)
+4631:focal cortical dysplasia type iib
+4632:aortic valve disorder
+4633:stage iv esophageal squamous cell carcinoma
+4634:alpha-thalassemia/mental retardation syndrome, nondeletion type, x-linked
+4635:meningiomas, multiple
+4636:malignant meningioma
+4637:benign meningioma
+4638:meningothelial meningioma
+4639:fibrous meningioma
+4640:psammomatous meningioma
+4641:angiomatous meningioma
+4642:hemangioblastic meningioma
+4643:hemangiopericytic meningioma
+4644:transitional meningioma
+4645:spinal meningioma
+4646:clear cell meningioma
+4647:xanthomatous meningioma
+4648:cerebral convexity meningioma
+4649:parasagittal meningioma
+4650:intraorbital meningioma
+4651:intraventricular meningioma
+4652:olfactory groove meningioma
+4653:secretory meningioma
+4654:microcystic meningioma
+4655:angioblastic meningioma
+4656:posterior fossa meningioma
+4657:sphenoid wing meningioma
+4658:papillary meningioma
+4659:myomatous neoplasm
+4660:multiple fibrofolliculomas
+4661:congenital fiber type disproportion
+4662:richieri costa pereira syndrome
+4663:myeloproliferative syndrome, transient
+4664:carcinoma breast stage i
+4665:malignant neoplasm of breast stage i
+4666:anatomic stage i breast cancer ajcc v8
+4667:prognostic stage i breast cancer ajcc v8
+4668:gastroschisis
+4669:polyp benign
+4670:influenza a
+4671:blepharophimosis syndrome ohdo type
+4672:ohdo syndrome, maat-kievit-brunner type
+4673:uranostaphyloschisis
+4674:strawberry nevus of skin
+4675:viremia
+4676:secondary hypertension
+4677:adenoma, basal cell
+4678:adenoma, microcystic
+4679:adenoma, monomorphic
+4680:papillary adenoma
+4681:adenoma, trabecular
+4682:short stature, idiopathic, x-linked
+4683:stage ii colon cancer
+4684:stage ii colon cancer ajcc v7
+4685:stage ii colon cancer ajcc v8
+4686:segmental dystonia
+4687:igm monoclonal gammopathy of uncertain significance
+4688:ceroid lipofuscinosis, neuronal, 6
+4689:high altitude pulmonary edema
+4690:adenocarcinoma of salivary gland
+4691:secondary antiphospholipid syndrome
+4692:group a streptococcal infections
+4693:thyroid cancer, nonmedullary, 2
+4694:mucocele of appendix
+4695:malignant neoplasm of appendix
+4696:primary malignant neoplasm of appendix
+4697:unresectable hepatocellular carcinoma
+4698:follicular neoplasm
+4699:prostate cancer, hereditary, 7
+4700:adult angiosarcoma
+4701:childhood angiosarcoma
+4702:congenital neutropenia
+4703:familial myelofibrosis
+4704:neutropenia, severe congenital, 5, autosomal recessive
+4705:congenital neutropenia, myelofibrosis, nephromegaly syndrome
+4706:cortical dysplasia, complex, with other brain malformations 4
+4707:severe congenital microcephaly
+4708:adult burkitt lymphoma
+4709:childhood burkitt lymphoma
+4710:fragile x tremor/ataxia syndrome
+4711:leiomyomatosis peritonealis disseminata
+4712:mixed cryoglobulinemia
+4713:pemphigus vulgaris
+4714:scoliosis, unspecified
+4715:arthrogryposis multiplex congenita, distal, type iia
+4716:thyroid hormone plasma membrane transport defect
+4717:blepharoptosis
+4718:ptosis
+4719:striatonigral degeneration
+4720:trilateral retinoblastoma
+4721:cervical clear cell adenocarcinoma
+4722:congenital pontocerebellar hypoplasia
+4723:pontoneocerebellar hypoplasia
+4724:hearing loss, central
+4725:hearing loss, high-frequency
+4726:parvovirus b19 (disease)
+4727:oropharyngeal carcinoma
+4728:uterine corpus carcinosarcoma
+4729:enthesitis-related arthritis
+4730:early rheumatoid arthritis
+4731:osteogenic neoplasm
+4732:nevus comedonicus
+4733:endocrine hypertension
+4734:dyskinesia, drug-induced
+4735:vascular lesions
+4736:skin toxicity
+4737:brachydactyly, type d
+4738:retinal dystrophy with inner retinal dysfunction and ganglion cell abnormalities
+4739:dysmorphism
+4740:intratubular malignant germ cells
+4741:sicca syndrome
+4742:primary sjögren's syndrome
+4743:melanoma, b16
+4744:aorta to right ventricle tunnel
+4745:anxiety state
+4746:anxiety neurosis (finding)
+4747:familial nonmedullary thyroid gland carcinoma
+4748:gaze palsy, familial horizontal, with progressive scoliosis
+4749:gaze palsy, familial horizontal, with progressive scoliosis, 1
+4750:blastic plasmacytoid dendritic cell neoplasm
+4751:dopa-responsive dystonia
+4752:aneurysm, ruptured
+4753:leiomyomatosis
+4754:roux-en-y anastomosis site
+4755:classical lissencephaly
+4756:morbid obesity and spermatogenic failure
+4757:fibrillation
+4758:fatty liver disease, nonalcoholic, susceptibility to, 1
+4759:short stature homeobox deficiency
+4760:diffuse intrinsic pontine glioma
+4761:childhood hepatocellular carcinoma
+4762:adult hepatocellular carcinoma
+4763:atypical lipoma
+4764:nonnuclear polymorphic congenital cataract
+4765:meckel syndrome type 1
+4766:lactic acidosis, congenital infantile, due to lad deficiency
+4767:linear verrucous epidermal nevus
+4768:underdevelopment
+4769:cleft lip with or without cleft palate
+4770:lipomatosis
+4771:lipomatosis, multiple symmetrical
+4772:thymus hyperplasia
+4773:intraocular retinoblastoma
+4774:pediatric intraocular retinoblastoma
+4775:portal hypertension
+4776:coloboma of optic disc
+4777:congenital coloboma of iris
+4778:coloboma of lens
+4779:hereditary macular coloboma
+4780:coloboma, ocular, autosomal recessive
+4781:coloboma of choroid and retina
+4782:high-risk neuroblastoma
+4783:cyanotic congenital heart disease
+4784:stage, prostate cancer
+4785:left ventricular noncompaction
+4786:ovarian cysts
+4787:endometriosis of ovary
+4788:adenosquamous cell lung cancer
+4789:respiratory morbidity
+4790:mental retardation, autosomal recessive 44
+4791:malignant bone neoplasm
+4792:lymphedema praecox
+4793:milroy disease
+4794:ataxia, spinocerebellar
+4795:tibial muscular dystrophy, tardive
+4796:profound mental retardation
+4797:mental deficiency
+4798:focal dysplasia
+4799:hypoparathyroidism
+4800:hypercalcemia
+4801:sotos' syndrome
+4802:macroencephaly
+4803:nonmedullary thyroid carcinoma
+4804:hirschsprung disease, susceptibility to, 1
+4805:atrichia with papular lesions
+4806:morphine dependence
+4807:physical addiction
+4808:msi-high
+4809:diarrhoea predominant irritable bowel syndrome
+4810:sleep apnea, central
+4811:cockayne syndrome, type i
+4812:adult undifferentiated pleomorphic sarcoma
+4813:childhood undifferentiated pleomorphic sarcoma
+4814:apraxia, verbal
+4815:spinocerebellar ataxia, autosomal recessive 1
+4816:osteoarthritis of the hand
+4817:enterovirus 71 infection
+4818:opiate addiction
+4819:metastatic urothelial carcinoma
+4820:varicosity
+4821:collagen nevus of skin
+4822:migraine with aura
+4823:jaundice, hemolytic
+4824:hemolytic disorder
+4825:leukomalacia, periventricular
+4826:overgrowth syndrome
+4827:primary pigmented nodular adrenal dysplasia
+4828:pleomorphic xanthoastrocytoma
+4829:childhood pleomorphic xanthoastrocytoma
+4830:epithelioid glioblastoma
+4831:acute myeloid leukaemia refractory
+4832:aids related complex
+4833:stage iv breast cancer ajcc v6 and v7
+4834:anatomic stage iv breast cancer ajcc v8
+4835:prognostic stage iv breast cancer ajcc v8
+4836:polymorphous low grade adenocarcinoma
+4837:progression of non-small cell lung cancer
+4838:atrophy of the spinal cord
+4839:cellular leiomyoma
+4840:mitotically active leiomyoma
+4841:hhh syndrome
+4842:lysinuric protein intolerance
+4843:locally recurrent malignant neoplasm
+4844:cerebrofrontofacial syndrome
+4845:acute chest syndrome
+4846:chikungunya fever
+4847:lymphadenitis
+4848:adrenal cushing's syndrome
+4849:congenital cataract
+4850:transient ischemic attack
+4851:chronic hepatitis c genotype 1
+4852:dystonia 6, torsion (disorder)
+4853:hereditary gingival fibromatosis
+4854:extrapulmonary small cell carcinoma
+4855:chronic schizophrenia
+4856:trichoepithelioma
+4857:retinitis pigmentosa 79
+4858:isovaleryl-coa dehydrogenase deficiency
+4859:contracture
+4860:acute undifferentiated leukemia
+4861:undifferentiated leukemia
+4862:angiogenic switch
+4863:pseudohypoaldosteronism, type iid
+4864:hereditary liability to pressure palsies
+4865:charcot-marie-tooth disease, type 4a (disorder)
+4866:recurrent carcinoma
+4867:split hand foot deformity 1
+4868:bilateral pheochromocytoma and islet cell adenoma of the pancreas
+4869:hypoplasia of corpus callosum
+4870:spastic ataxia
+4871:conn adenoma
+4872:arterial tortuosity syndrome
+4873:mature b-cell non-hodgkin lymphoma
+4874:synovitis, granulomatous, with uveitis and cranial neuropathies (disorder)
+4875:social anxiety
+4876:ovarian failure
+4877:premature ovarian failure 10
+4878:advanced urothelial carcinoma
+4879:thyroid dysgenesis
+4880:nicotine withdrawal
+4881:mental retardation, x-linked 102
+4882:visual pathway glioma
+4883:squamous cell carcinoma of oropharynx
+4884:growth deficiency and mental retardation with facial dysmorphism
+4885:adult neuronal ceroid lipofuscinosis
+4886:thrombocytopenia 5
+4887:elastosis perforans serpiginosa
+4888:ear, patella, short stature syndrome
+4889:mixed follicular and papillary thyroid carcinoma
+4890:middle east respiratory syndrome
+4891:tuberculosis, cutaneous
+4892:renal medullary carcinoma
+4893:ectrodactyly, ectodermal dysplasia, and cleft lip/palate syndrome 1
+4894:mental retardation, autosomal recessive 50
+4895:paroxysmal atrial fibrillation
+4896:feline mammary carcinoma
+4897:subgingival plaque
+4898:pseudomyogenic (epithelioid sarcoma-like) hemangioendothelioma
+4899:spinocerebellar ataxia type 1
+4900:metastatic lung adenocarcinoma
+4901:fnaitp
+4902:squamous cell carcinoma of penis
+4903:phonological developmental disorder
+4904:speech sound disorders
+4905:central odontogenic fibroma
+4906:dental cyst
+4907:rose cluster 1
+4908:clostridium; difficile (disorder)
+4909:dominant sensorineural hearing loss
+4910:focal cortical dysplasia of taylor
+4911:macrocytosis
+4912:macrocytosis, familial
+4913:drug-induced stevens johnson syndrome
+4914:mycoplasma-induced stevens-johnson syndrome
+4915:stevens-johnson syndrome toxic epidermal necrolysis spectrum
+4916:locally advanced breast cancer
+4917:familial dilated cardiomyopathy
+4918:progressive cone-rod dystrophy
+4919:cone-rod dystrophy 2
+4920:cone-rod dystrophies
+4921:smith-kingsmore syndrome
+4922:pierre robin syndrome
+4923:acrofacial dysostosis
+4924:burn-mckeown syndrome
+4925:primary hypogonadism
+4926:primary testicular failure
+4927:diminished ovarian reserve
+4928:fibrosis of bile duct
+4929:cornelia de lange syndrome 4
+4930:pik3ca related overgrowth spectrum
+4931:barakat syndrome
+4932:dextrocardia
+4933:congenital pectus excavatum
+4934:pectus excavatum
+4935:adenocarcinoma of small intestine
+4936:optic neuropathy
+4937:solitary fibrous tumor
+4938:arthrogryposis
+4939:lethal congenital contracture syndrome 9
+4940:posterior subcapsular cataract
+4941:cakut
+4942:renal dysplasia
+4943:stage iv colorectal cancer
+4944:stage iv colorectal cancer ajcc v7
+4945:osteosclerosis
+4946:rod-cone dystrophy
+4947:nasopharyngeal cancer recurrent
+4948:stage iv nasopharyngeal carcinoma
+4949:pancreatic adenocarcinoma metastatic
+4950:apraxia, developmental verbal
+4951:superficial ulcer
+4952:skin erosion
+4953:caries (morphologic abnormality)
+4954:histiocytoma, benign fibrous
+4955:waldenstrom's macroglobulinaemia refractory
+4956:fibromuscular dysplasia
+4957:transitional cell neoplasm
+4958:peripheral axonal neuropathy
+4959:thymic lymphoma
+4960:dejerine-sottas disease (disorder)
+4961:dosage-sensitive sex reversal
+4962:monoclonal b-cell lymphocytosis
+4963:protein s deficiency
+4964:corpus callosum, agenesis of, with facial anomalies and robin sequence
+4965:diphtheria
+4966:pitt hopkins-like syndrome
+4967:fanconi anemia, complementation group e
+4968:lumbar disc disease
+4969:genetic hypertension
+4970:saethre-chotzen syndrome
+4971:malignant neoplasm of gallbladder
+4972:stage 0 gallbladder cancer ajcc v8
+4973:stage iia gallbladder cancer ajcc v8
+4974:stage iib gallbladder cancer ajcc v8
+4975:stage iii gallbladder cancer ajcc v8
+4976:stage iv gallbladder cancer ajcc v8
+4977:condition, preneoplastic
+4978:gaucher disease, type 3 (disorder)
+4979:keratoacanthoma
+4980:mps iii c
+4981:thyroid hurthle cell carcinoma
+4982:bone marrow infiltration
+4983:peritoneal adhesions (postoperative) (postinfection)
+4984:large cell neuroendocrine carcinoma
+4985:malignant cystosarcoma phyllodes
+4986:camurati-engelmann syndrome
+4987:pseudomyxoma peritonei
+4988:neurodegeneration with brain iron accumulation 5
+4989:hidradenoma papilliferum
+4990:diagnosis, psychiatric
+4991:impaired insulin secretion
+4992:perisylvian syndrome
+4993:petit mal status
+4994:isolated somatotropin deficiency
+4995:high-functioning autism
+4996:myxoma of the endocardium
+4997:myxoma of heart
+4998:klatskin tumor
+4999:familial schizencephaly
+5000:loeys-dietz syndrome
+5001:malignant uterine corpus neoplasm
+5002:papillary renal cell carcinoma, sporadic
+5003:infantile severe myoclonic epilepsy
+5004:epileptic encephalopathy, early infantile, 2
+5005:metastatic castration-resistant prostate cancer
+5006:muscular dystrophy, emery-dreifuss
+5007:refractory breast carcinoma
+5008:prostate cancer recurrent
+5009:biliary papillomatosis
+5010:exudative age-related macular degeneration
+5011:geographic atrophy
+5012:exudative macular degeneration
+5013:activated b-cell type diffuse large b-cell lymphoma
+5014:neurocutaneous syndromes
+5015:liver calculus
+5016:malignant neoplasm of retina
+5017:epithelial recurrent erosion dystrophy
+5018:deuteranomaly
+5019:memory dysfunction
+5020:inherited peripheral neuropathy
+5021:mental retardation, autosomal dominant 56
+5022:torch syndrome
+5023:maple syrup urine disease
+5024:squamous cell metaplasia
+5025:primary osteoporosis
+5026:malignant neoplasm of penis
+5027:adult penile carcinoma
+5028:atypical fibroxanthoma of skin
+5029:pigmented basal cell carcinoma
+5030:bacterial endocarditis
+5031:infective endocarditis
+5032:axonal sensorimotor neuropathy
+5033:cholangitis, sclerosing
+5034:angle closure glaucoma
+5035:primary angle-closure glaucoma
+5036:carcinoma of extrahepatic bile duct
+5037:mesoblastic nephroma
+5038:aplasia/hypoplasia of the extremities
+5039:ureter carcinoma
+5040:collagenosis, familial reactive perforating
+5041:severe myopia
+5042:laryngeal dystonia
+5043:adult t acute lymphoblastic leukemia
+5044:infant t acute lymphoblastic leukemia
+5045:spastic ataxia, charlevoix-saguenay type
+5046:malignant neoplasm of large intestine
+5047:colorectal cancer, susceptibility to, 1
+5048:colorectal cancer, susceptibility to, 10
+5049:colorectal cancer, susceptibility to, 12
+5050:communicating hydrocephalus
+5051:low set ears
+5052:neuronal heterotopia
+5053:dysgenesis of corpus callosum
+5054:gross motor development delay
+5055:severe expressive language delay
+5056:calcaneovalgus deformity
+5057:aqueductal stenosis
+5058:severe receptive language delay
+5059:epilepsy co-occurrent and due to dementia
+5060:cerebral dysfunction
+5061:spindle cell oncocytoma of the adenohypophysis
+5062:ige-mediated food allergy
+5063:hereditary leiomyomatosis and renal cell cancer
+5064:non-squamous non-small cell lung cancer
+5065:heavy drinking
+5066:perinatal depression in mother
+5067:splenic hypoplasia
+5068:intracranial atherosclerosis
+5069:intra-abdominal hypertension
+5070:noonan syndrome
+5071:noonan syndrome-like disorder with loose anagen hair 2
+5072:moderate intellectual disability
+5073:pineal gland dysfunction
+5074:cerebral ataxia
+5075:choroideremia
+5076:parkinson disease, late-onset
+5077:platelet disorder, familial, with associated myeloid malignancy
+5078:thrombocytopenia 2 (disorder)
+5079:abdominal abscess
+5080:thymic carcinoma
+5081:thymoma, type b3
+5082:paranoia
+5083:hyaline body
+5084:squamous cell carcinoma of skin
+5085:morvan syndrome
+5086:tubular adenoma
+5087:leukocyte adhesion deficiency type 1
+5088:onchocerciasis
+5089:chromosome 11p11.2 deletion syndrome
+5090:peeling skin syndrome
+5091:acute periodontitis
+5092:schmorl's nodes
+5093:endometriosis of uterus
+5094:prediabetes syndrome
+5095:klippel-trenaunay-weber syndrome
+5096:anemia, macrocytic
+5097:bronchiolitis
+5098:nocturia
+5099:fibromyxosarcoma
+5100:pulmonary sclerosing hemangioma
+5101:adult oligodendroglioma
+5102:childhood oligodendroglioma
+5103:low-grade salivary gland carcinoma
+5104:gangliosidosis gm1
+5105:paroxysmal nocturnal hemoglobinuria
+5106:periventricular nodular heterotopia
+5107:tumour budding
+5108:familial hyperaldosteronism
+5109:wiskott-aldrich syndrome 2
+5110:intraductal papilloma of breast
+5111:oral mucositis
+5112:autonomic nervous system imbalance
+5113:hashimoto's encephalitis
+5114:gastrointestinal stromal sarcoma
+5115:fibromatosis
+5116:bone marrow suppression
+5117:delirium
+5118:large-artery atherosclerosis (embolus/thrombosis)
+5119:traumatic occlusion
+5120:cholestasis of pregnancy
+5121:menopausal syndrome
+5122:insulin-dependent diabetes mellitus secretory diarrhea syndrome
+5123:rhabdomyoma
+5124:bronchial artery aneurysm
+5125:acute asthma
+5126:hydatidiform mole, recurrent, 1
+5127:anxiety and fear
+5128:heart failure with preserved ejection fraction [hfpef]
+5129:chronic myocardial ischemia
+5130:adenosarcoma
+5131:feline lymphoma
+5132:leukemia, mast-cell
+5133:hypertension, renovascular
+5134:familial nonmedullary thyroid cancer
+5135:tic disorder
+5136:soft tissue rheumatism
+5137:diabetic ketoacidosis
+5138:placental abnormalities (excl neoplasms)
+5139:helminthiasis
+5140:immunoskeletal dysplasia with neurodevelopmental abnormalities
+5141:metastatic intraocular melanoma
+5142:cilioretinal artery (disorder)
+5143:atherogenic dyslipidaemia
+5144:zinc deficiency
+5145:severe hypoglycaemia
+5146:dowling-degos disease
+5147:ocular rosacea
+5148:familial hemiplegic migraine
+5149:intramucosal adenocarcinoma
+5150:microaneurysm
+5151:severe aplastic anemia
+5152:pancreatic carcinoma non-resectable
+5153:noonan-like/multiple giant cell lesion syndrome (disorder)
+5154:biotin deficiency
+5155:biotin deficiency disease
+5156:tachycardia, ectopic atrial
+5157:deficiency of butyryl-coa dehydrogenase
+5158:papilledema
+5159:pseudotumor cerebri
+5160:active tuberculosis
+5161:morphologically altered structure
+5162:congenital kyphosis
+5163:adenoid cystic carcinoma of salivary gland
+5164:manganese poisoning
+5165:idiopathic epilepsy
+5166:myelitis
+5167:chronic endometritis
+5168:fenestration (morphologic abnormality)
+5169:malignant neoplasm of stomach stage iii
+5170:hurthle cell tumor
+5171:thyroid gland oncocytic adenoma
+5172:foot drop
+5173:autoimmune limbic encephalitis
+5174:arnold-chiari malformation, type i
+5175:water stress
+5176:carpal tunnel syndrome
+5177:miller dieker syndrome
+5178:kwashiorkor
+5179:von willebrand disease
+5180:phagocyte bactericidal dysfunction
+5181:stable angina
+5182:chronic infection with hiv
+5183:pyle metaphyseal dysplasia
+5184:tooth loss
+5185:incontinentia pigmenti achromians
+5186:phosphate diabetes
+5187:oligodendroglial neoplasm
+5188:adult oligodendroglial tumor
+5189:anti-glomerular basement membrane disease
+5190:proliferative inflammatory atrophy
+5191:conjunctivitis
+5192:central nervous system lesion
+5193:virchow's node (disorder)
+5194:thiamine-responsive megaloblastic anemia
+5195:narrowing
+5196:epidermolysis bullosa simplex superficialis
+5197:neuropsychiatric systemic lupus erythematosus
+5198:extramedullary hematopoiesis (disorder)
+5199:acute gastroenteritis
+5200:adult ependymoma
+5201:newly diagnosed childhood ependymoma
+5202:childhood ependymoma
+5203:photoreceptor degeneration
+5204:congenital duodenal obstruction due to malrotation of intestine
+5205:invasive pulmonary aspergillosis
+5206:sinonasal undifferentiated carcinoma
+5207:glaucoma and ocular hypertension
+5208:iron overload
+5209:megalencephaly cutis marmorata telangiectatica congenita
+5210:minimal hepatic encephalopathy
+5211:tonsillar carcinoma
+5212:malignant neoplasm tonsil
+5213:subependymal glioma
+5214:adult subependymoma
+5215:congenital arteriovenous malformation
+5216:hypertensive heart disease
+5217:thyroid gland noninvasive follicular neoplasm with papillary-like nuclear features
+5218:fanconi anemia, complementation group c
+5219:lipohypertrophy
+5220:advanced bile duct carcinoma
+5221:cerebral hypoperfusion
+5222:peripheral arterial stenosis
+5223:periodontal inflammation
+5224:stage 0a bladder urothelial carcinoma ajcc v6 and v7
+5225:congenital thrombocytopenia
+5226:neurological morbidity
+5227:b-cell lymphoma refractory
+5228:acanthoma
+5229:gastroparesis with diabetes mellitus
+5230:postnatal infection
+5231:well differentiated pancreatic endocrine tumor
+5232:pancreatic intraepithelial neoplasia
+5233:chronic respiratory disease due to mycoplasma gallisepticum
+5234:melanocytic nevus of skin
+5235:anaplastic lymphoma kinase positive anaplastic large cell lymphoma
+5236:ciliopathies
+5237:thymoma, type a
+5238:arteriosclerotic cardiovascular disease, nos
+5239:proliferative nephritis unspecified
+5240:spondylo-ocular syndrome
+5241:chorioretinal dystrophy
+5242:chronic sinusitis
+5243:asymmetric septal hypertrophy
+5244:alcoholic steatohepatitis
+5245:non-intestinal type adenocarcinoma
+5246:focal segmental glomerulosclerosis, not otherwise specified
+5247:chronic interstitial cystitis
+5248:pre-existing diabetes mellitus, non-insulin-dependent
+5249:arthritis aggravated
+5250:pertussis
+5251:whooping cough due to unspecified organism
+5252:paranoid schizophrenia
+5253:hypophosphatasia
+5254:olfactory neuroblastoma
+5255:gastrointestinal stromal tumor of small intestine
+5256:astigmatism
+5257:carotid artery thrombosis
+5258:hemorrhagic fever, crimean
+5259:progressive pseudorheumatoid dysplasia
+5260:latent tuberculosis
+5261:neuromuscular inhibition
+5262:agnosia for pain
+5263:venous malformation
+5264:pure hereditary spastic paraplegia
+5265:neurodegeneration with brain iron accumulation (nbia)
+5266:nuchal bleb, familial
+5267:pleural effusion associated with pulmonary infection
+5268:depressive disorder, treatment-resistant
+5269:nicotinamide adenine dinucleotide coenzyme q reductase deficiency
+5270:leukoencephalopathy, cystic, without megalencephaly
+5271:allergic sensitization
+5272:early-onset glaucoma
+5273:osteonecrosis of jaw
+5274:hypopharyngeal cancer
+5275:bacterial vaginosis
+5276:hyperbilirubinemia
+5277:asphyxia neonatorum
+5278:alveolitis, fibrosing
+5279:glucocorticoid deficiency
+5280:renpenning syndrome 1
+5281:arthrogryposis, distal, type 2b
+5282:infected cyst
+5283:purpura, thrombotic thrombocytopenic
+5284:thrombotic thrombocytopenic purpura, acquired
+5285:microvascular angina
+5286:subclinical hypothyroidism
+5287:opioid use
+5288:post cardiac arrest syndrome
+5289:hepatic encephalopathy
+5290:connective tissue nevus, nos
+5291:monomorphic epitheliotropic intestinal t-cell lymphoma
+5292:chronic idiopathic urticaria
+5293:chronic prostatitis
+5294:overactive bladder
+5295:tympanosclerosis
+5296:deficiency of glucose-6-phosphate dehydrogenase
+5297:progressive sensorineural hearing impairment
+5298:obsolete rod-cone dystrophy
+5299:phaeohyphomycosis
+5300:coronary microvascular dysfunction
+5301:hereditary hemochromatosis
+5302:skin callus
+5303:peripheral neuropathy due to and following chemotherapy
+5304:abnormal renal morphology
+5305:sickle cell-ss disease
+5306:dentatorubral-pallidoluysian atrophy
+5307:left main coronary artery disease
+5308:familial hematuria
+5309:hypopigmentation disorder
+5310:albinoidism, oculocutaneous, autosomal dominant
+5311:sclerosing cholangitis, neonatal
+5312:atypical hemolytic uremic syndrome
+5313:testicular nonseminoma
+5314:alcohol abuse
+5315:lymphoid hyperplasia
+5316:liquid tumor
+5317:adenoma of lung
+5318:papillary transitional cell neoplasm of low malignant potential
+5319:liver dysplastic nodule
+5320:immunoglobulin a deficiency (disorder)
+5321:autonomic dysreflexia
+5322:dissecting aneurysm of the thoracic aorta
+5323:chylous effusion
+5324:ventricular arrhythmia
+5325:gastroenteritis
+5326:febrile convulsions
+5327:multiple myeloma progression
+5328:transient erythroblastopenia of childhood
+5329:abnormal neuron morphology
+5330:acquired neuromyotonia
+5331:non-transfusion dependent thalassaemia
+5332:hepatitis d infection
+5333:recurrent urinary tract infection
+5334:absence of muscle
+5335:autoimmune thyroid disease (aitd)
+5336:hypoinsulinaemia (disorder)
+5337:bk virus nephropathy
+5338:pancreatic neuroendocrine tumour metastatic
+5339:cleft palate with cleft lip
+5340:lobar holoprosencephaly
+5341:overlapping fingers
+5342:usher syndrome, type 1d
+5343:diffuse scleroderma
+5344:non-small cell lung cancer stage ii
+5345:small cell lung cancer limited stage
+5346:cancer cachexia
+5347:recurrent childhood glioblastoma
+5348:recurrent glioblastoma
+5349:hypodontia
+5350:post-treatment lyme disease syndrome
+5351:acute pneumonia
+5352:anti-n-methyl-d-aspartate receptor encephalitis
+5353:urethral intrinsic sphincter deficiency
+5354:intraocular pressure disorder
+5355:vascular cognitive impairment
+5356:hypernatriuria
+5357:testicular regression syndrome
+5358:renal cancer metastatic
+5359:malignant tumor of eye
+5360:squamous cell carcinoma of the hypopharynx
+5361:adult-onset still disease
+5362:myotonia fluctuans (disorder)
+5363:high altitude cerebral edema
+5364:progressive cerebellar degeneration
+5365:papilloma, intraductal
+5366:spinocerebellar ataxia 47
+5367:paratuberculosis
+5368:common carotid artery stenosis
+5369:malignant biliary obstruction
+5370:pancreatic cyst
+5371:epidermolysis bullosa acquisita
+5372:charcot-marie-tooth disease, axonal, type 2dd
+5373:vasculitis of large artery
+5374:metastatic lung carcinoma
+5375:cholestatic liver disease
+5376:chronic tonsillitis
+5377:hypertrophy of tonsils
+5378:pancreatitis due to pancreatic duct obstruction
+5379:inflammatory dermatosis
+5380:jaundice, obstructive
+5381:muscle hypoxia
+5382:friedreich ataxia 1
+5383:infarction of spinal cord
+5384:hypertrophy of bladder
+5385:prostatic cancer, castration-resistant
+5386:familial cold urticaria
+5387:cold hypersensitivity
+5388:prostatic hypertrophy
+5389:syphilis infection
+5390:benign neoplasm of meninges
+5391:gastrointestinal tract vascular insufficiency
+5392:vascular insufficiency of intestine
+5393:kashin-beck disease
+5394:primary osteosarcoma
+5395:lipomatous neoplasm
+5396:cluster headaches and other trigeminal autonomic cephalgias
+5397:nephrotic syndrome in children
+5398:rhegmatogenous retinal detachment
+5399:associated pulmonary arterial hypertension
+5400:labile affect
+5401:neurogenic arthropathy
+5402:gynandroblastoma
+5403:sertoli-leydig cell tumor
+5404:juvenile granulosa cell tumor
+5405:sertoli-leydig cell tumor of intermediate differentiation
+5406:friend leukemia
+5407:intrusive thoughts
+5408:activated pi3k-delta syndrome
+5409:hypocortisolism secondary to another disorder
+5410:secondary adrenal insufficiency
+5411:pneumothorax, primary spontaneous
+5412:nonaka myopathy
+5413:glandular papilloma
+5414:fibrosis of pancreas
+5415:adenomyoepithelioma
+5416:facioscapulohumeral muscular dystrophy 1a
+5417:mucolipidosis type iv
+5418:herpes encephalitis
+5419:dermatofibrosarcoma protuberans
+5420:giant cell fibroblastoma
+5421:spindle cell nevus of reed
+5422:hemophagocytic lymphohistiocytosis, familial, 2
+5423:deficiency of pyruvate kinase
+5424:acute myocardial ischemia
+5425:diabetes, autoimmune
+5426:mitral valve stenosis
+5427:rheumatic mitral stenosis
+5428:post stroke depression
+5429:antisocial personality disorder
+5430:autoimmune hemolytic anemia
+5431:non-erosive reflux disease
+5432:hypertrophy of kidney
+5433:vegetation
+5434:advanced lung non-squamous non-small cell carcinoma
+5435:recurrent seizure
+5436:penile intraepithelial neoplasia
+5437:anorexia
+5438:orofacial cleft 1
+5439:nephrotoxic serum nephritis
+5440:pseudomonas aeruginosa infection
+5441:sex cord-stromal tumor
+5442:chronic insomnia
+5443:locally advanced squamous cell carcinoma
+5444:xeroderma pigmentosum, group b
+5445:malignant neoplasm of vulva
+5446:infection caused by coxiella
+5447:acute myeloid leukemia in remission
+5448:scoliosis, isolated, susceptibility to, 3
+5449:iodine deficiency syndrome
+5450:generalized pustular psoriasis
+5451:acrodermatitis continua of hallopeau
+5452:kaposiform hemangioendothelioma
+5453:abnormality of neurogenesis
+5454:rectal pouch
+5455:alcoholic intoxication
+5456:bicuspid aortic valve
+5457:recurrent endometrial cancer
+5458:cervical cancer metastasis
+5459:obesity-associated insulin resistance
+5460:sepsis of the newborn
+5461:bacterial sepsis of newborn
+5462:mohr-tranebjaerg syndrome
+5463:aloof
+5464:sickle cell trait
+5465:spondylocarpotarsal synostosis syndrome
+5466:lipoatrophy
+5467:single vessel disease
+5468:yolk sac tumor
+5469:malignant lymphoma - lymphoplasmacytic
+5470:dermatofibrosarcoma
+5471:oral cavity carcinoma
+5472:islet cell adenoma
+5473:thyroid cancer metastatic
+5474:benign neoplasm of breast
+5475:salaam seizures
+5476:somatotropin deficiency
+5477:asthma, occupational
+5478:blastic plasmacytoid dendritic cell neoplasm (bpdcn)
+5479:choroid plexus papilloma
+5480:endometrial intraepithelial neoplasia
+5481:transient ischemia
+5482:lichen planus follicularis
+5483:postmenopausal frontal fibrosing alopecia
+5484:frontal fibrosing alopecia
+5485:anastomosis
+5486:familial lichen amyloidosis
+5487:postpartum thyroiditis
+5488:acute pulmonary thromboembolism
+5489:hydropic leiomyoma
+5490:dysglycemia
+5491:hypoadiponectinemia
+5492:cervical dysplasia
+5493:mood swings
+5494:lipofibromatosis
+5495:cellular neurothekeoma
+5496:analgesic overuse headache
+5497:transformed migraine
+5498:myelofibrosis due to another disorder
+5499:arteriovenous hemangioma
+5500:astler-coller b1 rectal carcinoma
+5501:hormone refractory breast cancer
+5502:decompression sickness
+5503:chorioretinal atrophy
+5504:diabetic arteriosclerosis
+5505:dissection of aorta
+5506:hyper ldl cholesterolaemia
+5507:marburg virus disease
+5508:coronary artery dissection, spontaneous
+5509:neurodegeneration, childhood-onset, with cerebellar atrophy
+5510:squamous cell carcinoma of mouth
+5511:vertebral chordoma
+5512:ovarian cancer stage iv
+5513:mucinous adenocarcinoma
+5514:combined immunodeficiency
+5515:glycogen storage disease type v
+5516:tick-borne encephalitis
+5517:meningoencephalitis
+5518:traveler's diarrhea
+5519:corneal pannus
+5520:senile sclerosis of aortic cusp
+5521:aortic valve sclerosis
+5522:sleep-disordered breathing
+5523:hepatitis b virus-related hepatocellular carcinoma
+5524:congenital cytomegalovirus infection
+5525:rotator cuff syndrome
+5526:polyarteritis nodosa
+5527:polyarteritis nodosa, childhood-onset
+5528:resectable pancreatic ductal adenocarcinoma
+5529:trisomy 4
+5530:platinum-resistant ovarian carcinoma
+5531:catatonia
+5532:spherocytosis, type 1 (disorder)
+5533:exophthalmos
+5534:non-hereditary clear cell renal cell carcinoma
+5535:bilateral cerebral palsy
+5536:congenital diverticulum of pharynx
+5537:chronic post-traumatic stress disorder
+5538:breast cancer recurrent
+5539:infertility tubal factor
+5540:chronic lymphocytic leukaemia refractory
+5541:richter's syndrome
+5542:neoplasm of minor salivary gland
+5543:methamphetamine abuse
+5544:dyspareunia (female)
+5545:chronic active ebv infection of t-and nk-cell type, systemic form
+5546:anemia, hemolytic, congenital
+5547:microdontia (disorder)
+5548:clostridium difficile infection
+5549:pseudorabies
+5550:hypertensive retinopathy
+5551:m5b acute differentiated monocytic leukemia
+5552:alveolitis
+5553:young onset parkinson disease
+5554:idiopathic generalized epilepsy
+5555:recurrent upper respiratory tract infection
+5556:apical hypertrophic cardiomyopathy
+5557:stage iia colon cancer ajcc v7
+5558:stage iia colon cancer ajcc v8
+5559:malignant neoplasm of large intestine stage iia
+5560:radiculopathy
+5561:histiocytoma, angiomatoid fibrous
+5562:ectromelia
+5563:cerebral adrenoleukodystrophy
+5564:oropharynx (excludes nasopharynx)
+5565:hallopeau-siemens disease
+5566:thalassemia minor
+5567:acute cerebellar syndrome
+5568:diabetic macular edema
+5569:bone marrow failure syndromes
+5570:subcutaneous hemorrhage
+5571:cerebellar atrophy
+5572:exfoliative dermatitis
+5573:fibrofolliculoma
+5574:trichodiscoma
+5575:congenital dysplasia of the hip
+5576:acute erythroleukemia
+5577:acute erythroleukemia - m6a subtype
+5578:acute myeloid leukemia fab-m6
+5579:acute erythroleukemia - m6b subtype
+5580:precursor b-lymphoblastic lymphoma/leukemia
+5581:ph-like acute lymphoblastic leukemia
+5582:intracranial glioma
+5583:kosaki overgrowth syndrome
+5584:learning problems
+5585:autoimmune thrombocytopenia
+5586:thrombocytopenia due to platelet alloimmunization
+5587:pontocerebellar hypoplasia type 1
+5588:leigh syndrome , french canadian type
+5589:diffuse glioma
+5590:cancer relapse
+5591:right ventricular failure
+5592:basophilic leukemia
+5593:carcinoma in situ of uterine cervix
+5594:malignant hyperpyrexia due to anesthesia
+5595:cerebral venous sinus thrombosis
+5596:cocaine withdrawal
+5597:progressive cerebellar ataxia
+5598:lymphangiomatosis
+5599:erosive esophagitis
+5600:hypoalbuminemia
+5601:punctate inner choroidopathy
+5602:smith-mccort dysplasia 1
+5603:abnormal bone formation
+5604:skeletal malformation
+5605:salivary gland epithelial myoepithelial carcinoma
+5606:cervix carcinoma recurrent
+5607:lichen disease
+5608:psychotic episodes
+5609:hemolytic-uremic syndrome
+5610:hemorrhagic colitis
+5611:diarrheal disorder
+5612:leptin deficiency or dysfunction
+5613:skin endocrine disorder
+5614:autoimmune necrotizing myopathy
+5615:basal cell neoplasm
+5616:basal cell cancer
+5617:acute aortic dissection
+5618:beta thalassemia
+5619:beta^+^ thalassemia
+5620:(idiopathic) normal pressure hydrocephalus
+5621:nephronophthisis
+5622:vesicoureteral reflux 1
+5623:discordant ventriculoarterial connection
+5624:neuronal intranuclear inclusion disease
+5625:refractory thrombocytopenia
+5626:post traumatic osteoarthritis
+5627:atrophy of seminal vesicle
+5628:surgical incision wound (morphologic abnormality)
+5629:narcolepsy type 1
+5630:split-hand/foot malformation
+5631:rabies (disorder)
+5632:desmoplastic
+5633:retinoschisis 1, x-linked, juvenile
+5634:macular edema, cystoid
+5635:neonatal hypoxic ischemic encephalopathy
+5636:spinal cord involvement
+5637:mucinous colorectal carcinoma
+5638:multi-centric castleman's disease
+5639:cerebral atrophy
+5640:brain atrophy
+5641:alacrima
+5642:achalasia
+5643:dysferlinopathy
+5644:metastatic lung non-squamous non-small cell carcinoma
+5645:persistent hyperplastic primary vitreous
+5646:hypoplasminogenemia
+5647:steroid-resistant nephrotic syndrome
+5648:steroid resistant nephrotic syndrome of childhood
+5649:mink parvovirus infection
+5650:sialadenoma papilliferum
+5651:peripheral pulmonary artery stenosis
+5652:protein deficiency
+5653:group b streptococcal infection
+5654:guillain-barre syndrome, familial
+5655:pleurisy
+5656:malignant neoplasm of pharynx
+5657:pharyngeal carcinoma
+5658:peptic esophagitis
+5659:gastro-esophageal reflux disease with esophagitis
+5660:hypophysitis
+5661:hydrothorax
+5662:tuberculous pleural effusion
+5663:amebic colitis
+5664:granulomatous disease, chronic, x-linked
+5665:distal amyotrophy
+5666:renal artery stenosis
+5667:methamphetamine dependence
+5668:pauci-immune glomerulonephritis
+5669:exacerbation of allergic asthma
+5670:chronic acquired lymphedema
+5671:chronic otitis media
+5672:therapy-related myelodysplastic syndrome
+5673:invasive candidiasis
+5674:prader-willi-like syndrome
+5675:stress ulcer of stomach
+5676:stress ulcer
+5677:maternal hypertension
+5678:microphakia
+5679:anti-neutrophil cytoplasmic antibody-associated vasculitis
+5680:perihilar cholangiocarcinoma
+5681:dentin, secondary
+5682:overweight and obesity
+5683:chronic multifocal osteomyelitis
+5684:airway disease
+5685:dyssomnias
+5686:nutritional steatitis
+5687:activated pi3 kinase delta syndrome
+5688:cutaneous neurofibroma
+5689:osseous ankylosis
+5690:hyperparathyroidism, secondary
+5691:small fiber neuropathy
+5692:acute hepatitis
+5693:scab
+5694:kienbock disease
+5695:chordoma of clivus
+5696:skull base chordoma
+5697:tooth attrition
+5698:aortocaval fistula
+5699:pulmonary alveolar proteinosis
+5700:non-functioning pituitary gland neoplasm
+5701:round cell tumor
+5702:x-linked retinitis pigmentosa
+5703:neural hearing loss
+5704:transient neonatal renal tubular acidosis
+5705:myasthenias
+5706:benign melanocytic nevus
+5707:methemoglobinemia
+5708:congenital methemoglobinemia
+5709:hemoglobin m disease
+5710:chromosome 12, 12p trisomy
+5711:contact dermatitis
+5712:peroxisome biogenesis disorder, complementation group a
+5713:cyclic neutropenia
+5714:pneumonia associated with aids
+5715:hemolytic anemia due to hexokinase deficiency
+5716:nonspherocytic hemolytic anemia
+5717:monocytosis
+5718:ocular albinism, type i
+5719:recurrent myocardial infarction
+5720:hiv disease progression
+5721:breast cancer, familial male
+5722:plasma cell dyscrasia
+5723:venous hypertension
+5724:distal trisomy 10q syndrome
+5725:xeroderma pigmentosum, group a
+5726:microspherocytosis
+5727:colon neuroendocrine tumor g1
+5728:shprintzen syndrome
+5729:diastrophic dysplasia
+5730:primary congenital glaucoma
+5731:adenine phosphoribosyltransferase deficiency
+5732:macrostomia
+5733:hmn (hereditary motor neuropathy) proximal type i
+5734:deficiency of acetylcholinesterase
+5735:coronary artery atheroma
+5736:carcinoma, signet ring cell
+5737:achondroplastic dwarfism
+5738:infant acute lymphoblastic leukemia
+5739:lymphoblastic leukemia in children
+5740:dementia due to alzheimer's disease (disorder)
+5741:obstructive asymmetric septal hypertrophy
+5742:idiopathic hypertrophic subaortic stenosis
+5743:pseudoachondroplasia
+5744:spondyloepimetaphyseal disorder
+5745:diastematomyelia
+5746:neurenteric cyst
+5747:tethered cord syndrome
+5748:iniencephaly
+5749:craniorachischisis
+5750:spinal cord myelodysplasia
+5751:acrania
+5752:acute lymphoblastic leukemia, in relapse
+5753:homocysteinemia
+5754:lymphomatoid papulosis type a (cd-30 positive type)
+5755:congenital clubfoot
+5756:acquired clubfoot
+5757:deafness, autosomal dominant 5 (disorder)
+5758:chronic small plaque psoriasis
+5759:hereditary protein s deficiency
+5760:endogenous hyperinsulinism
+5761:exogenous hyperinsulinism
+5762:compensatory hyperinsulinemia
+5763:plagiocephaly, nonsynostotic
+5764:tarsal coalition
+5765:primary hyperoxaluria
+5766:acute biphenotypic leukemia
+5767:light chain disease
+5768:ruptured thoracic aortic aneurysm
+5769:ruptured abdominal aortic aneurysm
+5770:aortic aneurysm, ruptured
+5771:thoracoabdominal aortic aneurysm, ruptured
+5772:lymphocytic infiltration
+5773:x-linked hydrocephalus syndrome
+5774:pre-renal acute kidney injury
+5775:coronary thrombosis
+5776:trisomy 11
+5777:familial medullary thyroid carcinoma
+5778:syndactyly of fingers
+5779:macrovascular disease
+5780:deep thrombophlebitis
+5781:angioid streaks
+5782:anhidrosis
+5783:anus, imperforate
+5784:aortic coarctation
+5785:supravalvular aortic stenosis
+5786:aphasia
+5787:arachnodactyly
+5788:cholestasis, extrahepatic
+5789:blepharitis
+5790:blepharophimosis
+5791:blepharospasm
+5792:bone cysts
+5793:congenital bronchogenic cyst
+5794:choanal atresia
+5795:dandy-walker syndrome
+5796:delusions
+5797:involutional depression
+5798:dysarthria
+5799:congenital cerebral hernia
+5800:esophageal stenosis
+5801:esotropia
+5802:exotropia
+5803:facial paralysis
+5804:fibromatosis, gingival
+5805:foramen ovale, patent
+5806:gonadal dysgenesis
+5807:gynecomastia
+5808:hallucinations
+5809:conductive hearing loss
+5810:hip contracture
+5811:hydronephrosis
+5812:hydrophthalmos
+5813:hydrops fetalis
+5814:hyperopia
+5815:hyperostosis frontalis interna
+5816:hypersplenism
+5817:hypoglycemic coma
+5818:hypohidrosis
+5819:intestinal pseudo-obstruction
+5820:palmoplantar keratosis
+5821:lactose intolerance
+5822:laryngospasm
+5823:little's disease
+5824:lymphangioma
+5825:macroglossia
+5826:meckel diverticulum
+5827:micromelia
+5828:microstomia
+5829:mild mental retardation
+5830:mitral valve prolapse syndrome
+5831:nyctalopia
+5832:nystagmus
+5833:optic disk drusen
+5834:osteochondrosis
+5835:acrocephaly
+5836:aspiration pneumonia
+5837:pseudohypoaldosteronism
+5838:precocious puberty
+5839:raynaud phenomenon
+5840:retinal dysplasia
+5841:sirenomelia
+5842:compression of spinal cord
+5843:stereotyped behavior
+5844:strabismus
+5845:sinus tachycardia
+5846:talipes cavus
+5847:telangiectasis
+5848:thyroiditis
+5849:fissured tongue
+5850:tracheoesophageal fistula
+5851:nephritis, tubulointerstitial
+5852:velopharyngeal insufficiency
+5853:vocal cord paralysis
+5854:albinism, ocular
+5855:spina bifida occulta
+5856:iron-refractory iron deficiency anemia
+5857:normocytic anemia
+5858:urgency of micturition
+5859:right bundle branch block
+5860:hyperchloremia
+5861:panic attacks
+5862:annular pancreas
+5863:cranial nerve palsies
+5864:testicular hypogonadism
+5865:intracranial hypertension
+5866:lingual-facial-buccal dyskinesia
+5867:alternating exotropia
+5868:congenital genu recurvatum
+5869:macrotia
+5870:retinoschisis
+5871:leukocoria
+5872:benign neoplasm of bladder
+5873:carcinoma in situ of bladder
+5874:retinal telangiectasia
+5875:recurrent erosion of cornea
+5876:hearing loss, mixed conductive-sensorineural
+5877:bladder diverticulum
+5878:contracture of joint of hand
+5879:congenital pectus carinatum
+5880:polydactyly of toes
+5881:radioulnar synostosis
+5882:neonatal hypoglycemia
+5883:asplenia syndrome
+5884:fibroadenoma of breast
+5885:roussy-levy syndrome (disorder)
+5886:retinitis pigmentosa 1
+5887:paroxysmal hypertension
+5888:pelvic kidney
+5889:congenital malrotation of intestine
+5890:neck webbing
+5891:frontal bossing
+5892:long narrow head
+5893:claw hand
+5894:diastasis recti
+5895:primary physiologic amenorrhea
+5896:secondary physiologic amenorrhea
+5897:dysgraphia
+5898:subcapsular cataract
+5899:port-wine stain
+5900:stenosis of duodenum
+5901:pulmonary artery stenosis
+5902:aminoaciduria
+5903:coloboma of iris
+5904:hypoplasia of the maxilla
+5905:byzanthine arch palate
+5906:fundus coloboma
+5907:triphalangeal thumb
+5908:cutis marmorata
+5909:laryngomalacia
+5910:schinzel-giedion syndrome
+5911:metaphyseal chondrodysplasia
+5912:fibrous skin tumor of tuberous sclerosis
+5913:trigonocephaly
+5914:congenital dislocation of radial head
+5915:clinodactyly of fingers
+5916:syndactyly of the toes
+5917:congenital fusion of ribs
+5918:overriding aorta
+5919:macrodontia
+5920:taurodontism
+5921:malrotation of colon
+5922:unilateral agenesis of kidney
+5923:congenital hypoplasia of kidney
+5924:accessory kidney
+5925:ambiguous genitalia
+5926:bicornuate uterus
+5927:congenital hypoplasia of penis
+5928:cerebellar hypoplasia
+5929:microcornea
+5930:oropharyngeal dysphagia
+5931:familial cerebral amyloid angiopathy
+5932:simple renal cyst
+5933:posterior fossa compression syndrome
+5934:complex partial seizure with impairment of consciousness
+5935:phthisis bulbi
+5936:vertical nystagmus
+5937:nystagmus, end-position
+5938:polyneuropathy, motor
+5939:reactive hypoglycemia
+5940:pyridoxine-responsive sideroblastic anemia
+5941:antithrombin iii deficiency
+5942:poisoning by fluorouracil
+5943:congenital hemihypertrophy
+5944:flexion contracture
+5945:spermatocytic seminoma
+5946:malignant granular cell tumor
+5947:central nervous system demyelination
+5948:hypoplasia of the optic nerve
+5949:amnesia, transient global
+5950:capillary malformation (disorder)
+5951:contracture of joint of foot
+5952:atresia of nasolacrimal duct
+5953:cornea plana
+5954:congenital keratoglobus
+5955:ventricular septal hypertrophy
+5956:hypoplasia of lower limb
+5957:congenital hypoplasia of femur
+5958:congenital kyphoscoliosis
+5959:large cell carcinoma of lung
+5960:benign tumor of pancreas
+5961:carcinoid tumor of intestine
+5962:hemiplegia/hemiparesis
+5963:epiphyseal dysplasia
+5964:stenosis of external auditory canal
+5965:class iii malocclusion
+5966:obstruction of biliary tree
+5967:chronic diarrhea
+5968:flexion contracture - elbow
+5969:atrophic iris
+5970:spastic quadriplegia
+5971:secondary microcephaly
+5972:partial agenesis of corpus callosum
+5973:absence of septum pellucidum
+5974:synophrys
+5975:posteriorly rotated ear
+5976:multiple renal cysts
+5977:carpal synostosis
+5978:hypoplasia of thumb
+5979:simple syndactyly of toes, first web space
+5980:simple syndactyly of fingers - first web
+5981:defect of vertebral segmentation
+5982:abnormal dermatoglyphic pattern
+5983:hypoplasia of nipple
+5984:sensorineural hearing loss, bilateral
+5985:receptive language delay
+5986:neoplasm of uncertain or unknown behavior of ovary
+5987:neoplasm of uncertain or unknown behavior of bladder
+5988:neoplasm of uncertain or unknown behavior of breast
+5989:clumsiness - motor delay
+5990:dilatation of ureter
+5991:cranial nerve compression
+5992:congenital absence of kidney
+5993:genu recurvatum
+5994:posterior embryotoxon
+5995:congenital atresia of rectum
+5996:mesomelia
+5997:kyphoscoliosis deformity of spine
+5998:knee joint valgus deformity
+5999:acquired kyphoscoliosis
+6000:obsessive compulsive behavior
+6001:congenital epicanthus
+6002:congenital hypoplasia of radius
+6003:abnormal lung lobation
+6004:congenital hypoplasia of ovary
+6005:congenital hypoplasia of thymus
+6006:recurrent pneumonia
+6007:absent finger
+6008:capillary hemangioma of retina
+6009:upper airway obstruction
+6010:recurrent otitis media
+6011:orthostatic syncope
+6012:phonophobia
+6013:pulsatile tinnitus
+6014:partial paralysis (paresis) vocal cords
+6015:hereditary autosomal dominant spastic paraplegia
+6016:atypical inclusion-body disease
+6017:familial progressive myoclonic epilepsy
+6018:biotin-responsive encephalopathy
+6019:may-white syndrome
+6020:insulin-resistant diabetes mellitus
+6021:aneurysm of aortic arch
+6022:generalized tonic-clonic seizures with focal onset
+6023:hypoglycemic seizures
+6024:dysphasia
+6025:sensorimotor neuropathy
+6026:lumbar hyperlordosis
+6027:macroorchidism
+6028:caliectasis
+6029:cardio-facio-cutaneous syndrome
+6030:atrophoderma maculatum
+6031:hypoplasia of optic disc
+6032:aneurysm of aortic root
+6033:talipes
+6034:congenital euryblepharon
+6035:congenital exomphalos
+6036:hip dysplasia
+6037:ovarian mucinous adenocarcinoma
+6038:ovarian serous surface papillary adenocarcinoma
+6039:episodic paroxysmal anxiety
+6040:coronal hypospadias
+6041:subcutaneous lipoma
+6042:absent radius
+6043:hypertrophic neuropathy of infancy
+6044:hereditary motor and sensory neuropathy, types i-iv
+6045:avascular necrosis of the capital femoral epiphysis
+6046:pseudohypoaldosteronism, type i, autosomal dominant
+6047:cerebral amyloid angiopathy, hereditary
+6048:hereditary cerebral amyloid angiopathy, icelandic type
+6049:limbal stem cell deficiency
+6050:involutional paraphrenia
+6051:psychosis, involutional
+6052:congenital absence of kidneys syndrome
+6053:spontaneous hematomas
+6054:carcinoma of endocrine gland
+6055:aldosterone-producing adrenal cortex adenoma
+6056:testicular hydrocele
+6057:nail dysplasia
+6058:cardiomyopathy, dilated, 1s
+6059:cutaneous syndactyly of toes
+6060:hypomagnesemia 2, renal
+6061:distal lower limb amyotrophy
+6062:charcot-marie-tooth disease, axonal, type 2a2 (disorder)
+6063:developmental regression
+6064:thoracic hypoplasia
+6065:colorectal cancer, hereditary nonpolyposis, type 4
+6066:pseudohypoaldosteronism, type iia
+6067:abnormality of the ribs
+6068:short 5th finger
+6069:charcot-marie-tooth disease, axonal, type 2k
+6070:focal cortical dysplasia of taylor, type iia
+6071:focal cortical dysplasia of taylor, type iib
+6072:abnormality of the outer ear
+6073:paraganglioma and gastric stromal sarcoma
+6074:subcortical band heterotopia
+6075:woolly hair, autosomal recessive 1, with or without hypotrichosis
+6076:relative macrocephaly
+6077:abnormality of the aryepiglottic fold
+6078:renal tubular acidosis, distal, type 3
+6079:clinodactyly of the 5th finger
+6080:skeletal dysplasia with acanthosis nigricans
+6081:cornelia de lange syndrome 3
+6082:uplifted earlobe
+6083:malar flattening
+6084:abnormal internal carotid artery morphology
+6085:coxa magna
+6086:spinal canal stenosis
+6087:cafe au lait spots, multiple
+6088:retinal hamartoma
+6089:atresia of the external auditory canal
+6090:proteus-like syndrome (disorder)
+6091:lacrimal puncta, absence of
+6092:agyria
+6093:pulmonary stenosis
+6094:cerebral amyloid angiopathy, genetic
+6095:neonatal hypotonia
+6096:pediatric failure to thrive
+6097:abnormality of the periventricular white matter
+6098:lethal short-limbed short stature
+6099:breast-ovarian cancer, familial, susceptibility to, 2
+6100:hepatoblastoma caused by somatic mutation
+6101:congenital microcephaly
+6102:autism, susceptibility to, 15
+6103:peroneal muscular atrophy (axonal type) (hypertrophic type)
+6104:mental retardation, x-linked 1
+6105:chronic liver failure
+6106:pheochromocytoma, susceptibility to
+6107:congenital heart defects, multiple types, 6
+6108:profound intellectual disabilities
+6109:abnormality of aortic valve
+6110:hamartomatous polyposis
+6111:thumb aplasia
+6112:nail disorder, nonsyndromic congenital, 9
+6113:tumor predisposition syndrome
+6114:rieger eye malformation sequence
+6115:moderate expressive language delay
+6116:coloboma of the retina
+6117:profound global developmental delay
+6118:lissencephaly 5
+6119:long chain 3-hydroxyacyl-coa dehydrogenase deficiency
+6120:trifunctional protein deficiency, type 2
+6121:multicystic dysplastic kidney
+6122:megalencephaly, autosomal dominant
+6123:tibial deviation of toes
+6124:clubbing of toes
+6125:oligodactyly
+6126:central apnea
+6127:nevus, keratinocytic, nonepidermolytic
+6128:gyrate atrophy of choroid and retina with pyridoxine-responsive ornithinemia
+6129:abnormality of fontanelles
+6130:abnormality of pelvic girdle bone morphology
+6131:rough bone trabeculation
+6132:abnormal localization of kidney
+6133:inflammatory abnormality of the eye
+6134:abnormality of lower limb joint
+6135:bicoronal synostosis
+6136:microtia, first degree
+6137:impaired temperature sensation
+6138:hypoplasia of the zygomatic bone
+6139:ivory epiphyses of the distal phalanges of the hand
+6140:duplication of thumb phalanx
+6141:prominent crus of helix
+6142:abnormality of the elbow
+6143:abnormality of the antihelix
+6144:metacarpal synostosis
+6145:abnormal cerebral artery morphology
+6146:abnormal adipose tissue morphology
+6147:mild neurosensory hearing impairment
+6148:periodic hypokalemic paresis
+6149:retinal nonattachment
+6150:hypoplasia of the lacrimal punctum
+6151:distal peripheral sensory neuropathy
+6152:clinodactyly of the 2nd toe
+6153:bilateral triphalangeal thumbs
+6154:short middle phalanx of toe
+6155:abnormality of the wrist
+6156:abnormality of femur morphology
+6157:generalized myoclonic seizures
+6158:morphological abnormality of the pyramidal tract
+6159:camptodactyly of toe
+6160:abnormality of the voice
+6161:abnormality of the metacarpal bones
+6162:abnormality of the clavicle
+6163:lacrimation abnormality
+6164:oral cleft
+6165:abnormal palate morphology
+6166:abnormality of the urinary system
+6167:abnormality of female external genitalia
+6168:conjunctival hamartoma
+6169:round ear
+6170:visceral angiomatosis
+6171:abnormality of the cerebral vasculature
+6172:abnormality of the preputium
+6173:mucosal telangiectasiae
+6174:upper limb asymmetry
+6175:cerebral cortical hemiatrophy
+6176:female anorgasmia
+6177:cerebral white matter atrophy
+6178:abnormal brain fdg positron emission tomography
+6179:small pituitary gland
+6180:stereotypical hand wringing
+6181:subcortical cerebral atrophy
+6182:shortening of all phalanges of fingers
+6183:submucous cleft soft palate
+6184:type 1 muscle fiber atrophy
+6185:morphological abnormality of the semicircular canal
+6186:generalized clonic seizures
+6187:hyperisoleucinemia
+6188:fibular bowing
+6189:abnormally low-pitched voice
+6190:cone-shaped epiphyses of the proximal phalanges of the hand
+6191:aplasia of the parotid gland
+6192:radial deviation of the 3rd finger
+6193:aplasia of the epiglottis
+6194:enlarged polycystic ovaries
+6195:c1-c2 vertebral abnormality
+6196:aplasia/hypoplasia of the iris
+6197:chorioretinal dysplasia
+6198:depigmentation/hyperpigmentation of skin
+6199:ovarian papillary adenocarcinoma
+6200:hereditary nonpolyposis colorectal carcinoma
+6201:abnormality of the tibial metaphysis
+6202:abnormality of the femoral metaphysis
+6203:agenesis of mandibular central incisor
+6204:tapering pointed ends of distal finger phalanges
+6205:thimble-shaped middle phalanges of hand
+6206:abnormal carotid artery morphology
+6207:autonomic bladder dysfunction
+6208:abnormality of the intervertebral disk
+6209:abnormal sacrum morphology
+6210:cessation of head growth
+6211:mandibular hyperostosis
+6212:abnormality of the anus
+6213:abnormality of the gastric mucosa
+6214:peripheral axonal atrophy
+6215:abnormality of the ankles
+6216:prenatal maternal abnormality
+6217:abnormality of the cerebral cortex
+6218:abnormality of the cerebral ventricles
+6219:neuromuscular dysphagia
+6220:tubulointerstitial abnormality
+6221:abnormality of the spleen
+6222:abnormality of the nasopharynx
+6223:abnormal aortic morphology
+6224:abnormality of the rib cage
+6225:nystagmus-induced head nodding
+6226:specific learning disability
+6227:abnormality of the metaphysis
+6228:abnormality of the hypothalamus-pituitary axis
+6229:abnormality of the urethra
+6230:abnormal choroid morphology
+6231:abnormality of the pharynx
+6232:abnormal chorioretinal morphology
+6233:abnormality of vision
+6234:abnormality of the menstrual cycle
+6235:ambiguous genitalia, female
+6236:abnormality of the penis
+6237:functional abnormality of male internal genitalia
+6238:abnormality of female internal genitalia
+6239:abnormality of cardiovascular system morphology
+6240:focal seizures, afebril
+6241:metatarsal valgus
+6242:partial duplication of thumb phalanx
+6243:metatarsus varus
+6244:porencephalic cyst
+6245:vulvar adenocarcinoma of mammary gland type
+6246:charcot-marie-tooth disease, axonal, type 2a2a
+6247:gluten intolerance
+6248:hypoplastic hippocampus
+6249:focal cortical dysplasia, type ii, somatic
+6250:clinodactyly
+6251:bifid uvula
+6252:2-3 toe syndactyly
+6253:cerebral cortical atrophy
+6254:keratoderma, palmoplantar
+6255:cornelia de lange syndrome 1
+6256:total anomalous pulmonary venous return
+6257:pulmonary venous return anomaly
+6258:familial thoracic aortic aneurysm and aortic dissection
+6259:severe early-onset axonal neuropathy due to mitofusin 2 deficiency
+6260:alport syndrome 1, x-linked

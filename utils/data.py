@@ -3,7 +3,7 @@ import scipy
 import pickle
 
 
-def load_PABDMH_data(prefix='../output/relationship/VI_step_data_division'):
+def load_PABDMH_data(prefix='../../data/output/relationship/VI_step_data_division'):
     in_file = open(prefix + '/0/0-0.adjlist', 'r')
     adjlist00 = [line.strip() for line in in_file]
     adjlist00 = adjlist00
@@ -758,7 +758,7 @@ def load_PABDMH_data(prefix='../output/relationship/VI_step_data_division'):
 
     adjM = scipy.sparse.load_npz(prefix + '/adjM.npz')
     type_mask = np.load(prefix + '/node_types.npy')
-    prefixr = '../output/relationship/VII_step_train_val_test'
+    prefixr = '../../data/output/relationship/VII_step_train_val_test'
     dis2mi_train_val_test_pos = np.load(prefixr + '/dis2mi_train_val_test_pos.npz')
     dis2mi_train_val_test_neg = np.load(prefixr + '/dis2mi_train_val_test_neg.npz')
     dis2circ_train_val_test_neg = np.load(prefixr + '/dis2circ_train_val_test_neg.npz')

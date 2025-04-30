@@ -189,11 +189,11 @@ masks.append(mi2gene_masks)
 
 no_masks = [[False] * 15, [False] * 11,[False]*11,[False]*11,[False]*15]   #测试集
 
-num_miRNA = pd.read_csv('../output/relationship/IV_step_similarity/miRNA_id.csv').shape[0] + 1
-num_circRNA = pd.read_csv('../output/relationship/IV_step_similarity/circRNA_id.csv').shape[0] + 1
-num_lncRNA = pd.read_csv('../output/relationship/IV_step_similarity/lncRNA_id.csv').shape[0] + 1
-num_gene = pd.read_csv('../output/relationship/IV_step_similarity/gene_id.csv').shape[0] + 1
-num_disease = pd.read_csv('../output/relationship/IV_step_similarity/disease_id.csv',sep=':').shape[0] + 1
+num_miRNA = pd.read_csv('../../data/output/relationship/IV_step_similarity/miRNA_id.csv').shape[0] + 1
+num_circRNA = pd.read_csv('../../data/output/relationship/IV_step_similarity/circRNA_id.csv').shape[0] + 1
+num_lncRNA = pd.read_csv('../../data/output/relationship/IV_step_similarity/lncRNA_id.csv').shape[0] + 1
+num_gene = pd.read_csv('../../data/output/relationship/IV_step_similarity/gene_id.csv').shape[0] + 1
+num_disease = pd.read_csv('../../data/output/relationship/IV_step_similarity/disease_id.csv',sep=':').shape[0] + 1
 
 
 num = []

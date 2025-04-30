@@ -15,15 +15,15 @@ def train_val_test():
         os.makedirs(save_prefix)
     np.random.seed(453289)
 
-    # example: disease To ALL
-    # The disease [14,2813,3371,3596,3700,3701,4168,4323,5740]   your disease indices
-    # other: ALL nodes
+
+########################################  Modify here  ################################################################
     num_miRNA = pd.read_csv('../../output/relationship/IV_step_similarity/miRNA_id.csv').shape[0]+1
     num_circRNA = pd.read_csv('../../output/relationship/IV_step_similarity/circRNA_id.csv').shape[0]+1
     num_lncRNA = pd.read_csv('../../output/relationship/IV_step_similarity/lncRNA_id.csv').shape[0]+1
     num_gene = pd.read_csv('../../output/relationship/IV_step_similarity/gene_id.csv').shape[0]+1
     # num_disease = pd.read_csv('../../output/relationship/IV_step_similarity/disease_id.csv',sep=':').shape[0]+1
     disease = [14,2813,3371,3596,3700,3701,4168,4323,5740]
+############################################################################################################
     dis2mi_neg_candidates = []
     dis2mi_pos_candidates = []
     counter = 0
@@ -158,3 +158,4 @@ def train_val_test():
              dis2gene_test_neg=dis2gene_neg_candidates)
     np.savez(save_prefix + 'dis2gene_train_val_test_pos.npz',
              dis2gene_test_pos=dis2gene_pos_candidates)
+train_val_test()

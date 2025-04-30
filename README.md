@@ -1,6 +1,10 @@
 # Predicting the association between biological molecules and disease based on meta-path and heterogeneous graph model
+This repository is the implementation of our Paper under review.
 
-## Requestions
+# Abstract
+This study proposed a novel model based on meta-path and heterogeneous graph to identify potential associations in a complex network comprising five types of nodes: miRNA, circRNA, lncRNA, protein-coding gene, and disease. First, we constructed a heterogeneous graph using collected association data and initialized the feature vectors of the nodes. Next, we employed hybrid pooling to aggregate feature information from nodes along meta-path instances and extracted neighbor node information to update the feature vectors of the starting nodes. Then, we used a graph attention network to compute the importance of different meta-paths for association relationships. By merging the updated node embeddings with initial vectors via residual connections, we generated final node embeddings. Finally, we obtained the feature vectors of the five node types (miRNA, circRNA, lncRNA, protein-coding gene, and disease) and predicted association probabilities using tensor operations. Our model predicted seven types of associations, achieved AUC and AP scores of 0.99, and demonstrated validation performance in Alzheimer's disease.
+
+## Requirement
 - pandas~=1.5.3
 - numpy~=1.23.5
 - scipy~=1.11.4
@@ -11,8 +15,8 @@
 - matplotlib~=3.8.0
 - networkx~=3.1
 
-## Data
-### Relationship databases(path: data/relationship/)
+## Datasets
+### Relationship databases
 - Circ2Disease(http://bioinformatics.zju.edu.cn/Circ2Disease/download.html)
 - DisGeNET(http://www.disgenet.org/)
 - HMDD(http://www.cuilab.cn/hmdd)
@@ -21,20 +25,20 @@
 - miRNET(https://www.mirnet.ca/)
 - TarBase(https://dianalab.e-ce.uth.gr/tarbasev9/downloads)
 - miRTarBase(https://mirtarbase.cuhk.edu.cn/)
-
-### Sequence databses(path: data/requence/)
+* Please download relationship databases and place those datasets in the folder "data/input/relationship/<Database name>/".
+### Sequence databses
 - miRBase(https://www.mirbase.org/)
 - RNAcentral(https://rnacentral.org/downloads)
 - circBase(https://www.circbase.org/cgi-bin/downloads.cgi)
 - Circ2Disease(http://bioinformatics.zju.edu.cn/Circ2Disease/download.html)
 - Ensembl(https://www.ensembl.org/info/data/index.html)
-
-### Disease data(path: data/Annotation/)
+* Please download sequence databases and place those datasets in the folder "data/input/sequence/<Database name>/".
+### Disease data
 - MeSH(http://www.ncbi.nlm.nih.gov/)
-
+* Please download disease data and place those datasets in the folder "data/Annotation/".
 
 ## Data file
-### Output files (path: /data/output/)
+### Output files
 #### VI_step_data_division
 - adjM.npz:Training set adjacency matrix
 - XX-XX_id.csv:XX-XX association relationship indices
@@ -44,19 +48,8 @@
 - XX-XX_train_val_test_pos.npz:Training, testing, and validation dataset for XX-XX association pos relationships
 - XX-XX_train_val_test_neg.npz:Training, testing, and validation dataset for XX-XX association neg relationships
 - XX-XX_train_val_test_idx.npz:XX-XX association relationship training, testing, and validation set position indices
-### Code files (path: /code/inititalize/)
-#### I_step_sumSeq
-Collect sequence data
-#### II_step_ncRNA_disease_id
-Collect node information
-#### III_step_idaddseq
-Match the collected nodes with the sequence
-#### IV_step_similarity
-Calculate the similarity between nodes of the same type
-#### V_step_relationship
-Collect the final association relationship
-#### VI_step_data_division
-Divide the data set and extract the meta-path data
+
+### Code files
 #### VII_step_train_val_test
 Extract the training set, test set and validation set
 #### checkpoint
@@ -68,12 +61,8 @@ Save the training model file
 - pytorchtools.py:Early stop file
 - tools.py:Model tool function file
 
-## Train model
-step 1 : mian.py
-
-step 2 : train.py
 
 ## Prediction
-step 1 : VII_step_train_val_test/train_val_test_1.py
+step 1 : In the "data/output/relationship/V_step_similarity/" look for to the corresponding disease and biological macromolecules id (please keep each relationship is more than 10), Write the id in the form of a list to the corresponding position in the "utils/ structure_relation.py "file, where the demo exists. Then run the structure_relationship.py.
 
-step 2 : run.py
+step 2 : run the run.py file
