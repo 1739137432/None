@@ -17,17 +17,22 @@ def train_val_test():
 
 
 ########################################  Modify here  ################################################################
-    num_miRNA = pd.read_csv('../../output/relationship/IV_step_similarity/miRNA_id.csv').shape[0]+1
-    num_circRNA = pd.read_csv('../../output/relationship/IV_step_similarity/circRNA_id.csv').shape[0]+1
-    num_lncRNA = pd.read_csv('../../output/relationship/IV_step_similarity/lncRNA_id.csv').shape[0]+1
-    num_gene = pd.read_csv('../../output/relationship/IV_step_similarity/gene_id.csv').shape[0]+1
-    # num_disease = pd.read_csv('../../output/relationship/IV_step_similarity/disease_id.csv',sep=':').shape[0]+1
-    disease = [14,2813,3371,3596,3700,3701,4168,4323,5740]
+    # num_miRNA = pd.read_csv('output/relationship/IV_step_similarity/miRNA_id.csv').shape[0]+1
+    # num_circRNA = pd.read_csv('output/relationship/IV_step_similarity/circRNA_id.csv').shape[0]+1
+    # num_lncRNA = pd.read_csv('output/relationship/IV_step_similarity/lncRNA_id.csv').shape[0]+1
+    # num_gene = pd.read_csv('output/relationship/IV_step_similarity/gene_id.csv').shape[0]+1
+    # num_disease = pd.read_csv('output/relationship/IV_step_similarity/disease_id.csv',sep=':').shape[0]+1
+    miRAN = [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20]
+    circRNA = [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20]
+    lncRNA = [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20]
+    gene = [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20]
+    disease = [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20]
 ############################################################################################################
     dis2mi_neg_candidates = []
     dis2mi_pos_candidates = []
     counter = 0
-    for i in range(num_miRNA):
+    # for i in range(num_miRNA):
+    for i in miRAN:
         for j in disease:
             if counter%2==0:
                 dis2mi_neg_candidates.append([i, j])
@@ -47,8 +52,8 @@ def train_val_test():
     mi2circ_neg_candidates = []
     mi2circ_pos_candidates = []
     counter = 0
-    for i in range(num_miRNA):
-        for j in range(num_circRNA):
+    for i in miRAN:
+        for j in circRNA:
             if counter % 2 == 0:
                 mi2circ_neg_candidates.append([i, j])
             else:
@@ -67,8 +72,8 @@ def train_val_test():
     mi2lnc_neg_candidates = []
     mi2lnc_pos_candidates = []
     counter = 0
-    for i in range(num_miRNA):
-        for j in range(num_lncRNA):
+    for i in miRAN:
+        for j in lncRNA:
             if counter % 2 == 0:
                 mi2lnc_neg_candidates.append([i, j])
             else:
@@ -87,8 +92,8 @@ def train_val_test():
     mi2gene_neg_candidates = []
     mi2gene_pos_candidates = []
     counter = 0
-    for i in range(num_miRNA):
-        for j in range(num_gene):
+    for i in miRAN:
+        for j in gene:
             if counter % 2 == 0:
                 mi2gene_neg_candidates.append([i, j])
             else:
@@ -106,7 +111,7 @@ def train_val_test():
     dis2circ_neg_candidates = []
     dis2circ_pos_candidates = []
     counter = 0
-    for i in range(num_circRNA):
+    for i in circRNA:
         for j in disease:
             if counter % 2 == 0:
                 dis2circ_neg_candidates.append([i, j])
@@ -125,7 +130,8 @@ def train_val_test():
     dis2lnc_neg_candidates = []
     dis2lnc_pos_candidates = []
     counter = 0
-    for i in range(num_lncRNA):
+    # for i in range(num_lncRNA):
+    for i in lncRNA:
         for j in disease:
             if counter % 2 == 0:
                 dis2lnc_neg_candidates.append([i, j])
@@ -144,7 +150,8 @@ def train_val_test():
     dis2gene_neg_candidates = []
     dis2gene_pos_candidates = []
     counter = 0
-    for i in range(num_gene):
+    # for i in range(num_gene):
+    for i in gene:
         for j in disease:
             if counter % 2 == 0:
                 dis2gene_neg_candidates.append([i, j])

@@ -3,7 +3,7 @@ import scipy
 import pickle
 
 
-def load_PABDMH_data(prefix='../../data/output/relationship/VI_step_data_division'):
+def load_PABDMH_data(prefix='data/output/relationship/VI_step_data_division'):
     in_file = open(prefix + '/0/0-0.adjlist', 'r')
     adjlist00 = [line.strip() for line in in_file]
     adjlist00 = adjlist00
@@ -124,53 +124,53 @@ def load_PABDMH_data(prefix='../../data/output/relationship/VI_step_data_divisio
     idx04340 = pickle.load(in_file)
     in_file.close()
 
-    # in_file = open(prefix + '/0/0-1-4-4-1-0.adjlist', 'r')
-    # adjlist014410 = [line.strip() for line in in_file]
-    # adjlist014410 = adjlist014410
-    # in_file.close()
-    # in_file = open(prefix + '/0/0-1-4-4-1-0_idx.pickle', 'rb')
-    # idx014410 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/0/0-2-4-4-2-0.adjlist', 'r')
-    # adjlist024420 = [line.strip() for line in in_file]
-    # adjlist024420 = adjlist024420
-    # in_file.close()
-    # in_file = open(prefix + '/0/0-2-4-4-2-0_idx.pickle', 'rb')
-    # idx024420 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/0/0-3-4-4-3-0.adjlist', 'r')
-    # adjlist034430 = [line.strip() for line in in_file]
-    # adjlist034430 = adjlist034430
-    # in_file.close()
-    # in_file = open(prefix + '/0/0-3-4-4-3-0_idx.pickle', 'rb')
-    # idx034430 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/0/0-4-1-1-4-0.adjlist', 'r')
-    # adjlist041140 = [line.strip() for line in in_file]
-    # adjlist041140 = adjlist041140
-    # in_file.close()
-    # in_file = open(prefix + '/0/0-4-1-1-4-0_idx.pickle', 'rb')
-    # idx041140 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/0/0-4-2-2-4-0.adjlist', 'r')
-    # adjlist042240 = [line.strip() for line in in_file]
-    # adjlist042240 = adjlist042240
-    # in_file.close()
-    # in_file = open(prefix + '/0/0-4-2-2-4-0_idx.pickle', 'rb')
-    # idx042240 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/0/0-4-3-3-4-0.adjlist', 'r')
-    # adjlist043340 = [line.strip() for line in in_file]
-    # adjlist043340 = adjlist043340
-    # in_file.close()
-    # in_file = open(prefix + '/0/0-4-3-3-4-0_idx.pickle', 'rb')
-    # idx043340 = pickle.load(in_file)
-    # in_file.close()
+    in_file = open(prefix + '/0/0-1-4-4-1-0.adjlist', 'r')
+    adjlist014410 = [line.strip() for line in in_file]
+    adjlist014410 = adjlist014410
+    in_file.close()
+    in_file = open(prefix + '/0/0-1-4-4-1-0_idx.pickle', 'rb')
+    idx014410 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/0/0-2-4-4-2-0.adjlist', 'r')
+    adjlist024420 = [line.strip() for line in in_file]
+    adjlist024420 = adjlist024420
+    in_file.close()
+    in_file = open(prefix + '/0/0-2-4-4-2-0_idx.pickle', 'rb')
+    idx024420 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/0/0-3-4-4-3-0.adjlist', 'r')
+    adjlist034430 = [line.strip() for line in in_file]
+    adjlist034430 = adjlist034430
+    in_file.close()
+    in_file = open(prefix + '/0/0-3-4-4-3-0_idx.pickle', 'rb')
+    idx034430 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/0/0-4-1-1-4-0.adjlist', 'r')
+    adjlist041140 = [line.strip() for line in in_file]
+    adjlist041140 = adjlist041140
+    in_file.close()
+    in_file = open(prefix + '/0/0-4-1-1-4-0_idx.pickle', 'rb')
+    idx041140 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/0/0-4-2-2-4-0.adjlist', 'r')
+    adjlist042240 = [line.strip() for line in in_file]
+    adjlist042240 = adjlist042240
+    in_file.close()
+    in_file = open(prefix + '/0/0-4-2-2-4-0_idx.pickle', 'rb')
+    idx042240 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/0/0-4-3-3-4-0.adjlist', 'r')
+    adjlist043340 = [line.strip() for line in in_file]
+    adjlist043340 = adjlist043340
+    in_file.close()
+    in_file = open(prefix + '/0/0-4-3-3-4-0_idx.pickle', 'rb')
+    idx043340 = pickle.load(in_file)
+    in_file.close()
     # ====================================================================
     in_file = open(prefix + '/1/1-1.adjlist', 'r')
     adjlist11 = [line.strip() for line in in_file]
@@ -260,53 +260,53 @@ def load_PABDMH_data(prefix='../../data/output/relationship/VI_step_data_divisio
     idx14341 = pickle.load(in_file)
     in_file.close()
 
-    # in_file = open(prefix + '/1/1-0-2-2-0-1.adjlist', 'r')
-    # adjlist102201 = [line.strip() for line in in_file]
-    # adjlist102201 = adjlist102201
-    # in_file.close()
-    # in_file = open(prefix + '/1/1-0-2-2-0-1_idx.pickle', 'rb')
-    # idx102201 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/1/1-0-3-3-0-1.adjlist', 'r')
-    # adjlist103301 = [line.strip() for line in in_file]
-    # adjlist103301 = adjlist103301
-    # in_file.close()
-    # in_file = open(prefix + '/1/1-0-3-3-0-1_idx.pickle', 'rb')
-    # idx103301 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/1/1-0-4-4-0-1.adjlist', 'r')
-    # adjlist104401 = [line.strip() for line in in_file]
-    # adjlist104401 = adjlist104401
-    # in_file.close()
-    # in_file = open(prefix + '/1/1-0-4-4-0-1_idx.pickle', 'rb')
-    # idx104401 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/1/1-4-0-0-4-1.adjlist', 'r')
-    # adjlist140041 = [line.strip() for line in in_file]
-    # adjlist140041 = adjlist140041
-    # in_file.close()
-    # in_file = open(prefix + '/1/1-4-0-0-4-1_idx.pickle', 'rb')
-    # idx140041 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/1/1-4-2-2-4-1.adjlist', 'r')
-    # adjlist142241 = [line.strip() for line in in_file]
-    # adjlist142241 = adjlist142241
-    # in_file.close()
-    # in_file = open(prefix + '/1/1-4-2-2-4-1_idx.pickle', 'rb')
-    # idx142241 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/1/1-4-3-3-4-1.adjlist', 'r')
-    # adjlist143341 = [line.strip() for line in in_file]
-    # adjlist143341 = adjlist143341
-    # in_file.close()
-    # in_file = open(prefix + '/1/1-4-3-3-4-1_idx.pickle', 'rb')
-    # idx143341 = pickle.load(in_file)
-    # in_file.close()
+    in_file = open(prefix + '/1/1-0-2-2-0-1.adjlist', 'r')
+    adjlist102201 = [line.strip() for line in in_file]
+    adjlist102201 = adjlist102201
+    in_file.close()
+    in_file = open(prefix + '/1/1-0-2-2-0-1_idx.pickle', 'rb')
+    idx102201 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/1/1-0-3-3-0-1.adjlist', 'r')
+    adjlist103301 = [line.strip() for line in in_file]
+    adjlist103301 = adjlist103301
+    in_file.close()
+    in_file = open(prefix + '/1/1-0-3-3-0-1_idx.pickle', 'rb')
+    idx103301 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/1/1-0-4-4-0-1.adjlist', 'r')
+    adjlist104401 = [line.strip() for line in in_file]
+    adjlist104401 = adjlist104401
+    in_file.close()
+    in_file = open(prefix + '/1/1-0-4-4-0-1_idx.pickle', 'rb')
+    idx104401 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/1/1-4-0-0-4-1.adjlist', 'r')
+    adjlist140041 = [line.strip() for line in in_file]
+    adjlist140041 = adjlist140041
+    in_file.close()
+    in_file = open(prefix + '/1/1-4-0-0-4-1_idx.pickle', 'rb')
+    idx140041 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/1/1-4-2-2-4-1.adjlist', 'r')
+    adjlist142241 = [line.strip() for line in in_file]
+    adjlist142241 = adjlist142241
+    in_file.close()
+    in_file = open(prefix + '/1/1-4-2-2-4-1_idx.pickle', 'rb')
+    idx142241 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/1/1-4-3-3-4-1.adjlist', 'r')
+    adjlist143341 = [line.strip() for line in in_file]
+    adjlist143341 = adjlist143341
+    in_file.close()
+    in_file = open(prefix + '/1/1-4-3-3-4-1_idx.pickle', 'rb')
+    idx143341 = pickle.load(in_file)
+    in_file.close()
 
     # ======================================================
 
@@ -398,53 +398,53 @@ def load_PABDMH_data(prefix='../../data/output/relationship/VI_step_data_divisio
     idx24342 = pickle.load(in_file)
     in_file.close()
 
-    # in_file = open(prefix + '/2/2-0-1-1-0-2.adjlist', 'r')
-    # adjlist201102 = [line.strip() for line in in_file]
-    # adjlist201102 = adjlist201102
-    # in_file.close()
-    # in_file = open(prefix + '/2/2-0-1-1-0-2_idx.pickle', 'rb')
-    # idx201102 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/2/2-0-3-3-0-2.adjlist', 'r')
-    # adjlist203302 = [line.strip() for line in in_file]
-    # adjlist203302 = adjlist203302
-    # in_file.close()
-    # in_file = open(prefix + '/2/2-0-3-3-0-2_idx.pickle', 'rb')
-    # idx203302 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/2/2-0-4-4-0-2.adjlist', 'r')
-    # adjlist204402 = [line.strip() for line in in_file]
-    # adjlist204402 = adjlist204402
-    # in_file.close()
-    # in_file = open(prefix + '/2/2-0-4-4-0-2_idx.pickle', 'rb')
-    # idx204402 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/2/2-4-0-0-4-2.adjlist', 'r')
-    # adjlist240042 = [line.strip() for line in in_file]
-    # adjlist240042 = adjlist240042
-    # in_file.close()
-    # in_file = open(prefix + '/2/2-4-0-0-4-2_idx.pickle', 'rb')
-    # idx240042 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/2/2-4-1-1-4-2.adjlist', 'r')
-    # adjlist241142 = [line.strip() for line in in_file]
-    # adjlist241142 = adjlist241142
-    # in_file.close()
-    # in_file = open(prefix + '/2/2-4-1-1-4-2_idx.pickle', 'rb')
-    # idx241142 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/2/2-4-3-3-4-2.adjlist', 'r')
-    # adjlist243342 = [line.strip() for line in in_file]
-    # adjlist243342 = adjlist243342
-    # in_file.close()
-    # in_file = open(prefix + '/2/2-4-3-3-4-2_idx.pickle', 'rb')
-    # idx243342 = pickle.load(in_file)
-    # in_file.close()
+    in_file = open(prefix + '/2/2-0-1-1-0-2.adjlist', 'r')
+    adjlist201102 = [line.strip() for line in in_file]
+    adjlist201102 = adjlist201102
+    in_file.close()
+    in_file = open(prefix + '/2/2-0-1-1-0-2_idx.pickle', 'rb')
+    idx201102 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/2/2-0-3-3-0-2.adjlist', 'r')
+    adjlist203302 = [line.strip() for line in in_file]
+    adjlist203302 = adjlist203302
+    in_file.close()
+    in_file = open(prefix + '/2/2-0-3-3-0-2_idx.pickle', 'rb')
+    idx203302 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/2/2-0-4-4-0-2.adjlist', 'r')
+    adjlist204402 = [line.strip() for line in in_file]
+    adjlist204402 = adjlist204402
+    in_file.close()
+    in_file = open(prefix + '/2/2-0-4-4-0-2_idx.pickle', 'rb')
+    idx204402 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/2/2-4-0-0-4-2.adjlist', 'r')
+    adjlist240042 = [line.strip() for line in in_file]
+    adjlist240042 = adjlist240042
+    in_file.close()
+    in_file = open(prefix + '/2/2-4-0-0-4-2_idx.pickle', 'rb')
+    idx240042 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/2/2-4-1-1-4-2.adjlist', 'r')
+    adjlist241142 = [line.strip() for line in in_file]
+    adjlist241142 = adjlist241142
+    in_file.close()
+    in_file = open(prefix + '/2/2-4-1-1-4-2_idx.pickle', 'rb')
+    idx241142 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/2/2-4-3-3-4-2.adjlist', 'r')
+    adjlist243342 = [line.strip() for line in in_file]
+    adjlist243342 = adjlist243342
+    in_file.close()
+    in_file = open(prefix + '/2/2-4-3-3-4-2_idx.pickle', 'rb')
+    idx243342 = pickle.load(in_file)
+    in_file.close()
 
     # ========================================================
 
@@ -536,53 +536,53 @@ def load_PABDMH_data(prefix='../../data/output/relationship/VI_step_data_divisio
     idx34243 = pickle.load(in_file)
     in_file.close()
 
-    # in_file = open(prefix + '/3/3-0-1-1-0-3.adjlist', 'r')
-    # adjlist301103 = [line.strip() for line in in_file]
-    # adjlist301103 = adjlist301103
-    # in_file.close()
-    # in_file = open(prefix + '/3/3-0-1-1-0-3_idx.pickle', 'rb')
-    # idx301103 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/3/3-0-2-2-0-3.adjlist', 'r')
-    # adjlist302203 = [line.strip() for line in in_file]
-    # adjlist302203 = adjlist302203
-    # in_file.close()
-    # in_file = open(prefix + '/3/3-0-2-2-0-3_idx.pickle', 'rb')
-    # idx302203 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/3/3-0-4-4-0-3.adjlist', 'r')
-    # adjlist304403 = [line.strip() for line in in_file]
-    # adjlist304403 = adjlist304403
-    # in_file.close()
-    # in_file = open(prefix + '/3/3-0-4-4-0-3_idx.pickle', 'rb')
-    # idx304403 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/3/3-4-0-0-4-3.adjlist', 'r')
-    # adjlist340043 = [line.strip() for line in in_file]
-    # adjlist340043 = adjlist340043
-    # in_file.close()
-    # in_file = open(prefix + '/3/3-4-0-0-4-3_idx.pickle', 'rb')
-    # idx340043 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/3/3-4-1-1-4-3.adjlist', 'r')
-    # adjlist341143 = [line.strip() for line in in_file]
-    # adjlist341143 = adjlist341143
-    # in_file.close()
-    # in_file = open(prefix + '/3/3-4-1-1-4-3_idx.pickle', 'rb')
-    # idx341143 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/3/3-4-2-2-4-3.adjlist', 'r')
-    # adjlist342243 = [line.strip() for line in in_file]
-    # adjlist342243 = adjlist342243
-    # in_file.close()
-    # in_file = open(prefix + '/3/3-4-2-2-4-3_idx.pickle', 'rb')
-    # idx342243 = pickle.load(in_file)
-    # in_file.close()
+    in_file = open(prefix + '/3/3-0-1-1-0-3.adjlist', 'r')
+    adjlist301103 = [line.strip() for line in in_file]
+    adjlist301103 = adjlist301103
+    in_file.close()
+    in_file = open(prefix + '/3/3-0-1-1-0-3_idx.pickle', 'rb')
+    idx301103 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/3/3-0-2-2-0-3.adjlist', 'r')
+    adjlist302203 = [line.strip() for line in in_file]
+    adjlist302203 = adjlist302203
+    in_file.close()
+    in_file = open(prefix + '/3/3-0-2-2-0-3_idx.pickle', 'rb')
+    idx302203 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/3/3-0-4-4-0-3.adjlist', 'r')
+    adjlist304403 = [line.strip() for line in in_file]
+    adjlist304403 = adjlist304403
+    in_file.close()
+    in_file = open(prefix + '/3/3-0-4-4-0-3_idx.pickle', 'rb')
+    idx304403 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/3/3-4-0-0-4-3.adjlist', 'r')
+    adjlist340043 = [line.strip() for line in in_file]
+    adjlist340043 = adjlist340043
+    in_file.close()
+    in_file = open(prefix + '/3/3-4-0-0-4-3_idx.pickle', 'rb')
+    idx340043 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/3/3-4-1-1-4-3.adjlist', 'r')
+    adjlist341143 = [line.strip() for line in in_file]
+    adjlist341143 = adjlist341143
+    in_file.close()
+    in_file = open(prefix + '/3/3-4-1-1-4-3_idx.pickle', 'rb')
+    idx341143 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/3/3-4-2-2-4-3.adjlist', 'r')
+    adjlist342243 = [line.strip() for line in in_file]
+    adjlist342243 = adjlist342243
+    in_file.close()
+    in_file = open(prefix + '/3/3-4-2-2-4-3_idx.pickle', 'rb')
+    idx342243 = pickle.load(in_file)
+    in_file.close()
 
     # =====================================================
 
@@ -706,59 +706,59 @@ def load_PABDMH_data(prefix='../../data/output/relationship/VI_step_data_divisio
     idx43034 = pickle.load(in_file)
     in_file.close()
 
-    # in_file = open(prefix + '/4/4-0-1-1-0-4.adjlist', 'r')
-    # adjlist401104 = [line.strip() for line in in_file]
-    # adjlist401104 = adjlist401104
-    # in_file.close()
-    # in_file = open(prefix + '/4/4-0-1-1-0-4_idx.pickle', 'rb')
-    # idx401104 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/4/4-0-2-2-0-4.adjlist', 'r')
-    # adjlist402204 = [line.strip() for line in in_file]
-    # adjlist402204 = adjlist402204
-    # in_file.close()
-    # in_file = open(prefix + '/4/4-0-2-2-0-4_idx.pickle', 'rb')
-    # idx402204 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/4/4-0-3-3-0-4.adjlist', 'r')
-    # adjlist403304 = [line.strip() for line in in_file]
-    # adjlist403304 = adjlist403304
-    # in_file.close()
-    # in_file = open(prefix + '/4/4-0-3-3-0-4_idx.pickle', 'rb')
-    # idx403304 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/4/4-1-0-0-1-4.adjlist', 'r')
-    # adjlist410014 = [line.strip() for line in in_file]
-    # adjlist410014 = adjlist410014
-    # in_file.close()
-    # in_file = open(prefix + '/4/4-1-0-0-1-4_idx.pickle', 'rb')
-    # idx410014 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/4/4-2-0-0-2-4.adjlist', 'r')
-    # adjlist420024 = [line.strip() for line in in_file]
-    # adjlist420024 = adjlist420024
-    # in_file.close()
-    # in_file = open(prefix + '/4/4-2-0-0-2-4_idx.pickle', 'rb')
-    # idx420024 = pickle.load(in_file)
-    # in_file.close()
-    #
-    # in_file = open(prefix + '/4/4-3-0-0-3-4.adjlist', 'r')
-    # adjlist430034 = [line.strip() for line in in_file]
-    # adjlist430034 = adjlist430034
-    # in_file.close()
-    # in_file = open(prefix + '/4/4-3-0-0-3-4_idx.pickle', 'rb')
-    # idx430034 = pickle.load(in_file)
-    # in_file.close()
+    in_file = open(prefix + '/4/4-0-1-1-0-4.adjlist', 'r')
+    adjlist401104 = [line.strip() for line in in_file]
+    adjlist401104 = adjlist401104
+    in_file.close()
+    in_file = open(prefix + '/4/4-0-1-1-0-4_idx.pickle', 'rb')
+    idx401104 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/4/4-0-2-2-0-4.adjlist', 'r')
+    adjlist402204 = [line.strip() for line in in_file]
+    adjlist402204 = adjlist402204
+    in_file.close()
+    in_file = open(prefix + '/4/4-0-2-2-0-4_idx.pickle', 'rb')
+    idx402204 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/4/4-0-3-3-0-4.adjlist', 'r')
+    adjlist403304 = [line.strip() for line in in_file]
+    adjlist403304 = adjlist403304
+    in_file.close()
+    in_file = open(prefix + '/4/4-0-3-3-0-4_idx.pickle', 'rb')
+    idx403304 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/4/4-1-0-0-1-4.adjlist', 'r')
+    adjlist410014 = [line.strip() for line in in_file]
+    adjlist410014 = adjlist410014
+    in_file.close()
+    in_file = open(prefix + '/4/4-1-0-0-1-4_idx.pickle', 'rb')
+    idx410014 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/4/4-2-0-0-2-4.adjlist', 'r')
+    adjlist420024 = [line.strip() for line in in_file]
+    adjlist420024 = adjlist420024
+    in_file.close()
+    in_file = open(prefix + '/4/4-2-0-0-2-4_idx.pickle', 'rb')
+    idx420024 = pickle.load(in_file)
+    in_file.close()
+
+    in_file = open(prefix + '/4/4-3-0-0-3-4.adjlist', 'r')
+    adjlist430034 = [line.strip() for line in in_file]
+    adjlist430034 = adjlist430034
+    in_file.close()
+    in_file = open(prefix + '/4/4-3-0-0-3-4_idx.pickle', 'rb')
+    idx430034 = pickle.load(in_file)
+    in_file.close()
 
     # ===========================================================
 
     adjM = scipy.sparse.load_npz(prefix + '/adjM.npz')
     type_mask = np.load(prefix + '/node_types.npy')
-    prefixr = '../../data/output/relationship/VII_step_train_val_test'
+    prefixr = 'utils/new'
     dis2mi_train_val_test_pos = np.load(prefixr + '/dis2mi_train_val_test_pos.npz')
     dis2mi_train_val_test_neg = np.load(prefixr + '/dis2mi_train_val_test_neg.npz')
     dis2circ_train_val_test_neg = np.load(prefixr + '/dis2circ_train_val_test_neg.npz')

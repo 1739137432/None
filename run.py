@@ -189,11 +189,11 @@ masks.append(mi2gene_masks)
 
 no_masks = [[False] * 15, [False] * 11,[False]*11,[False]*11,[False]*15]   #测试集
 
-num_miRNA = pd.read_csv('../../data/output/relationship/IV_step_similarity/miRNA_id.csv').shape[0] + 1
-num_circRNA = pd.read_csv('../../data/output/relationship/IV_step_similarity/circRNA_id.csv').shape[0] + 1
-num_lncRNA = pd.read_csv('../../data/output/relationship/IV_step_similarity/lncRNA_id.csv').shape[0] + 1
-num_gene = pd.read_csv('../../data/output/relationship/IV_step_similarity/gene_id.csv').shape[0] + 1
-num_disease = pd.read_csv('../../data/output/relationship/IV_step_similarity/disease_id.csv',sep=':').shape[0] + 1
+num_miRNA = pd.read_csv('data/output/relationship/IV_step_similarity/miRNA_id.csv').shape[0] + 1
+num_circRNA = pd.read_csv('data/output/relationship/IV_step_similarity/circRNA_id.csv').shape[0] + 1
+num_lncRNA = pd.read_csv('data/output/relationship/IV_step_similarity/lncRNA_id.csv').shape[0] + 1
+num_gene = pd.read_csv('data/output/relationship/IV_step_similarity/gene_id.csv').shape[0] + 1
+num_disease = pd.read_csv('data/output/relationship/IV_step_similarity/disease_id.csv',sep=':').shape[0] + 1
 
 
 num = []
@@ -704,14 +704,14 @@ if __name__ == '__main__':
     ap.add_argument('--rnn-type', default='mix_pool', help='Type of the aggregator. Default is max-pooling. gru:lstm:bi-gru:bi-lstm:linear:max-pooling:neighbor-linear')
     ap.add_argument('--epoch', type=int, default=100, help='Number of epochs. Default is 100.')
     ap.add_argument('--patience', type=int, default=5, help='Patience. Default is 5.')
-    ap.add_argument('--batch-size', type=int, default=100, help='Batch size. Default is 8.')
+    ap.add_argument('--batch-size', type=int, default=10, help='Batch size. Default is 8.')
     ap.add_argument('--samples', type=int, default=100, help='Number of neighbors sampled. Default is 100.')
     ap.add_argument('--repeat', type=int, default=1, help='Repeat the training and testing for N times. Default is 1.')
     ap.add_argument('--save-postfix', default='PABDMH', help='Postfix for the saved model and result. Default is PABDMH.')
     ap.add_argument('--num_embeding', type=int, default=1, help='Batch size. Default is 8.')
     # ap.add_argument('--save-postfix', default='PABDMH')
-    ap.add_argument('--checkpoint', default='checkpoint1')
+    ap.add_argument('--checkpoint', default='checkpoint')
     args = ap.parse_args()
 
     run_model_PABDMH(args.feats_type, args.hidden_dim, args.num_heads, args.attn_vec_dim, args.rnn_type, args.epoch,
-                     args.patience, args.batch_size, args.samples, args.repeat, args.save_postfix,args.num_embeding,args.checkpoint+ '_0')
+                     args.patience, args.batch_size, args.samples, args.repeat, args.save_postfix,args.num_embeding,args.checkpoint)
